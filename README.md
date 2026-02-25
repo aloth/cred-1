@@ -1,6 +1,6 @@
 # CRED-1: Open Domain Credibility Dataset
 
-[![DOI](https://img.shields.io/badge/DOI-pending-blue)]()
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18769460.svg)](https://doi.org/10.5281/zenodo.18769460)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,672 domains** known to publish mis/disinformation, conspiracy theories, or other unreliable content.
@@ -130,7 +130,7 @@ If you use CRED-1 in your research, please cite:
   author    = {Loth, Alexander},
   journal   = {Data in Brief},
   year      = {2026},
-  doi       = {pending}
+  doi       = {10.5281/zenodo.18769460}
 }
 ```
 
