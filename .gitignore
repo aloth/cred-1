@@ -1,0 +1,10 @@
+# Ignore raw/intermediate data (reproducible via pipeline)
+data/01_*
+data/02_*
+data/03_*
+data/04_*
+data/*_cache.json
+data/tranco_top1m.csv
+__pycache__/
+*.pyc
+.DS_Store
