@@ -3,7 +3,7 @@ message: "If you use this dataset, please cite it as below."
 authors:
   - family-names: Loth
     given-names: Alexander
-    orcid: https://orcid.org/0000-0003-4672-2558
+    orcid: https://orcid.org/0009-0003-9327-6865
 title: "CRED-1: An Open Multi-Signal Domain Credibility Dataset"
 version: v1.0
 date-released: 2026-02-25
