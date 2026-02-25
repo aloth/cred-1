@@ -9,9 +9,9 @@ authors:
     affiliation: "Frankfurt University of Applied Sciences"
 repository-code: "https://github.com/aloth/cred-1"
 url: "https://github.com/aloth/cred-1"
-license: "CC-BY-4.0"
+license: CC-BY-4.0
 version: "1.0"
-date-released: "2026-02-24"
+date-released: "2026-02-25"
 keywords:
   - misinformation
   - disinformation
@@ -28,12 +28,3 @@ abstract: >-
   unreliable content. The dataset is designed for on-device
   client-side deployment in privacy-preserving browser extensions and
   misinformation research.
-preferred-citation:
-  type: article
-  title: "CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation"
-  authors:
-    - family-names: Loth
-      given-names: Alexander
-      orcid: "https://orcid.org/0000-0003-4672-2558"
-  journal: "Data in Brief"
-  year: 2026
