@@ -1,5 +1,9 @@
 # CRED-1: Open Domain Credibility Dataset
 
+<p align="center">
+  <img src="figures/cred1-domain-credibility-dataset-banner.jpg" alt="CRED-1 Domain Credibility Dataset Banner" width="100%">
+</p>
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18769460.svg)](https://doi.org/10.5281/zenodo.18769460)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
