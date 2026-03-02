@@ -37,7 +37,7 @@ else:
 
 ## Dataset Schema
 
-### Compact Format (`cred1_current.json`)
+### JSON Format (`cred1_current.json`)
 
 ```json
 {
@@ -53,12 +53,18 @@ else:
 ```
 
 | Field | Description |
-|---|---|
-| `s` | Credibility score (0.0–1.0, lower = less credible) |
-| `c` | Category: `f`ake, `u`nreliable, `m`ixed, `c`onspiracy, `s`atire, `r`eliable, `o`ther |
-| `n` | Number of independent source lists flagging this domain |
-| `r` | Tranco rank (if available) |
-| `a` | Domain age in years (if available) |
+| `credibility_score` | Credibility score (0.0-1.0, lower = less credible) |
+| `category` | Category: `f`ake, `u`nreliable, `m`ixed, `c`onspiracy, `s`atire, `r`eliable, `o`ther |
+| `sources` | Number of independent source lists flagging this domain |
+| `tranco_rank` | Tranco rank (optional, absent if not ranked) |
+| `domain_created` | Domain registration date as YYYY-MM-DD (optional) |
+| `domain_age_years` | Domain age in years, computed from `domain_created` (optional) |
+
+
+
+
+
+
 
 ### Full Format (`cred1_current.csv`)
 

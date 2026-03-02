@@ -2,7 +2,7 @@
 
 Version 1.0 — February 2026
 
-This codebook documents all variables in the CRED-1 dataset. The dataset is distributed in two formats: a compact JSON file for application embedding and a full CSV file for research analysis.
+This codebook documents all variables in the CRED-1 dataset. The dataset is distributed in two formats: a JSON file for application embedding and a full CSV file for research analysis.
 
 ## JSON Format (`cred1_current.json`)
 
@@ -10,11 +10,12 @@ JSON object mapping domain names (string keys) to metadata objects.
 
 | Field | Type | Range | Description |
 |---|---|---|---|
-| `s` | float | 0.00–1.00 | Composite credibility score. Lower values indicate lower credibility. See [Scoring Model](#scoring-model). |
-| `c` | string | `f`,`u`,`m`,`c`,`s`,`r`,`o` | Category code. See [Category Taxonomy](#category-taxonomy). |
-| `n` | integer | 1–2 | Number of independent source lists that flag this domain. Higher values indicate stronger consensus. |
-| `r` | integer | 1–1,000,000 | Tranco Top-1M rank. Lower values indicate higher web traffic. **Optional** — absent if domain is not in the Tranco list. |
-| `a` | float | 0.0–35.0+ | Domain age in years since WHOIS/RDAP registration date. **Optional** — absent if RDAP lookup failed or returned no registration date. |
+| `credibility_score` | float | 0.00-1.00 | Composite credibility score. Lower values indicate lower credibility. See [Scoring Model](#scoring-model). |
+| `category` | string | `f`,`u`,`m`,`c`,`s`,`r`,`o` | Category code. See [Category Taxonomy](#category-taxonomy). |
+| `sources` | integer | 1-2 | Number of independent source lists that flag this domain. Higher values indicate stronger consensus. |
+| `tranco_rank` | integer | 1-1,000,000 | Tranco Top-1M rank. Lower values indicate higher web traffic. **Optional** - absent if domain is not in the Tranco list. |
+| `domain_created` | string | YYYY-MM-DD | Domain registration date from WHOIS/RDAP. **Optional** - absent if RDAP lookup failed. |
+| `domain_age_years` | float | 0.0-35.0+ | Domain age in years, computed from `domain_created`. **Optional** - absent if registration date unavailable. |
 
 ### Example
 
@@ -41,7 +42,7 @@ JSON object mapping domain names (string keys) to metadata objects.
 
 ### Missing Values
 
-In the compact format, optional fields (`tranco_rank`, `domain_created`, `domain_age_years`) are omitted entirely when unavailable. A domain *not present* in the dataset should be treated as **neutral/unknown** (not as reliable).
+In the JSON format, optional fields (`tranco_rank`, `domain_created`, `domain_age_years`) are omitted entirely when unavailable. A domain *not present* in the dataset should be treated as **neutral/unknown** (not as reliable).
 
 ---
 
