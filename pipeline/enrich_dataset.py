@@ -569,19 +569,44 @@ def step_score(entries: list) -> list:
         bar = "█" * (count // 20)
         print(f"    {bucket}: {count:5d} {bar}")
 
-    # Rebuild output dataset
+    # Rebuild output dataset (full format matching automated pipeline)
     tier1 = {}
     for e in entries:
+        comp = e.get("score_components", {})
         entry = {
-            "credibility_score": round(e["credibility_score"], 2),
-            "category": e["category"][0],
+            "category": e["category"],
+            "credibility_score": round(e["credibility_score"], 3),
             "sources": len(e["sources"]),
         }
         if "tranco_rank" in e:
             entry["tranco_rank"] = e["tranco_rank"]
         if "domain_registered" in e:
-            entry["domain_created"] = e["domain_registered"][:10]
-            entry["domain_age_years"] = round(e["domain_age_years"], 1) if "domain_age_years" in e else None
+            entry["domain_registered"] = e["domain_registered"]
+            if "domain_age_years" in e:
+                entry["domain_age_years"] = round(e["domain_age_years"], 1)
+        if e.get("iffy_factual"):
+            entry["iffy_factual"] = e["iffy_factual"]
+        if e.get("iffy_bias"):
+            entry["iffy_bias"] = e["iffy_bias"]
+        if e.get("iffy_score") is not None:
+            entry["iffy_score"] = e["iffy_score"]
+        fc = e.get("factcheck_claims")
+        if fc and fc > 0:
+            entry["factcheck_claims"] = fc
+        if e.get("safe_browsing_flagged"):
+            entry["safe_browsing_flagged"] = True
+        # Score components
+        entry["score_cat"] = comp.get("category", 0.0)
+        if comp.get("iffy") is not None:
+            entry["score_iffy"] = comp["iffy"]
+        if comp.get("tranco") is not None:
+            entry["score_tranco"] = comp["tranco"]
+        if comp.get("age") is not None:
+            entry["score_age"] = comp["age"]
+        if comp.get("factcheck") is not None:
+            entry["score_factcheck"] = comp["factcheck"]
+        if comp.get("safe_browsing") is not None:
+            entry["score_safebrowsing"] = 0.0 if comp["safe_browsing"] == "flagged" else comp["safe_browsing"]
         tier1[e["domain"]] = entry
 
     with open(TIER1_PATH, "w") as f:

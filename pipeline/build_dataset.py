@@ -347,11 +347,18 @@ def step_merge():
             # Iffy score is 0.0-1.0 where lower = worse
             # Blend: 60% our category-based score, 40% iffy score
             score = round(0.6 * score + 0.4 * iffy_score, 2)
-        tier1[e["domain"]] = {
-            "credibility_score": round(score, 2),
-            "category": e["category"][0],
+        entry = {
+            "category": e["category"],
+            "credibility_score": round(score, 3),
             "sources": len(e["sources"]),
         }
+        if e.get("iffy_factual"):
+            entry["iffy_factual"] = e["iffy_factual"]
+        if e.get("iffy_bias"):
+            entry["iffy_bias"] = e["iffy_bias"]
+        if iffy_score is not None:
+            entry["iffy_score"] = iffy_score
+        tier1[e["domain"]] = entry
 
     path_tier1 = os.path.join(DATA_DIR, OUTPUT_FILE)
     with open(path_tier1, "w") as f:
