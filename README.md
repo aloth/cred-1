@@ -29,7 +29,7 @@ with open("data/cred1_current.json") as f:
 
 domain = "infowars.com"
 if domain in cred:
-    score = cred[domain]["credibility_score"]  # 0.0 (fake) to 1.0 (reliable)
+    score = cred[domain]["credibility_score"]  # 0.0 (least credible) to 1.0 (most credible)
     print(f"{domain}: credibility = {score}")
 else:
     print(f"{domain}: not in dataset (neutral)")
@@ -42,23 +42,46 @@ else:
 ```json
 {
   "infowars.com": {
+    "category": "fake",
     "credibility_score": 0.14,
-    "category": "f",
+    "domain_age_years": 26.4,
+    "domain_registered": "1999-10-04T04:00:00Z",
+    "iffy_factual": "VL",
+    "iffy_bias": "FN",
+    "iffy_score": 0.1,
+    "factcheck_claims": 52,
+    "safe_browsing_flagged": false,
+    "score_age": 0.2,
+    "score_cat": 0.05,
+    "score_factcheck": 0.0,
+    "score_iffy": 0.1,
+    "score_safebrowsing": 0.05,
+    "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 4382,
-    "domain_created": "1999-10-04",
-    "domain_age_years": 26.4
+    "tranco_rank": 4382
   }
 }
 ```
 
 | Field | Description |
+|---|---|
+| `category` | Full category name: `fake`, `unreliable`, `mixed`, `conspiracy`, `satire`, `reliable` |
 | `credibility_score` | Credibility score (0.0-1.0, lower = less credible) |
-| `category` | Category: `f`ake, `u`nreliable, `m`ixed, `c`onspiracy, `s`atire, `r`eliable, `o`ther |
 | `sources` | Number of independent source lists flagging this domain |
 | `tranco_rank` | Tranco rank (optional, absent if not ranked) |
-| `domain_created` | Domain registration date as YYYY-MM-DD (optional) |
-| `domain_age_years` | Domain age in years, computed from `domain_created` (optional) |
+| `domain_registered` | Domain registration date from RDAP, ISO 8601 (optional) |
+| `domain_age_years` | Domain age in years, computed from `domain_registered` (optional) |
+| `iffy_factual` | MBFC factual reporting rating (optional) |
+| `iffy_bias` | MBFC political bias rating (optional) |
+| `iffy_score` | Iffy.news credibility score, 0.0-1.0 (optional) |
+| `factcheck_claims` | Number of fact-check claims from Google Fact Check Tools API (optional) |
+| `safe_browsing_flagged` | Google Safe Browsing threat flag (optional) |
+| `score_cat` | Category score component |
+| `score_iffy` | Iffy.news score component |
+| `score_tranco` | Tranco rank score component |
+| `score_age` | Domain age score component |
+| `score_factcheck` | Fact-check frequency score component |
+| `score_safebrowsing` | Safe Browsing score component |
 
 
 
@@ -66,9 +89,21 @@ else:
 
 
 
-### Full Format (`cred1_current.csv`)
+### CSV Format (`cred1_current.csv`)
 
-Contains all enrichment signals and score components. See [Data Description](#data-description) for column definitions.
+Same fields as JSON, in tabular format with 18 columns. Sorted by `credibility_score` ascending (least credible first).
+
+### Compact Format (`cred1_compact.json`)
+
+Minimal format for on-device embedding (e.g., browser extensions). Short keys, no whitespace, ~168KB.
+
+| Key | Field |
+|---|---|
+| `s` | credibility_score |
+| `c` | category code (`f`, `u`, `m`, `c`, `s`, `r`) |
+| `n` | sources |
+| `r` | tranco_rank (optional) |
+| `d` | domain registration date as YYYY-MM-DD (optional) |
 
 ## Scoring Model
 

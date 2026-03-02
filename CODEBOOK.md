@@ -2,53 +2,66 @@
 
 Version 1.0 — February 2026
 
-This codebook documents all variables in the CRED-1 dataset. The dataset is distributed in two formats: a JSON file for application embedding and a full CSV file for research analysis.
+This codebook documents all variables in the CRED-1 dataset. The dataset is distributed in three formats: a full JSON file, a CSV file for research analysis, and a compact JSON file for on-device embedding.
 
 ## JSON Format (`cred1_current.json`)
 
-JSON object mapping domain names (string keys) to metadata objects.
+JSON object mapping domain names (string keys) to full metadata objects with all enrichment signals and score components.
 
 | Field | Type | Range | Description |
 |---|---|---|---|
+| `category` | string | `fake`,`unreliable`,`mixed`,`conspiracy`,`satire`,`reliable` | Full category name. See [Category Taxonomy](#category-taxonomy). |
 | `credibility_score` | float | 0.00-1.00 | Composite credibility score. Lower values indicate lower credibility. See [Scoring Model](#scoring-model). |
-| `category` | string | `f`,`u`,`m`,`c`,`s`,`r`,`o` | Category code. See [Category Taxonomy](#category-taxonomy). |
-| `sources` | integer | 1-2 | Number of independent source lists that flag this domain. Higher values indicate stronger consensus. |
-| `tranco_rank` | integer | 1-1,000,000 | Tranco Top-1M rank. Lower values indicate higher web traffic. **Optional** - absent if domain is not in the Tranco list. |
-| `domain_created` | string | YYYY-MM-DD | Domain registration date from WHOIS/RDAP. **Optional** - absent if RDAP lookup failed. |
-| `domain_age_years` | float | 0.0-35.0+ | Domain age in years, computed from `domain_created`. **Optional** - absent if registration date unavailable. |
+| `sources` | integer | 1-2 | Number of independent source lists that flag this domain. |
+| `tranco_rank` | integer | 1-1,000,000 | Tranco Top-1M rank. **Optional** - absent if not ranked. |
+| `domain_registered` | string | ISO 8601 | Domain registration date from RDAP. **Optional** - absent if RDAP lookup failed. |
+| `domain_age_years` | float | 0.0-35.0+ | Domain age in years, computed from `domain_registered`. **Optional**. |
+| `iffy_factual` | string | `VL`,`L`,`M`,`MH`,`H`,`VH` | MBFC Factual Reporting rating. **Optional** - absent if not from Iffy.news. |
+| `iffy_bias` | string | e.g. `FN`,`R`,`RC`,`C`,`LC`,`L` | MBFC political bias rating. **Optional**. |
+| `iffy_score` | float | 0.0-1.0 | Iffy.news credibility score. **Optional**. |
+| `factcheck_claims` | integer | 1+ | Google Fact Check Tools API claim count. **Optional** - absent if zero. |
+| `safe_browsing_flagged` | boolean | `true`/`false` | Google Safe Browsing threat flag. **Optional**. |
+| `score_cat` | float | 0.0-1.0 | Category-based score component. |
+| `score_iffy` | float | 0.0-1.0 | Iffy.news score component. |
+| `score_tranco` | float | 0.0-1.0 | Tranco rank score component. |
+| `score_age` | float | 0.0-1.0 | Domain age score component. |
+| `score_factcheck` | float | 0.0-1.0 | Fact-check frequency score component. |
+| `score_safebrowsing` | float | 0.0-1.0 | Safe Browsing score component. |
 
 ### Example
 
 ```json
 {
   "infowars.com": {
+    "category": "fake",
     "credibility_score": 0.14,
-    "category": "f",
+    "domain_age_years": 26.4,
+    "domain_registered": "1999-10-04T04:00:00Z",
+    "factcheck_claims": 52,
+    "iffy_bias": "FN",
+    "iffy_factual": "VL",
+    "iffy_score": 0.1,
+    "score_age": 0.2,
+    "score_cat": 0.05,
+    "score_factcheck": 0.0,
+    "score_iffy": 0.1,
+    "score_safebrowsing": 0.05,
+    "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 15266,
-    "domain_created": "1999-10-04",
-    "domain_age_years": 26.4
-  },
-  "theonion.com": {
-    "credibility_score": 0.34,
-    "category": "s",
-    "sources": 1,
-    "tranco_rank": 7429,
-    "domain_created": "1996-08-05",
-    "domain_age_years": 29.6
+    "tranco_rank": 4382
   }
 }
 ```
 
 ### Missing Values
 
-In the JSON format, optional fields (`tranco_rank`, `domain_created`, `domain_age_years`) are omitted entirely when unavailable. A domain *not present* in the dataset should be treated as **neutral/unknown** (not as reliable).
+Optional fields are omitted entirely when unavailable. A domain *not present* in the dataset should be treated as **neutral/unknown** (not as reliable).
 
 ---
 
-## Full Format (`cred1_current.csv`)
+## CSV Format (`cred1_current.csv`)
 
-CSV file with 18 columns, sorted by `credibility_score` ascending (least credible first).
+CSV file with the same fields as JSON, sorted by `credibility_score` ascending (least credible first).
 
 ### Source Data Fields
 
@@ -56,7 +69,7 @@ CSV file with 18 columns, sorted by `credibility_score` ascending (least credibl
 |---|---|---|---|---|
 | `domain` | string | e.g. `infowars.com` | Normalized domain name (lowercase, no `www.` prefix, no trailing slash) | Merged |
 | `category` | string | See [Category Taxonomy](#category-taxonomy) | Unified credibility category | Merged |
-| `sources` | string | `opensources`, `iffy`, `opensources+iffy` | Which source lists include this domain, joined with `+` | Merged |
+| `sources` | integer | 1-2 | Number of independent source lists that flag this domain. | Merged |
 | `iffy_factual` | string | `VL`, `L`, `M`, `MH`, `H`, `VH`, `` | MBFC Factual Reporting rating as provided by Iffy.news. Empty if domain is only in OpenSources. | Iffy.news |
 | `iffy_bias` | string | e.g. `FN`, `R`, `RC`, `C`, `LC`, `L`, `LEFT`, `` | MBFC political bias rating. Empty if not from Iffy.news. | Iffy.news |
 | `iffy_score` | float | 0.0–1.0, or empty | Iffy.news credibility score. Lower = less credible. Empty if not from Iffy.news. | Iffy.news |
@@ -82,6 +95,26 @@ CSV file with 18 columns, sorted by `credibility_score` ascending (least credibl
 | `score_age` | float | 0.0–1.0, or empty | Domain age component (normalized, capped at 20 years). Empty if age unknown. |
 | `score_factcheck` | float | 0.0–1.0, or empty | Fact-check frequency component (log-scaled inverse). Empty if no claims. |
 | `score_safebrowsing` | string | `flagged`, or empty | Safe Browsing override indicator. If `flagged`, composite score is hard-capped at 0.05. |
+
+---
+
+## Compact Format (`cred1_compact.json`)
+
+Minimal JSON format for on-device embedding in browser extensions and mobile applications. Uses short keys and no whitespace for minimal file size (~168KB).
+
+| Key | Type | Description |
+|---|---|---|
+| `s` | float | Credibility score (same as `credibility_score`) |
+| `c` | string | Category code: `f`, `u`, `m`, `c`, `s`, `r` |
+| `n` | integer | Number of sources |
+| `r` | integer | Tranco rank (**optional**) |
+| `d` | string | Domain registration date as YYYY-MM-DD (**optional**) |
+
+### Example
+
+```json
+{"infowars.com":{"c":"f","d":"1999-10-04","n":2,"r":4382,"s":0.14},"theonion.com":{"c":"s","d":"1996-08-05","n":1,"r":7429,"s":0.34}}
+```
 
 ---
 
