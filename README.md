@@ -24,12 +24,12 @@
 ```python
 import json
 
-with open("data/cred1_v1.0.json") as f:
+with open("data/cred1_current.json") as f:
     cred = json.load(f)
 
 domain = "infowars.com"
 if domain in cred:
-    score = cred[domain]["s"]  # 0.0 (fake) to 1.0 (reliable)
+    score = cred[domain]["credibility_score"]  # 0.0 (fake) to 1.0 (reliable)
     print(f"{domain}: credibility = {score}")
 else:
     print(f"{domain}: not in dataset (neutral)")
@@ -37,12 +37,18 @@ else:
 
 ## Dataset Schema
 
-### Compact Format (`cred1_v1.0.json`)
+### Compact Format (`cred1_current.json`)
 
 ```json
 {
-  "infowars.com": {"s": 0.14, "c": "f", "n": 2, "r": 4382, "a": 26.0},
-  "breitbart.com": {"s": 0.30, "c": "u", "n": 2, "r": 2059, "a": 18.9}
+  "infowars.com": {
+    "credibility_score": 0.14,
+    "category": "f",
+    "sources": 2,
+    "tranco_rank": 4382,
+    "domain_created": "1999-10-04",
+    "domain_age_years": 26.4
+  }
 }
 ```
 
@@ -54,7 +60,7 @@ else:
 | `r` | Tranco rank (if available) |
 | `a` | Domain age in years (if available) |
 
-### Full Format (`cred1_v1.0_full.csv`)
+### Full Format (`cred1_current.csv`)
 
 Contains all enrichment signals and score components. See [Data Description](#data-description) for column definitions.
 

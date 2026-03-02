@@ -4,7 +4,7 @@ Version 1.0 — February 2026
 
 This codebook documents all variables in the CRED-1 dataset. The dataset is distributed in two formats: a compact JSON file for application embedding and a full CSV file for research analysis.
 
-## Compact Format (`cred1_v1.0.json`)
+## JSON Format (`cred1_current.json`)
 
 JSON object mapping domain names (string keys) to metadata objects.
 
@@ -20,18 +20,32 @@ JSON object mapping domain names (string keys) to metadata objects.
 
 ```json
 {
-  "infowars.com": {"s": 0.14, "c": "f", "n": 2, "r": 15266, "a": 27.0},
-  "theonion.com": {"s": 0.34, "c": "s", "n": 1, "r": 7429, "a": 30.9}
+  "infowars.com": {
+    "credibility_score": 0.14,
+    "category": "f",
+    "sources": 2,
+    "tranco_rank": 15266,
+    "domain_created": "1999-10-04",
+    "domain_age_years": 26.4
+  },
+  "theonion.com": {
+    "credibility_score": 0.34,
+    "category": "s",
+    "sources": 1,
+    "tranco_rank": 7429,
+    "domain_created": "1996-08-05",
+    "domain_age_years": 29.6
+  }
 }
 ```
 
 ### Missing Values
 
-In the compact format, optional fields (`r`, `a`) are omitted entirely when unavailable. A domain *not present* in the dataset should be treated as **neutral/unknown** (not as reliable).
+In the compact format, optional fields (`tranco_rank`, `domain_created`, `domain_age_years`) are omitted entirely when unavailable. A domain *not present* in the dataset should be treated as **neutral/unknown** (not as reliable).
 
 ---
 
-## Full Format (`cred1_v1.0_full.csv`)
+## Full Format (`cred1_current.csv`)
 
 CSV file with 18 columns, sorted by `credibility_score` ascending (least credible first).
 
@@ -149,12 +163,3 @@ Where `w_fill = 1.0 - sum(active weights)` fills in for missing signals using th
 5. **No personal data:** The dataset contains only domain-level metadata. No personally identifiable information is included.
 
 ---
-
-## File Checksums (SHA-256)
-
-Verify dataset integrity:
-
-```
-839a76f524221be7dd4926eb1bba007d58447ec8360ca75a93c5899ab878a661  data/cred1_v1.0.json
-ee2b9aa771d171a23b67b845c9bd10ef020945f0606ce8c3c65d5a937d53faf0  data/cred1_v1.0_full.csv
-```
