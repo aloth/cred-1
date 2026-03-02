@@ -37,7 +37,7 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
-OUTPUT_FILE = "cred1_v1.0.json"
+OUTPUT_FILE = "cred1_current.json"
 TRANCO_URL = "https://tranco-list.eu/top-1m.csv.zip"
 RDAP_BASE = "https://rdap.org/domain/"
 FACTCHECK_API = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
@@ -569,21 +569,23 @@ def step_score(entries: list) -> list:
         bar = "█" * (count // 20)
         print(f"    {bucket}: {count:5d} {bar}")
 
-    # Rebuild compact tier1
+    # Rebuild output dataset
     tier1 = {}
     for e in entries:
-        tier1[e["domain"]] = {
-            "s": round(e["credibility_score"], 2),
-            "c": e["category"][0],
-            "n": len(e["sources"]),
+        entry = {
+            "credibility_score": round(e["credibility_score"], 2),
+            "category": e["category"][0],
+            "sources": len(e["sources"]),
         }
         if "tranco_rank" in e:
-            tier1[e["domain"]]["r"] = e["tranco_rank"]
-        if "domain_age_years" in e:
-            tier1[e["domain"]]["a"] = round(e["domain_age_years"], 1)
+            entry["tranco_rank"] = e["tranco_rank"]
+        if "domain_registered" in e:
+            entry["domain_created"] = e["domain_registered"][:10]
+            entry["domain_age_years"] = round(e["domain_age_years"], 1) if "domain_age_years" in e else None
+        tier1[e["domain"]] = entry
 
     with open(TIER1_PATH, "w") as f:
-        json.dump(tier1, f, separators=(",", ":"), sort_keys=True)
+        json.dump(tier1, f, indent=2, sort_keys=True)
     size_kb = os.path.getsize(TIER1_PATH) / 1024
     print(f"\n  Tier 1 updated: {len(tier1)} domains, {size_kb:.1f} KB")
 

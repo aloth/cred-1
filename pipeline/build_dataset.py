@@ -33,7 +33,7 @@ from datetime import datetime, timezone
 from urllib.request import urlopen, Request
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
-OUTPUT_FILE = "cred1_v1.0.json"
+OUTPUT_FILE = "cred1_current.json"
 
 # --- Source URLs ---
 OPENSOURCES_URL = "https://raw.githubusercontent.com/BigMcLargeHuge/opensources/master/sources/sources.json"
@@ -348,14 +348,14 @@ def step_merge():
             # Blend: 60% our category-based score, 40% iffy score
             score = round(0.6 * score + 0.4 * iffy_score, 2)
         tier1[e["domain"]] = {
-            "s": round(score, 2),   # credibility score 0.0-1.0
-            "c": e["category"][0],  # category first letter (f/u/m/c/s/r/o)
-            "n": len(e["sources"]), # number of sources that flagged this domain
+            "credibility_score": round(score, 2),
+            "category": e["category"][0],
+            "sources": len(e["sources"]),
         }
 
     path_tier1 = os.path.join(DATA_DIR, OUTPUT_FILE)
     with open(path_tier1, "w") as f:
-        json.dump(tier1, f, separators=(",", ":"), sort_keys=True)
+        json.dump(tier1, f, indent=2, sort_keys=True)
     size_kb = os.path.getsize(path_tier1) / 1024
     print(f"  → {len(tier1)} domains, {size_kb:.1f} KB")
     print(f"  → Saved to {path_tier1}")
