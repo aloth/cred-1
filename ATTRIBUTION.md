@@ -1,6 +1,6 @@
-# CRED-1 Dataset — Attribution Notice
+# CRED-1 Dataset - Attribution Notice
 
-Copyright (c) 2026 Alexander Loth
+Copyright (c) 2026 Alexander Loth  
 Licensed under CC BY 4.0 (see [LICENSE](LICENSE))
 
 ## Dataset Attribution
