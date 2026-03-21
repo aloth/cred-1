@@ -9,7 +9,7 @@
 
 **CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,672 domains** known to publish mis/disinformation, conspiracy theories, or other unreliable content.
 
-> **Paper:** A. Loth, M.-O. Pahl, and M. Kappes, "CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation," *Preprint*, 2026. [doi:10.2139/ssrn.6448466](https://doi.org/10.2139/ssrn.6448466)
+> **Paper:** A. Loth, M. Kappes, and M.-O. Pahl, "CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation," *Preprint*, 2026. [doi:10.2139/ssrn.6448466](https://doi.org/10.2139/ssrn.6448466)
 
 ## Key Features
 
@@ -178,7 +178,7 @@ If you use CRED-1 in your research, please cite the paper:
 ```bibtex
 @article{loth2026cred1,
   title     = {{CRED-1}: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation},
-  author    = {Loth, Alexander and Pahl, Marc-Oliver and Kappes, Martin},
+  author    = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
   year      = {2026},
   doi       = {10.2139/ssrn.6448466},
   url       = {https://ssrn.com/abstract=6448466},
