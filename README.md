@@ -198,6 +198,14 @@ To cite the dataset archive directly:
 }
 ```
 
+## Contributing
+
+Found a misclassified domain? Want to propose a new credibility signal? We welcome community input.
+
+* 🌐 **[Report a Domain](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml)** — flag a domain that seems misscored or missing
+* 💡 **[Propose a Signal](https://github.com/aloth/cred-1/issues/new?template=signal-proposal.yml)** — suggest a new credibility signal for the pipeline
+* ❓ **[Ask a Question](https://github.com/aloth/cred-1/issues/new?template=question.yml)** — methodology, usage, or reproduction questions
+
 ## License
 
 This repository (code and data) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
