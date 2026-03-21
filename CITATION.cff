@@ -5,10 +5,10 @@ authors:
   - family-names: Loth
     given-names: Alexander
     orcid: https://orcid.org/0009-0003-9327-6865
-  - family-names: Pahl
-    given-names: Marc-Oliver
   - family-names: Kappes
     given-names: Martin
+  - family-names: Pahl
+    given-names: Marc-Oliver
 version: v1.0
 date-released: 2026-02-25
 doi: 10.2139/ssrn.6448466
