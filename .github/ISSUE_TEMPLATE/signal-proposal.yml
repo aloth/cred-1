@@ -1,0 +1,36 @@
+name: 💡 Signal Proposal
+description: Propose a new credibility signal for the scoring pipeline
+labels: ["signal-proposal"]
+body:
+  - type: input
+    id: signal-name
+    attributes:
+      label: Signal Name
+      description: A short name for the proposed signal
+      placeholder: e.g., "WHOIS Privacy Protection"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does this signal measure and why is it relevant to domain credibility?
+    validations:
+      required: true
+  - type: textarea
+    id: data-source
+    attributes:
+      label: Data Source
+      description: Where would this signal come from? Is the data freely/publicly available?
+    validations:
+      required: true
+  - type: textarea
+    id: scoring
+    attributes:
+      label: Suggested Scoring
+      description: How should this signal map to a 0.0-1.0 range? (optional)
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Papers, APIs, or tools related to this signal (optional)

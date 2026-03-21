@@ -1,0 +1,42 @@
+name: 🌐 Domain Report
+description: Report a misclassified or missing domain
+labels: ["domain-report"]
+body:
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      description: The domain in question (e.g., example.com)
+      placeholder: example.com
+    validations:
+      required: true
+  - type: input
+    id: current-score
+    attributes:
+      label: Current CRED-1 Score
+      description: The current composite score (if the domain is in the dataset)
+      placeholder: "0.35"
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      options:
+        - Score seems too high
+        - Score seems too low
+        - Domain is missing from the dataset
+        - Domain category is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Reasoning
+      description: Why do you believe the current classification is incorrect?
+      placeholder: Provide evidence such as fact-check references, source ratings, or observable credibility signals.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Links to fact-checks, media bias ratings, or other evidence (optional)
