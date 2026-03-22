@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRED-1: Open Domain Credibility Dataset — 2,672 Domains Scored for Misinformation</title>
+<meta name="description" content="CRED-1 is an open, reproducible domain credibility dataset with 2,672 domains scored for misinformation. Multi-signal scoring, CC BY 4.0, Python pipeline.">
+<meta property="og:title" content="CRED-1: Open Domain Credibility Dataset">
+<meta property="og:description" content="2,672 domains scored for misinformation. Open data, reproducible pipeline, multi-signal credibility scoring.">
+<meta property="og:image" content="https://raw.githubusercontent.com/aloth/cred-1/main/figures/cred1-domain-credibility-dataset-banner.jpg">
+<meta property="og:url" content="https://aloth.github.io/cred-1/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#fafbfc;--dark:#1a1a2e;--surface:#fff;--border:#e1e4e8;--green:#28a745;--blue:#0366d6;--red:#d73a49;--yellow:#e36209;--purple:#6f42c1;--text:#24292e;--muted:#586069;--light:#f6f8fa}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--text);overflow-x:hidden;-webkit-font-smoothing:antialiased;background:var(--bg)}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 40%,#0f3460 100%);min-height:85vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:60px 24px 50px;color:#fff;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");pointer-events:none}
+.hero-banner{max-width:min(700px,90vw);width:100%;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,0.3);margin-bottom:32px}
+.hero-badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:24px}
+.hero-badges a{display:inline-block}
+.hero-badges img{height:20px}
+.hero h1{font-size:clamp(2rem,6vw,3.5rem);font-weight:800;line-height:1.1;margin-bottom:16px;letter-spacing:-0.02em}
+.hero h1 .num{background:linear-gradient(135deg,#28a745,#22863a);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{font-size:clamp(1rem,2.5vw,1.2rem);color:rgba(255,255,255,0.65);max-width:580px;line-height:1.6;margin-bottom:32px}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:8px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:transform 0.2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-green{background:#28a745;color:#fff;box-shadow:0 4px 16px rgba(40,167,69,0.3)}
+.btn-white{background:rgba(255,255,255,0.1);color:#fff;border:1px solid rgba(255,255,255,0.25);backdrop-filter:blur(4px)}
+.btn svg{width:18px;height:18px;fill:currentColor}
+
+/* Stats bar */
+.stats-bar{background:var(--dark);padding:32px 24px;display:flex;justify-content:center;gap:48px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat .num{font-size:1.8rem;font-weight:800;color:#28a745}
+.stat .label{font-size:0.8rem;color:rgba(255,255,255,0.5);margin-top:4px;text-transform:uppercase;letter-spacing:0.05em}
+
+/* Quick start */
+.quickstart{padding:80px 24px;background:var(--bg)}
+.quickstart h2{text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:12px}
+.quickstart .subtitle{text-align:center;color:var(--muted);margin-bottom:40px;max-width:500px;margin-left:auto;margin-right:auto}
+.code-tabs{max-width:640px;margin:0 auto}
+.code-block{background:var(--dark);border-radius:12px;overflow:hidden;margin-bottom:20px}
+.code-label{background:#21262d;padding:10px 16px;font-size:12px;font-weight:600;color:#8b949e;font-family:'JetBrains Mono',monospace;display:flex;align-items:center;gap:8px}
+.code-label .dot{width:8px;height:8px;border-radius:50%;background:#3fb950}
+.code-content{padding:20px;font-family:'JetBrains Mono',monospace;font-size:13px;line-height:1.8;color:#e6edf3;overflow-x:auto}
+.code-content .kw{color:#ff7b72}
+.code-content .fn{color:#d2a8ff}
+.code-content .str{color:#a5d6ff}
+.code-content .comment{color:#8b949e}
+.code-content .var{color:#ffa657}
+.code-content .num{color:#79c0ff}
+
+/* Schema */
+.schema{padding:80px 24px;background:var(--surface)}
+.schema h2{text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:48px}
+.schema-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;max-width:800px;margin:0 auto}
+.schema-card{background:var(--light);border:1px solid var(--border);border-radius:10px;padding:18px 16px;text-align:center}
+.schema-card .field{font-family:'JetBrains Mono',monospace;font-size:0.8rem;color:var(--purple);font-weight:500;margin-bottom:6px}
+.schema-card .desc{font-size:0.85rem;color:var(--muted);line-height:1.4}
+
+/* Signals */
+.signals{padding:80px 24px;background:var(--bg)}
+.signals h2{text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:12px}
+.signals .subtitle{text-align:center;color:var(--muted);margin-bottom:48px;max-width:500px;margin-left:auto;margin-right:auto}
+.signal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;max-width:900px;margin:0 auto}
+.signal-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:24px 20px;transition:transform 0.2s,box-shadow 0.2s}
+.signal-card:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,0.06)}
+.signal-icon{font-size:28px;margin-bottom:12px}
+.signal-card h3{font-size:0.95rem;font-weight:700;margin-bottom:6px}
+.signal-card p{color:var(--muted);font-size:0.88rem;line-height:1.5}
+
+/* Used by */
+.usedby{padding:60px 24px;background:var(--surface);text-align:center}
+.usedby h2{font-size:clamp(1.3rem,3vw,1.8rem);font-weight:800;margin-bottom:12px}
+.usedby p{color:var(--muted);margin-bottom:24px;max-width:500px;margin-left:auto;margin-right:auto}
+.usedby-link{display:inline-flex;align-items:center;gap:10px;background:var(--light);border:2px solid var(--border);border-radius:12px;padding:16px 28px;text-decoration:none;color:var(--text);font-weight:600;transition:border-color 0.2s,transform 0.2s}
+.usedby-link:hover{border-color:var(--green);transform:translateY(-2px)}
+.usedby-link img{height:20px}
+
+/* Citation */
+.citation{padding:60px 24px;background:var(--light)}
+.citation h2{text-align:center;font-size:clamp(1.3rem,3vw,1.8rem);font-weight:800;margin-bottom:24px}
+.cite-block{max-width:640px;margin:0 auto;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.7;color:var(--muted);overflow-x:auto;position:relative;cursor:pointer}
+.cite-block:hover::after{content:'Click to copy';position:absolute;top:8px;right:12px;background:var(--green);color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;font-family:'Inter',sans-serif}
+
+/* CTA */
+.cta{padding:80px 24px;background:var(--dark);text-align:center;color:#fff}
+.cta h2{font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:12px}
+.cta p{color:rgba(255,255,255,0.5);font-size:1rem;margin-bottom:32px}
+.cta-buttons{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.3);padding:12px 24px;border-radius:8px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:border-color 0.2s}
+.btn-outline:hover{border-color:rgba(255,255,255,0.6)}
+
+footer{background:var(--dark);border-top:1px solid rgba(255,255,255,0.08);padding:24px;text-align:center;color:rgba(255,255,255,0.3);font-size:0.85rem}
+footer a{color:rgba(255,255,255,0.5);text-decoration:none}
+
+@media(max-width:600px){
+  .stats-bar{gap:24px}
+  .code-content{font-size:11px;padding:14px}
+  .schema-grid{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <img src="https://raw.githubusercontent.com/aloth/cred-1/main/figures/cred1-domain-credibility-dataset-banner.jpg" alt="CRED-1 Dataset Banner" class="hero-banner" loading="eager">
+  <div class="hero-badges">
+    <a href="https://doi.org/10.5281/zenodo.18769460"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18769460.svg" alt="DOI"></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="CC BY 4.0"></a>
+    <a href="https://github.com/aloth/cred-1/stargazers"><img src="https://img.shields.io/github/stars/aloth/cred-1?style=social" alt="Stars"></a>
+  </div>
+  <h1>CRED-1: <span class="num">2,672</span> domains scored for credibility</h1>
+  <p>An open, reproducible domain credibility dataset for automated pre-bunking of online misinformation. Multi-signal scoring, CC BY 4.0 licensed.</p>
+  <div class="hero-cta">
+    <a href="https://doi.org/10.5281/zenodo.18769460" class="btn btn-green">
+      📦 Download Dataset
+    </a>
+    <a href="https://doi.org/10.2139/ssrn.6448466" class="btn btn-white">
+      📄 Read the Paper
+    </a>
+    <a href="https://github.com/aloth/cred-1" class="btn btn-white">
+      <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      GitHub
+    </a>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="stat"><div class="num">2,672</div><div class="label">Domains</div></div>
+  <div class="stat"><div class="num">6</div><div class="label">Credibility Signals</div></div>
+  <div class="stat"><div class="num">2</div><div class="label">Open Sources</div></div>
+  <div class="stat"><div class="num">CC BY 4.0</div><div class="label">License</div></div>
+</div>
+
+<section class="quickstart">
+  <h2>Get started in 3 lines</h2>
+  <p class="subtitle">Load the dataset and query any domain's credibility score.</p>
+  <div class="code-tabs">
+    <div class="code-block">
+      <div class="code-label"><span class="dot"></span> Python</div>
+      <div class="code-content">
+<span class="kw">import</span> json<br>
+<br>
+<span class="kw">with</span> <span class="fn">open</span>(<span class="str">"data/cred1_current.json"</span>) <span class="kw">as</span> f:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;cred = json.<span class="fn">load</span>(f)<br>
+<br>
+<span class="var">domain</span> = <span class="str">"infowars.com"</span><br>
+<span class="var">score</span> = cred[domain][<span class="str">"credibility_score"</span>]  <span class="comment"># 0.14</span><br>
+<span class="fn">print</span>(f<span class="str">"Credibility: {score:.2f}"</span>)  <span class="comment"># 0.0 = least, 1.0 = most</span>
+      </div>
+    </div>
+    <div class="code-block">
+      <div class="code-label"><span class="dot"></span> R</div>
+      <div class="code-content">
+<span class="kw">library</span>(jsonlite)<br>
+<br>
+cred &lt;- <span class="fn">fromJSON</span>(<span class="str">"data/cred1_current.json"</span>)<br>
+cred[[<span class="str">"infowars.com"</span>]]$credibility_score  <span class="comment"># 0.14</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="signals">
+  <h2>Six credibility signals</h2>
+  <p class="subtitle">Each domain is scored across multiple independent dimensions, then combined into a weighted composite.</p>
+  <div class="signal-grid">
+    <div class="signal-card">
+      <div class="signal-icon">🏷️</div>
+      <h3>Source Category</h3>
+      <p>Classification from curated lists (fake, conspiracy, satire, bias, etc.)</p>
+    </div>
+    <div class="signal-card">
+      <div class="signal-icon">📊</div>
+      <h3>Iffy News Index</h3>
+      <p>Factual reporting level and political bias ratings from the Iffy Index</p>
+    </div>
+    <div class="signal-card">
+      <div class="signal-icon">🔍</div>
+      <h3>Fact-Check Claims</h3>
+      <p>Number of fact-checked claims associated with the domain via ClaimReview</p>
+    </div>
+    <div class="signal-card">
+      <div class="signal-icon">📅</div>
+      <h3>Domain Age</h3>
+      <p>WHOIS registration age as a trust signal (newer domains score lower)</p>
+    </div>
+    <div class="signal-card">
+      <div class="signal-icon">🌐</div>
+      <h3>Web Popularity</h3>
+      <p>Tranco ranking as a proxy for reach and potential impact</p>
+    </div>
+    <div class="signal-card">
+      <div class="signal-icon">🛡️</div>
+      <h3>Safe Browsing</h3>
+      <p>Google Safe Browsing threat assessment for malware and social engineering</p>
+    </div>
+  </div>
+</section>
+
+<section class="schema">
+  <h2>Dataset schema</h2>
+  <div class="schema-grid">
+    <div class="schema-card">
+      <div class="field">credibility_score</div>
+      <div class="desc">Composite score 0.0 - 1.0</div>
+    </div>
+    <div class="schema-card">
+      <div class="field">category</div>
+      <div class="desc">fake, conspiracy, satire, bias...</div>
+    </div>
+    <div class="schema-card">
+      <div class="field">domain_age_years</div>
+      <div class="desc">Years since WHOIS registration</div>
+    </div>
+    <div class="schema-card">
+      <div class="field">factcheck_claims</div>
+      <div class="desc">ClaimReview count</div>
+    </div>
+    <div class="schema-card">
+      <div class="field">iffy_factual</div>
+      <div class="desc">VL / L / ML / M / MH / H / VH</div>
+    </div>
+    <div class="schema-card">
+      <div class="field">iffy_bias</div>
+      <div class="desc">Political bias rating</div>
+    </div>
+    <div class="schema-card">
+      <div class="field">safe_browsing</div>
+      <div class="desc">Google threat flag</div>
+    </div>
+    <div class="schema-card">
+      <div class="field">sources</div>
+      <div class="desc">Number of corroborating lists</div>
+    </div>
+  </div>
+</section>
+
+<section class="usedby">
+  <h2>🛡️ Used in production</h2>
+  <p>CRED-1 powers source credibility warnings in Trackless Links, a Safari extension for iPhone, iPad & Mac.</p>
+  <a href="https://aloth.github.io/trackless-links/" class="usedby-link">
+    🔗 Trackless Links — Safari Extension
+  </a>
+</section>
+
+<section class="citation">
+  <h2>📝 Cite this dataset</h2>
+  <div class="cite-block" onclick="navigator.clipboard.writeText(this.innerText)">@article{loth2026cred1,
+  title   = {CRED-1: An Open Multi-Signal Domain Credibility Dataset
+             for Automated Pre-Bunking of Online Misinformation},
+  author  = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  year    = {2026},
+  doi     = {10.2139/ssrn.6448466},
+  url     = {https://ssrn.com/abstract=6448466}
+}</div>
+</section>
+
+<section class="cta">
+  <h2>Build with CRED-1</h2>
+  <p>Open data. Reproducible pipeline. Ready for your research or application.</p>
+  <div class="cta-buttons">
+    <a href="https://doi.org/10.5281/zenodo.18769460" class="btn btn-green">📦 Download from Zenodo</a>
+    <a href="https://github.com/aloth/cred-1" class="btn-outline">
+      <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      View on GitHub ⭐
+    </a>
+    <a href="https://doi.org/10.2139/ssrn.6448466" class="btn-outline">📄 Read Paper</a>
+  </div>
+</section>
+
+<footer>
+  <p>Made by <a href="https://alexloth.com">Alexander Loth</a>, Martin Kappes & Marc-Oliver Pahl · <a href="https://alexloth.com/cred-1-open-domain-credibility-dataset-preprint/">Blog Post</a></p>
+</footer>
+
+</body>
+</html>
