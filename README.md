@@ -23,6 +23,23 @@
 
 ## Quick Start
 
+### Load from Hugging Face (recommended)
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("xlth/CRED-1", split="train")
+lookup = {row["domain"]: row for row in ds}
+
+domain = "infowars.com"
+if domain in lookup:
+    print(f"{domain}: credibility = {lookup[domain]['credibility_score']}")
+```
+
+Dataset page: **https://huggingface.co/datasets/xlth/CRED-1**
+
+### Load from local JSON
+
 ```python
 import json
 
