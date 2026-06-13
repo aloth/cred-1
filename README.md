@@ -6,6 +6,9 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18769460.svg)](https://doi.org/10.5281/zenodo.18769460)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![npm version](https://img.shields.io/npm/v/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
+[![npm downloads](https://img.shields.io/npm/dm/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
+[![CalVer](https://img.shields.io/badge/calver-YYYY.M.D-blue.svg)](https://calver.org/)
 
 **CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,672 domains** known to publish mis/disinformation, conspiracy theories, or other unreliable content.
 
@@ -13,50 +16,112 @@
 
 > **Paper:** A. Loth, M. Kappes, and M.-O. Pahl, "CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation," *Preprint*, 2026. [doi:10.2139/ssrn.6448466](https://doi.org/10.2139/ssrn.6448466)
 
+---
+
+## Install
+
+```bash
+# CLI (global)
+npm install -g @aloth/cred1
+
+# Library (project dependency)
+npm install @aloth/cred1
+
+# Or try without installing
+npx @aloth/cred1 check infowars.com
+```
+
+## CLI Usage
+
+```bash
+# Single domain lookup
+cred1 check infowars.com
+# 🔴  infowars.com
+#    Score:    0.073 / 1.000
+#    Category: conspiracy
+#    Level:    low
+#    Sources:  2
+
+# Domain not in dataset
+cred1 check nytimes.com
+# ⚪  nytimes.com
+#    Not found in CRED-1 dataset — treat as unknown/neutral
+
+# Batch processing (stdin)
+echo -e "rt.com\ninfowars.com\nnytimes.com" | cred1 batch
+
+# JSON output
+cred1 check breitbart.com --json
+
+# Search
+cred1 search "news"
+cred1 search "\.ru$"
+
+# Statistics
+cred1 stats
+cred1 categories
+```
+
+Domain normalization is automatic — `https://www.infowars.com/politics/` resolves to `infowars.com`.
+
+## Library Usage
+
+```typescript
+import { checkDomain, searchDomains, getStats } from '@aloth/cred1';
+
+// Single lookup
+const result = checkDomain('infowars.com');
+// { domain: 'infowars.com', score: 0.073, category: 'conspiracy', level: 'low', sources: 2, domainAge: 27.3, trancoRank: 15889 }
+
+// Not found → null
+const unknown = checkDomain('nytimes.com'); // null
+
+// Search by pattern (substring or regex)
+const russian = searchDomains('\\.ru$');
+
+// Dataset statistics
+const stats = getStats();
+// { totalDomains: 2673, categories: { unreliable: 2001, fake: 233, ... }, version: '1.0.0' }
+```
+
+## Traffic-Light Scoring
+
+| Level   | Score     | Emoji | Meaning                          |
+|---------|-----------|-------|----------------------------------|
+| low     | ≤ 0.20   | 🔴    | High credibility risk            |
+| mixed   | 0.21–0.50 | 🟡    | Unreliable or mixed signals      |
+| ok      | > 0.50   | 🟢    | Generally considered reliable    |
+| neutral | not found | ⚪    | Unknown — absence ≠ trustworthy  |
+
 ## Key Features
 
 - **2,672 domains** with credibility scores (0.0–1.0)
+- **Dual-mode** — works as CLI tool and JavaScript library
 - **Fully reproducible** — Python pipeline rebuilds the dataset from scratch
 - **Multi-signal scoring** combining source labels, domain age, web popularity, fact-check frequency, and threat intelligence
 - **Privacy-preserving** — designed for on-device client-side deployment (no server calls needed)
 - **Two openly-licensed sources** — no proprietary data dependencies
-
-## Quick Start
-
-### Load from Hugging Face (recommended)
-
-```python
-from datasets import load_dataset
-
-ds = load_dataset("xlth/CRED-1", split="train")
-lookup = {row["domain"]: row for row in ds}
-
-domain = "infowars.com"
-if domain in lookup:
-    print(f"{domain}: credibility = {lookup[domain]['credibility_score']}")
-```
-
-Dataset page: **https://huggingface.co/datasets/xlth/CRED-1**
-
-### Load from local JSON
-
-```python
-import json
-
-with open("data/cred1_current.json") as f:
-    cred = json.load(f)
-
-domain = "infowars.com"
-if domain in cred:
-    score = cred[domain]["credibility_score"]  # 0.0 (least credible) to 1.0 (most credible)
-    print(f"{domain}: credibility = {score}")
-else:
-    print(f"{domain}: not in dataset (neutral)")
-```
+- **Domain normalization** — handles www., protocols, paths automatically
 
 ## Dataset Schema
 
-### JSON Format (`cred1_current.json`)
+### Compact Format (`cred1_compact.json`)
+
+```json
+{
+  "infowars.com": { "c": "c", "s": 0.073, "n": 2, "d": "1999-10-04", "r": 15889 }
+}
+```
+
+| Field | Description |
+|-------|-------------|
+| `c`   | Category code: `f`=fake, `u`=unreliable, `m`=mixed, `c`=conspiracy, `s`=satire, `r`=reliable |
+| `s`   | Credibility score (0.0–1.0, lower = less credible) |
+| `n`   | Number of independent source lists flagging this domain |
+| `d`   | Domain registration date (optional) |
+| `r`   | Tranco Top-1M rank (optional — lower rank = more popular) |
+
+### Full Format (`cred1_current.json`)
 
 ```json
 {
@@ -82,158 +147,56 @@ else:
 }
 ```
 
-| Field | Description |
-|---|---|
-| `category` | Full category name: `fake`, `unreliable`, `mixed`, `conspiracy`, `satire`, `reliable` |
-| `credibility_score` | Credibility score (0.0-1.0, lower = less credible) |
-| `sources` | Number of independent source lists flagging this domain |
-| `tranco_rank` | Tranco rank (optional, absent if not ranked) |
-| `domain_registered` | Domain registration date from RDAP, ISO 8601 (optional) |
-| `domain_age_years` | Domain age in years, computed from `domain_registered` (optional) |
-| `iffy_factual` | MBFC factual reporting rating (optional) |
-| `iffy_bias` | MBFC political bias rating (optional) |
-| `iffy_score` | Iffy.news credibility score, 0.0-1.0 (optional) |
-| `factcheck_claims` | Number of fact-check claims from Google Fact Check Tools API (optional) |
-| `safe_browsing_flagged` | Google Safe Browsing threat flag (optional) |
-| `score_cat` | Category score component |
-| `score_iffy` | Iffy.news score component |
-| `score_tranco` | Tranco rank score component |
-| `score_age` | Domain age score component |
-| `score_factcheck` | Fact-check frequency score component |
-| `score_safebrowsing` | Safe Browsing score component |
+See [CODEBOOK.md](CODEBOOK.md) for full field documentation.
 
-
-
-
-
-
-
-### CSV Format (`cred1_current.csv`)
-
-Same fields as JSON, in tabular format with 18 columns. Sorted by `credibility_score` ascending (least credible first).
-
-### Compact Format (`cred1_compact.json`)
-
-Minimal format for on-device embedding (e.g., browser extensions). Short keys, no whitespace, ~168KB.
-
-| Key | Field |
-|---|---|
-| `s` | credibility_score |
-| `c` | category code (`f`, `u`, `m`, `c`, `s`, `r`) |
-| `n` | sources |
-| `r` | tranco_rank (optional) |
-| `d` | domain registration date as YYYY-MM-DD (optional) |
-
-## Scoring Model
-
-CRED-1 computes credibility scores as a weighted blend of five independent signals:
-
-| Signal | Weight | Source |
-|---|---|---|
-| **Source category** | 50% | OpenSources.co + Iffy.news consensus label |
-| **Iffy.news score** | 15% | Iffy.news credibility rating (when available) |
-| **Fact-check frequency** | 15% | Google Fact Check Tools API — number of claims |
-| **Web popularity** | 5% | Tranco Top-1M rank (log-normalized) |
-| **Domain age** | 5% | WHOIS/RDAP registration date |
-| **Google Safe Browsing** | Override | Hard cap at 0.05 if flagged as malware/social engineering |
-
-Remaining weight (when signals are unavailable) defaults to the source category score.
-
-## Data Sources
-
-| Source | Domains | License | Type |
-|---|---|---|---|
-| [OpenSources.co](https://github.com/BigMcLargeHuge/opensources) | 825 | CC BY 4.0 | Curated mis/disinformation domain list |
-| [Iffy.news Index](https://iffy.news/index/) | 2,040 | MIT | MBFC-derived unreliable source index |
-| [Tranco Top-1M](https://tranco-list.eu/) | 1,000,000 | Free to use | Aggregated web popularity ranking |
-| [RDAP](https://rdap.org/) | Public protocol | N/A | Domain registration data |
-| [Google Fact Check Tools API](https://developers.google.com/fact-check/tools/api) | N/A | Free (attribution) | Fact-check claim database |
-| [Google Safe Browsing API](https://developers.google.com/safe-browsing) | N/A | Free (attribution) | Threat intelligence |
-
-## Reproduce the Dataset
+## Rebuilding the Dataset
 
 ```bash
-# 1. Build base dataset (fetch + merge sources)
-python3 pipeline/build_dataset.py
-
-# 2. Enrich with signals (requires Google Cloud API key)
-export GOOGLE_API_KEY="your-key-here"  # or macOS Keychain
-python3 pipeline/enrich_dataset.py
-
-# Individual enrichment steps:
-python3 pipeline/enrich_dataset.py --step tranco
-python3 pipeline/enrich_dataset.py --step rdap
-python3 pipeline/enrich_dataset.py --step factcheck
-python3 pipeline/enrich_dataset.py --step safebrowsing
-python3 pipeline/enrich_dataset.py --step score
+cd pipeline/
+python3 build_dataset.py              # Full pipeline
+python3 build_dataset.py --step fetch # Download raw data only
+python3 build_dataset.py --step merge # Parse + merge (requires prior fetch)
+python3 enrich_dataset.py             # Add enrichment signals (API keys required)
 ```
 
-**Requirements:** Python 3.10+, no external dependencies (stdlib only).
+## Versioning
 
-## Category Distribution
+CRED-1 uses **calendar versioning** (CalVer) across all distribution channels:
 
-| Category | Count | % |
-|---|---|---|
-| Mixed | 1,335 | 50.0% |
-| Unreliable | 589 | 22.0% |
-| Fake | 493 | 18.4% |
-| Conspiracy | 153 | 5.7% |
-| Satire | 94 | 3.5% |
-| Reliable | 8 | 0.3% |
+| Channel | Format | Example |
+|---------|--------|---------|
+| GitHub Release | `v2026-06-13` | Tag + Zenodo archive |
+| npm package | `2026.6.13` | Same date, dot-separated (valid semver) |
 
-## Applications
+A new version is released **weekly** with rescored domains. The npm package updates automatically with each GitHub release — no separate version scheme needed.
 
-CRED-1 is designed for:
+To pin a specific dataset version:
+```bash
+npm install @aloth/cred1@2026.6.13
+```
 
-- **Browser extensions** — on-device pre-bunking at the content delivery stage
-- **Misinformation research** — ground truth for domain-level credibility studies
-- **Content moderation** — automated flagging of low-credibility sources
-- **Education** — media literacy tools and curricula
+## Production Integrations
+
+- **[Trackless Links](https://github.com/aloth/trackless-links)** — Safari extension for iOS and macOS with real-time CRED-1 credibility warnings
+- **[HuggingFace](https://huggingface.co/datasets/xlth/CRED-1)** — Dataset mirror for ML pipelines
 
 ## Citation
 
-If you use CRED-1 in your research, please cite the paper:
-
 ```bibtex
-@article{loth2026cred1,
-  title     = {{CRED-1}: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation},
-  author    = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
-  year      = {2026},
-  doi       = {10.2139/ssrn.6448466},
-  url       = {https://ssrn.com/abstract=6448466},
-  note      = {Preprint available at SSRN}
+@misc{loth2026cred1,
+  author       = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  title        = {{CRED-1}: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation},
+  year         = 2026,
+  doi          = {10.2139/ssrn.6448466},
+  url          = {https://github.com/aloth/cred-1}
 }
 ```
-
-To cite the dataset archive directly:
-
-```bibtex
-@dataset{loth2026cred1data,
-  title     = {{CRED-1}: An Open Multi-Signal Domain Credibility Dataset},
-  author    = {Loth, Alexander},
-  year      = {2026},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.18769460}
-}
-```
-
-## Contributing
-
-Found a misclassified domain? Want to propose a new credibility signal? We welcome community input.
-
-* 🌐 **[Report a Domain](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml)** — flag a domain that seems misscored or missing
-* 💡 **[Propose a Signal](https://github.com/aloth/cred-1/issues/new?template=signal-proposal.yml)** — suggest a new credibility signal for the pipeline
-* ❓ **[Ask a Question](https://github.com/aloth/cred-1/issues/new?template=question.yml)** — methodology, usage, or reproduction questions
 
 ## License
 
-This repository (code and data) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Dataset:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Code & CLI:** [MIT](LICENSE)
 
-## Acknowledgments
+## Author
 
-This dataset builds on the work of:
-- Melissa Zimdars and the OpenSources.co project
-- The Iffy.news team at the Reynolds Journalism Institute
-- Google Fact Check Tools and Safe Browsing APIs
-
-Powered by [Google Fact Check Tools](https://toolbox.google.com/factcheck/) and [Google Safe Browsing](https://safebrowsing.google.com/).
+Alexander Loth — [alexloth.com](https://alexloth.com) · [@xlth](https://x.com/xlth) · [ORCID](https://orcid.org/0009-0003-9327-6865)

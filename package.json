@@ -1,0 +1,62 @@
+{
+  "name": "@aloth/cred1",
+  "version": "2026.6.13",
+  "description": "CRED-1 domain credibility dataset — JavaScript library and CLI for checking news source reliability",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "bin": {
+    "cred1": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "credibility",
+    "misinformation",
+    "fact-check",
+    "domain",
+    "dataset",
+    "browser-extension",
+    "news",
+    "media-literacy",
+    "fake-news",
+    "disinformation",
+    "journalism",
+    "reliability",
+    "cred1",
+    "cli"
+  ],
+  "author": "Alexander Loth <alex@alexloth.com> (https://alexloth.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloth/cred-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aloth/cred-1/issues"
+  },
+  "homepage": "https://github.com/aloth/cred-1#readme",
+  "files": [
+    "dist",
+    "data/cred1_compact.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

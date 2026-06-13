@@ -1,0 +1,38 @@
+# Build artefacts excluded from published package
+
+# Pipeline scripts and data processing
+pipeline/
+
+# Large data files (only cred1_compact.json is published via "files" in package.json)
+data/01_opensources_raw.json
+data/02_iffy_raw.csv
+data/03_merged.json
+data/04_enriched.json
+data/changelog.md
+data/cred1_current.csv
+data/cred1_current.json
+data/factcheck_cache.json
+data/rdap_cache.json
+data/tranco_top1m.csv
+*.csv
+*_cache.json
+*_raw.json
+*_raw.csv
+
+# Research assets
+figures/
+examples/
+docs/
+
+# TypeScript source (dist/ is published)
+src/
+tsconfig.json
+
+# Git & CI
+.git/
+.github/
+.gitignore
+
+# Dev & build
+node_modules/
+*.map
