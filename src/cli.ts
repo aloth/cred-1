@@ -21,6 +21,19 @@ import {
 } from './index.js';
 
 // ---------------------------------------------------------------------------
+// MCP mode — delegate to mcp.js if --mcp flag passed
+// ---------------------------------------------------------------------------
+
+if (process.argv.includes('--mcp')) {
+  // Dynamically import the MCP server and let it take over stdio
+  const { fileURLToPath: fu } = await import('node:url');
+  const { dirname: dn, join: jn } = await import('node:path');
+  const __dir = dn(fu(import.meta.url));
+  await import(jn(__dir, 'mcp.js'));
+  // mcp.js connects to transport — process stays alive until the host disconnects
+} else {
+
+// ---------------------------------------------------------------------------
 // Version
 // ---------------------------------------------------------------------------
 
@@ -286,3 +299,6 @@ program
 // ---------------------------------------------------------------------------
 
 program.parse(process.argv);
+
+} // end else (non-MCP mode)
+

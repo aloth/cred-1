@@ -64,6 +64,90 @@ cred1 categories
 
 Domain normalization is automatic — `https://www.infowars.com/politics/` resolves to `infowars.com`.
 
+## MCP Server (Claude Desktop / Cursor / Windsurf)
+
+CRED-1 ships an [MCP](https://modelcontextprotocol.io/) server so AI assistants can check domain credibility directly.
+
+### Tools exposed
+
+| Tool | Description |
+|------|-------------|
+| `check_domain` | Check a single domain (score, category, level, metadata) |
+| `batch_check` | Check up to 100 domains at once |
+| `search_domains` | Search domains by substring or regex pattern |
+| `get_stats` | Dataset statistics (total, per-category counts, version) |
+| `get_categories` | Category taxonomy with descriptions and score ranges |
+
+### Claude Desktop
+
+Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "cred1": {
+      "command": "npx",
+      "args": ["-y", "@aloth/cred1", "--mcp"]
+    }
+  }
+}
+```
+
+> **Note:** `--mcp` is handled by the CLI wrapper — or run the dedicated binary directly.
+
+Alternatively, if the package is installed globally:
+
+```json
+{
+  "mcpServers": {
+    "cred1": {
+      "command": "cred1-mcp"
+    }
+  }
+}
+```
+
+### Cursor
+
+Add to `.cursor/mcp.json` (project) or `~/.cursor/mcp.json` (global):
+
+```json
+{
+  "mcpServers": {
+    "cred1": {
+      "command": "npx",
+      "args": ["-y", "@aloth/cred1", "--mcp"]
+    }
+  }
+}
+```
+
+### Windsurf
+
+Add to `~/.codeium/windsurf/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "cred1": {
+      "command": "npx",
+      "args": ["-y", "@aloth/cred1", "--mcp"]
+    }
+  }
+}
+```
+
+### OpenClaw / any MCP-compatible host
+
+```json
+{
+  "command": "cred1-mcp",
+  "transport": "stdio"
+}
+```
+
+---
+
 ## Library Usage
 
 ```typescript
