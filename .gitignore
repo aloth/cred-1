@@ -8,3 +8,5 @@ data/tranco_top1m.csv
 __pycache__/
 *.pyc
 .DS_Store
+node_modules/
+dist/
