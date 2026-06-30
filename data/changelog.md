@@ -1,5 +1,11 @@
 # CRED-1 Changelog
 
+## 2026-06-30
+- **Total domains:** 2674
+- **Added:** 1 new domains
+  - Examples: epochtimes.de
+- **Score updates:** 6 domains rescored
+
 ## 2026-06-23
 - **Total domains:** 2673
 - **Score updates:** 13 domains rescored
