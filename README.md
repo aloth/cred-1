@@ -11,7 +11,7 @@
 [![CalVer](https://img.shields.io/badge/calver-YYYY.M.D-blue.svg)](https://calver.org/)
 [![Report Missing Domain](https://img.shields.io/badge/Report-Missing%20Domain-orange)](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml)
 
-**CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,672 domains** known to publish mis/disinformation, conspiracy theories, or other unreliable content.
+**CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,674 domains** known to publish mis/disinformation, conspiracy theories, or other unreliable content. Community members can [report missing domains](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml) for inclusion.
 
 > 🎓 **Presented at ACM WebSci 2026 (Braunschweig).** Landing page: [aloth.github.io/agentic-ai-information-integrity/cred-1](https://aloth.github.io/agentic-ai-information-integrity/cred-1/). First production integration: [Trackless Links](https://github.com/aloth/trackless-links) for iOS and macOS, with free codes for readers and attendees: [gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026](https://gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026).
 
