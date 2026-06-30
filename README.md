@@ -9,6 +9,7 @@
 [![npm version](https://img.shields.io/npm/v/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
 [![npm downloads](https://img.shields.io/npm/dm/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
 [![CalVer](https://img.shields.io/badge/calver-YYYY.M.D-blue.svg)](https://calver.org/)
+[![Report Missing Domain](https://img.shields.io/badge/Report-Missing%20Domain-orange)](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml)
 
 **CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,672 domains** known to publish mis/disinformation, conspiracy theories, or other unreliable content.
 
@@ -263,6 +264,20 @@ npm install @aloth/cred1@2026.6.13
 
 - **[Trackless Links](https://github.com/aloth/trackless-links)** — Safari extension for iOS and macOS with real-time CRED-1 credibility warnings
 - **[HuggingFace](https://huggingface.co/datasets/xlth/CRED-1)** — Dataset mirror for ML pipelines
+
+## Contributing
+
+Know a domain that should be in the dataset? [Report a missing domain](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml) with evidence.
+
+We accept community-reported domains that meet at least one of these criteria:
+
+- Listed by [Media Bias/Fact Check](https://mediabiasfactcheck.com/) (MBFC)
+- Flagged by an [IFCN](https://ifcncodeofprinciples.poynter.org/)-certified fact-checker
+- Subject to press council or regulatory action
+- Documented in Wikipedia with credibility concerns
+- Referenced in published academic research
+
+Accepted domains are added to the pipeline and appear in the next weekly dataset release.
 
 ## Citation
 

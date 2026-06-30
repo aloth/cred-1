@@ -1,42 +1,80 @@
-name: 🌐 Domain Report
-description: Report a misclassified or missing domain
-labels: ["domain-report"]
+name: "\U0001F30D Report Missing Domain"
+description: Report a domain that should be added to the CRED-1 dataset
+labels: ["domain-report", "new-domain"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the CRED-1 dataset! Please provide as much evidence as possible so we can evaluate the domain quickly.
+
   - type: input
     id: domain
     attributes:
       label: Domain
-      description: The domain in question (e.g., example.com)
+      description: The domain to add (e.g., example.com). Do not include https:// or paths.
       placeholder: example.com
     validations:
       required: true
-  - type: input
-    id: current-score
-    attributes:
-      label: Current CRED-1 Score
-      description: The current composite score (if the domain is in the dataset)
-      placeholder: "0.35"
+
   - type: dropdown
-    id: issue-type
+    id: category
     attributes:
-      label: Issue Type
+      label: Suggested Category
+      description: Which category best describes this domain?
       options:
-        - Score seems too high
-        - Score seems too low
-        - Domain is missing from the dataset
-        - Domain category is wrong
+        - fake
+        - unreliable
+        - conspiracy
+        - mixed
+        - satire
+        - rumor
+        - hate
     validations:
       required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country / Language
+      description: Primary country and language of the domain (e.g., Germany / German)
+      placeholder: Germany / German
+
+  - type: checkboxes
+    id: evidence-sources
+    attributes:
+      label: Evidence Sources
+      description: Check all that apply
+      options:
+        - label: Media Bias/Fact Check (MBFC) listing
+        - label: IFCN-certified fact-check flagging
+        - label: Press council or regulatory action
+        - label: Wikipedia documentation
+        - label: Academic research or published study
+        - label: Other (describe below)
+
+  - type: textarea
+    id: evidence-links
+    attributes:
+      label: Evidence Links
+      description: Links to MBFC pages, fact-checks, Wikipedia articles, press council decisions, or other documentation. One per line.
+      placeholder: |
+        https://mediabiasfactcheck.com/example/
+        https://en.wikipedia.org/wiki/Example_(website)
+    validations:
+      required: true
+
   - type: textarea
     id: reasoning
     attributes:
       label: Reasoning
-      description: Why do you believe the current classification is incorrect?
-      placeholder: Provide evidence such as fact-check references, source ratings, or observable credibility signals.
+      description: Briefly explain why this domain should be included and why you selected the category above.
+      placeholder: Provide specific credibility concerns such as documented misinformation, bias ratings, or regulatory actions.
     validations:
       required: true
-  - type: textarea
-    id: references
+
+  - type: input
+    id: parent-domain
     attributes:
-      label: References
-      description: Links to fact-checks, media bias ratings, or other evidence (optional)
+      label: Related Domain Already in Dataset
+      description: If the English-language or parent domain is already in CRED-1, enter it here.
+      placeholder: theepochtimes.com
