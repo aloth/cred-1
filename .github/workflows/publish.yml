@@ -24,7 +24,7 @@ jobs:
 
       - run: npm install -g npm@latest
 
-      # Derive npm-compatible CalVer from Git tag: v2026-06-13 → 2026.6.13
+      # Derive npm-compatible CalVer from Git tag: v2026-06-13 -> 2026.6.13
       - name: Set version from tag
         id: version
         run: |
@@ -43,9 +43,26 @@ jobs:
       # Commit version bump back to main so package.json stays in sync
       - name: Commit version back
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Alexander Loth"
+          git config user.email "aloth@users.noreply.github.com"
           git add package.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: bump version to ${{ steps.version.outputs.version }} [skip ci]"
           git push origin HEAD:main
+
+  bump-homebrew:
+    needs: publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bump Homebrew formula
+        uses: mislav/bump-homebrew-formula-action@v3
+        with:
+          formula-name: cred1
+          homebrew-tap: aloth/homebrew-tap
+          tag-name: ${{ github.ref_name }}
+          download-url: https://github.com/aloth/cred-1/archive/refs/tags/${{ github.ref_name }}.tar.gz
+          create-pullrequest: false
+          commit-message: |
+            cred1: bump to {{version}}
+        env:
+          COMMITTER_TOKEN: ${{ secrets.HOMEBREW_TAP_TOKEN }}
