@@ -1,6 +1,6 @@
 {
   "name": "@aloth/cred1",
-  "version": "2026.6.30",
+  "version": "2026.7.7",
   "description": "CRED-1 domain credibility dataset — JavaScript library and CLI for checking news source reliability",
   "type": "module",
   "main": "dist/index.js",
