@@ -263,6 +263,7 @@ npm install @aloth/cred1@2026.6.13
 ## Production Integrations
 
 - **[Trackless Links](https://github.com/aloth/trackless-links)** — Safari extension for iOS and macOS with real-time CRED-1 credibility warnings
+- **[RogueGPT](https://github.com/aloth/RogueGPT)** — Uses CRED-1 to identify low-credibility source domains for controlled fake-news stimulus generation
 - **[HuggingFace](https://huggingface.co/datasets/xlth/CRED-1)** — Dataset mirror for ML pipelines
 
 ## Contributing
