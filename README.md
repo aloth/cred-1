@@ -15,6 +15,8 @@
 
 > 🎓 **Presented at ACM WebSci 2026 (Braunschweig).** Landing page: [aloth.github.io/agentic-ai-information-integrity/cred-1](https://aloth.github.io/agentic-ai-information-integrity/cred-1/). First production integration: [Trackless Links](https://github.com/aloth/trackless-links) for iOS and macOS, with free codes for readers and attendees: [gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026](https://gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026).
 
+> 🤖 **MCP-ready** — query domain credibility directly from Claude Desktop, Cursor & Windsurf, or any MCP-compatible agent. [Jump to setup ↓](#mcp-server-claude-desktop--cursor--windsurf)
+
 > **Paper:** A. Loth, M. Kappes, and M.-O. Pahl, "CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation," *Preprint*, 2026. [doi:10.2139/ssrn.6448466](https://doi.org/10.2139/ssrn.6448466)
 
 ---
