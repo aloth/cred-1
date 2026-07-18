@@ -180,7 +180,7 @@ const stats = getStats();
 
 ## Key Features
 
-- **2,672 domains** with credibility scores (0.0–1.0)
+- **2,673 domains** with credibility scores (0.0–1.0)
 - **Dual-mode** — works as CLI tool and JavaScript library
 - **Fully reproducible** — Python pipeline rebuilds the dataset from scratch
 - **Multi-signal scoring** combining source labels, domain age, web popularity, fact-check frequency, and threat intelligence
