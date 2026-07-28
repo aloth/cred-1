@@ -1,5 +1,9 @@
 # CRED-1 Changelog
 
+## 2026-07-28
+- **Total domains:** 2674
+- **Score updates:** 9 domains rescored
+
 ## 2026-07-21
 - **Total domains:** 2674
 - **Score updates:** 15 domains rescored
