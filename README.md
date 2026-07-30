@@ -13,7 +13,9 @@
 
 **CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,674 domains** known to publish mis/disinformation, conspiracy theories, or other unreliable content. Community members can [report missing domains](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml) for inclusion.
 
-> 🎓 **Presented at ACM WebSci 2026 (Braunschweig).** Landing page: [aloth.github.io/agentic-ai-information-integrity/cred-1](https://aloth.github.io/agentic-ai-information-integrity/cred-1/). First production integration: [Trackless Links](https://github.com/aloth/trackless-links) for iOS and macOS, with free codes for readers and attendees: [gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026](https://gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026).
+> 🎓 **Presented at ACM WebSci 2026 (Braunschweig).** Landing page: [aloth.github.io/agentic-ai-information-integrity/cred-1](https://aloth.github.io/agentic-ai-information-integrity/cred-1/). First production integration: [Trackless Links](https://github.com/aloth/trackless-links) for iOS and macOS.
+
+> 📰 **Mentioned in Mac & i 4/2026 (heise).** The German Apple magazine's review of [Trackless Links](https://github.com/aloth/trackless-links) covers the CRED-1-powered credibility warnings, noting the app checks URLs locally against the open CRED-1 list (2,673 entries at the time of testing). [Review](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131) (paywalled, German).
 
 > 🤖 **MCP-ready** — query domain credibility directly from Claude Desktop, Cursor & Windsurf, or any MCP-compatible agent. [Jump to setup ↓](#mcp-server-claude-desktop--cursor--windsurf)
 
