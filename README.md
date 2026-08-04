@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/aloth-cred-1-badge.png)](https://mseep.ai/app/aloth-cred-1)
+
 # CRED-1: Open Domain Credibility Dataset
 
 <p align="center">
