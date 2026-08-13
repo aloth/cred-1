@@ -111,7 +111,7 @@ Show dataset statistics and per-category counts.
 cred1 stats
 # 📊  CRED-1 Dataset Statistics
 #
-#    Total domains:  2,673
+#    Total domains:  2,674
 #    Version:        1.0.0
 #
 #    Categories:
@@ -175,7 +175,7 @@ const stats = getStats();
 ## Dataset
 
 - **Source:** CRED-1 v1.0 (February 2026) — merged from OpenSources.co and Iffy.news
-- **Coverage:** 2,673 domains, primarily English-language outlets
+- **Coverage:** 2,674 domains, primarily English-language outlets
 - **License:** CC-BY-4.0 (dataset), MIT (code)
 - **Important:** Absence from the dataset does NOT mean a domain is trustworthy. CRED-1 focuses on known unreliable sources.
 - **Citation:** Alexander Loth. (2026). CRED-1: An Open Credibility Dataset for Web Domains. GitHub. https://github.com/aloth/cred-1

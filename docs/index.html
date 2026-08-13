@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CRED-1: Open Domain Credibility Dataset — 2,672 Domains Scored for Misinformation</title>
-<meta name="description" content="CRED-1 is an open, reproducible domain credibility dataset with 2,672 domains scored for misinformation. Multi-signal scoring, CC BY 4.0, Python pipeline.">
+<title>CRED-1: Open Domain Credibility Dataset — 2,674 Domains Scored for Misinformation</title>
+<meta name="description" content="CRED-1 is an open, reproducible domain credibility dataset with 2,674 domains scored for misinformation. Multi-signal scoring, CC BY 4.0, Python pipeline.">
 <meta property="og:title" content="CRED-1: Open Domain Credibility Dataset">
-<meta property="og:description" content="2,672 domains scored for misinformation. Open data, reproducible pipeline, multi-signal credibility scoring.">
+<meta property="og:description" content="2,674 domains scored for misinformation. Open data, reproducible pipeline, multi-signal credibility scoring.">
 <meta property="og:image" content="https://raw.githubusercontent.com/aloth/cred-1/main/figures/cred1-domain-credibility-dataset-banner.jpg">
 <meta property="og:url" content="https://aloth.github.io/cred-1/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,6 +85,7 @@ body{font-family:'Inter',system-ui,sans-serif;color:var(--text);overflow-x:hidde
 /* Citation */
 .citation{padding:60px 24px;background:var(--light)}
 .citation h2{text-align:center;font-size:clamp(1.3rem,3vw,1.8rem);font-weight:800;margin-bottom:24px}
+.cite-hint{color:var(--muted);margin-bottom:14px;font-size:0.95rem}
 .cite-block{max-width:640px;margin:0 auto;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.7;color:var(--muted);overflow-x:auto;position:relative;cursor:pointer}
 .cite-block:hover::after{content:'Click to copy';position:absolute;top:8px;right:12px;background:var(--green);color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;font-family:'Inter',sans-serif}
 
@@ -110,11 +111,11 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "CRED-1: Open Domain Credibility Dataset — 2,672 Domains Scored for Misinformation",
+  "name": "CRED-1: Open Domain Credibility Dataset — 2,674 Domains Scored for Misinformation",
   "creator": { "@type": "Person", "name": "Alexander Loth", "url": "https://alexloth.com/" },
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "image": "https://raw.githubusercontent.com/aloth/cred-1/main/figures/cred1-domain-credibility-dataset-banner.jpg",
-  "description": "CRED-1 is an open, reproducible domain credibility dataset with 2,672 domains scored for misinformation. Multi-signal scoring, CC BY 4.0, Python pipeline.",
+  "description": "CRED-1 is an open, reproducible domain credibility dataset with 2,674 domains scored for misinformation. Multi-signal scoring, CC BY 4.0, Python pipeline.",
   "url": "https://aloth.github.io/cred-1/",
   "codeRepository": "https://github.com/aloth/cred-1"
 }
@@ -129,7 +130,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
     <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="CC BY 4.0"></a>
     <a href="https://github.com/aloth/cred-1/stargazers"><img src="https://img.shields.io/github/stars/aloth/cred-1?style=social" alt="Stars"></a>
   </div>
-  <h1>CRED-1: <span class="num">2,672</span> domains scored for credibility</h1>
+  <h1>CRED-1: <span class="num">2,674</span> domains scored for credibility</h1>
   <p>An open, reproducible domain credibility dataset for automated pre-bunking of online misinformation. Multi-signal scoring, CC BY 4.0 licensed.</p>
   <div class="hero-cta">
     <a href="https://doi.org/10.5281/zenodo.18769460" class="btn btn-green">
@@ -146,7 +147,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
 </section>
 
 <div class="stats-bar">
-  <div class="stat"><div class="num">2,672</div><div class="label">Domains</div></div>
+  <div class="stat"><div class="num">2,674</div><div class="label">Domains</div></div>
   <div class="stat"><div class="num">6</div><div class="label">Credibility Signals</div></div>
   <div class="stat"><div class="num">2</div><div class="label">Open Sources</div></div>
   <div class="stat"><div class="num">CC BY 4.0</div><div class="label">License</div></div>
@@ -266,13 +267,24 @@ cred[[<span class="str">"infowars.com"</span>]]$credibility_score  <span class="
 
 <section class="citation">
   <h2>📝 Cite this dataset</h2>
-  <div class="cite-block" onclick="navigator.clipboard.writeText(this.innerText)">@article{loth2026cred1,
-  title   = {CRED-1: An Open Multi-Signal Domain Credibility Dataset
-             for Automated Pre-Bunking of Online Misinformation},
-  author  = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
-  year    = {2026},
-  doi     = {10.2139/ssrn.6448466},
-  url     = {https://ssrn.com/abstract=6448466}
+  <p class="cite-hint">Please cite both the paper and the dataset version you used.</p>
+  <div class="cite-block" onclick="navigator.clipboard.writeText(this.innerText)">@misc{loth2026cred1,
+  title        = {CRED-1: An Open Multi-Signal Domain Credibility Dataset
+                  for Automated Pre-Bunking of Online Misinformation},
+  author       = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  year         = {2026},
+  howpublished = {Preprint},
+  doi          = {10.2139/ssrn.6448466},
+  url          = {https://ssrn.com/abstract=6448466}
+}
+
+@dataset{loth2026cred1data,
+  title        = {CRED-1: Open Domain Credibility Dataset},
+  author       = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18769460},
+  url          = {https://doi.org/10.5281/zenodo.18769460}
 }</div>
 </section>
 
