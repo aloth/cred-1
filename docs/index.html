@@ -78,9 +78,11 @@ body{font-family:'Inter',system-ui,sans-serif;color:var(--text);overflow-x:hidde
 .usedby{padding:60px 24px;background:var(--surface);text-align:center}
 .usedby h2{font-size:clamp(1.3rem,3vw,1.8rem);font-weight:800;margin-bottom:12px}
 .usedby p{color:var(--muted);margin-bottom:24px;max-width:500px;margin-left:auto;margin-right:auto}
-.usedby-link{display:inline-flex;align-items:center;gap:10px;background:var(--light);border:2px solid var(--border);border-radius:12px;padding:16px 28px;text-decoration:none;color:var(--text);font-weight:600;transition:border-color 0.2s,transform 0.2s}
-.usedby-link:hover{border-color:var(--green);transform:translateY(-2px)}
-.usedby-link img{height:20px}
+.usedby-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;max-width:860px;margin:0 auto;text-align:left}
+.usedby-card{display:flex;flex-direction:column;gap:8px;background:var(--light);border:2px solid var(--border);border-radius:12px;padding:20px 24px;text-decoration:none;color:var(--text);transition:border-color 0.2s,transform 0.2s}
+.usedby-card:hover{border-color:var(--green);transform:translateY(-2px)}
+.usedby-title{font-weight:700}
+.usedby-desc{color:var(--muted);font-size:0.92rem;line-height:1.6}
 
 /* Citation */
 .citation{padding:60px 24px;background:var(--light)}
@@ -259,10 +261,17 @@ cred[[<span class="str">"infowars.com"</span>]]$credibility_score  <span class="
 
 <section class="usedby">
   <h2>🛡️ Used in production</h2>
-  <p>CRED-1 powers source credibility warnings in Trackless Links, a Safari extension for iPhone, iPad & Mac.</p>
-  <a href="https://aloth.github.io/trackless-links/" class="usedby-link">
-    🔗 Trackless Links — Safari Extension
-  </a>
+  <p>CRED-1 is not only an archive. It runs on-device in shipping software and in ongoing research.</p>
+  <div class="usedby-grid">
+    <a href="https://aloth.github.io/trackless-links/" class="usedby-card">
+      <span class="usedby-title">🔗 Trackless Links</span>
+      <span class="usedby-desc">Safari extension for iPhone, iPad &amp; Mac. Looks up every URL against the bundled CRED-1 dataset locally, with no server calls. Its CRED-1-powered warnings were examined by Mac &amp; i 4/2026 (heise).</span>
+    </a>
+    <a href="https://github.com/aloth/RogueGPT" class="usedby-card">
+      <span class="usedby-title">🧪 RogueGPT</span>
+      <span class="usedby-desc">Research harness that uses CRED-1 to identify low-credibility source domains for controlled fake-news stimulus generation.</span>
+    </a>
+  </div>
 </section>
 
 <section class="citation">
