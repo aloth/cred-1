@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite the paper below."
+message: "If you use CRED-1, please cite both the paper (doi:10.2139/ssrn.6448466) and the dataset version you used (doi:10.5281/zenodo.18769460)."
 title: "CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation"
 authors:
   - family-names: Loth
@@ -9,8 +9,8 @@ authors:
     given-names: Martin
   - family-names: Pahl
     given-names: Marc-Oliver
-version: v1.0
-date-released: 2026-02-25
+version: v2026-08-11
+date-released: 2026-08-11
 doi: 10.2139/ssrn.6448466
 url: https://ssrn.com/abstract=6448466
 type: dataset

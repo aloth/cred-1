@@ -184,7 +184,7 @@ const stats = getStats();
 
 ## Key Features
 
-- **2,673 domains** with credibility scores (0.0–1.0)
+- **2,674 domains** with credibility scores (0.0–1.0)
 - **Dual-mode** — works as CLI tool and JavaScript library
 - **Fully reproducible** — Python pipeline rebuilds the dataset from scratch
 - **Multi-signal scoring** combining source labels, domain age, web popularity, fact-check frequency, and threat intelligence
@@ -286,15 +286,35 @@ Accepted domains are added to the pipeline and appear in the next weekly dataset
 
 ## Citation
 
+If you use CRED-1 in your work, please cite **both** the paper and the dataset version you used. The paper describes the method; the Zenodo record pins the exact data, which is what makes your results reproducible.
+
+**Paper:**
+
 ```bibtex
 @misc{loth2026cred1,
   author       = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
   title        = {{CRED-1}: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation},
   year         = 2026,
+  howpublished = {Preprint},
   doi          = {10.2139/ssrn.6448466},
   url          = {https://github.com/aloth/cred-1}
 }
 ```
+
+**Dataset:**
+
+```bibtex
+@dataset{loth2026cred1data,
+  author       = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  title        = {{CRED-1}: Open Domain Credibility Dataset},
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18769460},
+  url          = {https://doi.org/10.5281/zenodo.18769460}
+}
+```
+
+The DOI above always resolves to the latest release. To cite a specific weekly snapshot, use the version DOI shown on that release's Zenodo page.
 
 ## License
 
