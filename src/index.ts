@@ -64,8 +64,12 @@ const CATEGORY_MAP: Record<string, string> = {
   m: 'mixed',
   c: 'conspiracy',
   s: 'satire',
-  r: 'reliable',
+  r: 'rumor',
   o: 'other',
+  // Note: `reliable` has no single-letter code. It is the only category stored
+  // as a full string in cred1_compact.json, because `r` was already taken by
+  // `rumor`. Verified against the dataset: r -> rumor (10 domains),
+  // 'reliable' -> reliable (3 domains).
   // Some entries use the full string directly
   fake: 'fake',
   unreliable: 'unreliable',
@@ -73,6 +77,7 @@ const CATEGORY_MAP: Record<string, string> = {
   conspiracy: 'conspiracy',
   satire: 'satire',
   reliable: 'reliable',
+  rumor: 'rumor',
   other: 'other',
 };
 
