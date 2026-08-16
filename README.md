@@ -204,7 +204,7 @@ const stats = getStats();
 
 | Field | Description |
 |-------|-------------|
-| `c`   | Category code: `f`=fake, `u`=unreliable, `m`=mixed, `c`=conspiracy, `s`=satire, `r`=reliable |
+| `c`   | Category code: `f`=fake, `u`=unreliable, `m`=mixed, `c`=conspiracy, `s`=satire, `r`=rumor. Note that `reliable` has no single-letter code and is stored as the full string, because `r` is taken by `rumor`. |
 | `s`   | Credibility score (0.0–1.0, lower = less credible) |
 | `n`   | Number of independent source lists flagging this domain |
 | `d`   | Domain registration date (optional) |
