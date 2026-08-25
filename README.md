@@ -4,7 +4,7 @@
   <img src="figures/cred1-domain-credibility-dataset-banner.jpg" alt="CRED-1 Domain Credibility Dataset Banner" width="100%">
 </p>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18769460.svg)](https://doi.org/10.5281/zenodo.18769460)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19071147.svg)](https://doi.org/10.5281/zenodo.19071147)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![npm version](https://img.shields.io/npm/v/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
 [![npm downloads](https://img.shields.io/npm/dm/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
@@ -294,10 +294,11 @@ If you use CRED-1 in your work, please cite **both** the paper and the dataset v
 @misc{loth2026cred1,
   author       = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
   title        = {{CRED-1}: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation},
-  year         = 2026,
+  year         = {2026},
   howpublished = {Preprint},
   doi          = {10.2139/ssrn.6448466},
-  url          = {https://github.com/aloth/cred-1}
+  url          = {https://ssrn.com/abstract=6448466},
+  urldate      = {2026-08-25}
 }
 ```
 
@@ -306,11 +307,12 @@ If you use CRED-1 in your work, please cite **both** the paper and the dataset v
 ```bibtex
 @dataset{loth2026cred1data,
   author       = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
-  title        = {{CRED-1}: Open Domain Credibility Dataset},
-  year         = 2026,
+  title        = {{CRED-1}: An Open Multi-Signal Domain Credibility Dataset},
+  year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18769460},
-  url          = {https://doi.org/10.5281/zenodo.18769460}
+  version      = {v2026-03-17},
+  doi          = {10.5281/zenodo.19071147},
+  url          = {https://doi.org/10.5281/zenodo.19071147}
 }
 ```
 

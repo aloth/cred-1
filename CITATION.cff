@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use CRED-1, please cite both the paper (doi:10.2139/ssrn.6448466) and the dataset version you used (doi:10.5281/zenodo.18769460)."
+message: "If you use CRED-1, please cite both the paper (doi:10.2139/ssrn.6448466) and the dataset version you used (doi:10.5281/zenodo.19071147)."
 title: "CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation"
 authors:
   - family-names: Loth
@@ -18,8 +18,11 @@ license: CC-BY-4.0
 repository-code: https://github.com/aloth/cred-1
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.18769460
-    description: "Zenodo data archive"
+    value: 10.5281/zenodo.19071147
+    description: "Zenodo data archive (version v2026-03-17)"
+  - type: doi
+    value: 10.5281/zenodo.18769459
+    description: "Zenodo concept DOI (always resolves to the latest version)"
   - type: doi
     value: 10.2139/ssrn.6448466
     description: "SSRN preprint"
