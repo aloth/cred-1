@@ -318,6 +318,23 @@ If you use CRED-1 in your work, please cite **both** the paper and the dataset v
 
 The DOI above always resolves to the latest release. To cite a specific weekly snapshot, use the version DOI shown on that release's Zenodo page.
 
+## Related Projects
+
+CRED-1 is one strand of a wider research program on generated disinformation. The domain scores are used to select low-credibility sources for stimulus generation in RogueGPT:
+
+| Project | Description |
+|:---|:---|
+| [JudgeGPT](https://github.com/aloth/JudgeGPT) | Empirical platform for evaluating AI-generated news authenticity |
+| [RogueGPT](https://github.com/aloth/RogueGPT) | Controlled stimulus generator; draws fake-news sources from CRED-1 scores |
+| [verification-crisis](https://github.com/aloth/verification-crisis) | Expert survey on GenAI disinformation threats and countermeasures |
+| [Origin Lens](https://github.com/aloth/origin-lens) | iOS app for C2PA content credentials and EXIF verification |
+| [provenance-linkage](https://github.com/aloth/provenance-linkage) | Reproducibility bundle for a benchmark audit of AI-text detection |
+
+## Related Publications
+
+- **Interrupting the Chain: Human Perception of AI-Generated Disinformation Through a Kill Chain Lens** (INFORMATIK 2026, LNI). Positions domain-level credibility as a Delivery-stage signal. [arXiv:2608.21389](https://arxiv.org/abs/2608.21389)
+- **Blessing or Curse? A Survey on the Impact of Generative AI on Fake News** (2024). [arXiv:2404.03021](https://arxiv.org/abs/2404.03021)
+
 ## License
 
 - **Dataset:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
