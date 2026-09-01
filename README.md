@@ -238,6 +238,10 @@ const stats = getStats();
 
 See [CODEBOOK.md](CODEBOOK.md) for full field documentation.
 
+### What the score is, and what it is not
+
+The credibility score is a **domain-level** signal, not an item-level verdict. It says how a source has been rated by public source-rating initiatives; it does not say whether any individual article is true. Research that uses it as a veracity label is therefore working with a **provenance-implied rather than item-verified** signal: material drawn from domains scoring below 0.25 can be labelled low-credibility, material from established outlets legitimate, but no single item has been fact-checked. Outlet reputation is a good but imperfect proxy, and that bound should be carried into any reuse.
+
 ## Rebuilding the Dataset
 
 ```bash
@@ -306,7 +310,7 @@ If you use CRED-1 in your work, please cite **both** the paper and the dataset v
 
 ```bibtex
 @dataset{loth2026cred1data,
-  author       = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  author       = {Loth, Alexander},
   title        = {{CRED-1}: An Open Multi-Signal Domain Credibility Dataset},
   year         = {2026},
   publisher    = {Zenodo},
@@ -330,6 +334,16 @@ CRED-1 is one strand of a wider research program on generated disinformation. Th
 | [Origin Lens](https://github.com/aloth/origin-lens) | iOS app for C2PA content credentials and EXIF verification |
 | [provenance-linkage](https://github.com/aloth/provenance-linkage) | Reproducibility bundle for a benchmark audit of AI-text detection |
 
+### Companion data deposits
+
+CRED-1 is archived alongside three companion datasets, which are versioned together so that they can be cited as one coherent set:
+
+| Deposit | Concept DOI | Current version |
+|:---|:---|:---|
+| RogueGPT Stimulus Corpus | [10.5281/zenodo.18703137](https://doi.org/10.5281/zenodo.18703137) | [22225536](https://doi.org/10.5281/zenodo.22225536) (v1.2.0) |
+| JudgeGPT Human Perception Data | [10.5281/zenodo.18703384](https://doi.org/10.5281/zenodo.18703384) | [22226580](https://doi.org/10.5281/zenodo.22226580) (v1.2.0) |
+| Expert Survey | [10.5281/zenodo.18703600](https://doi.org/10.5281/zenodo.18703600) | [22226924](https://doi.org/10.5281/zenodo.22226924) (v2.1.0) |
+
 ## Related Publications
 
 - **Interrupting the Chain: Human Perception of AI-Generated Disinformation Through a Kill Chain Lens** (INFORMATIK 2026, LNI). Positions domain-level credibility as a Delivery-stage signal. [arXiv:2608.21389](https://arxiv.org/abs/2608.21389)
@@ -337,8 +351,10 @@ CRED-1 is one strand of a wider research program on generated disinformation. Th
 
 ## License
 
-- **Dataset:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Dataset:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Copyright 2025-2026 Alexander Loth.
 - **Code & CLI:** [MIT](LICENSE)
+
+The dataset is an aggregation of domain-level ratings from public source-rating initiatives. The aggregation, scoring and documentation are this project's own work and are released under CC BY 4.0; the underlying ratings remain attributable to their respective initiatives, which are named per record and listed in [ATTRIBUTION.md](ATTRIBUTION.md). No access restriction applies to the dataset.
 
 ## Author
 
