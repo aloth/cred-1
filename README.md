@@ -4,7 +4,8 @@
   <img src="figures/cred1-domain-credibility-dataset-banner.jpg" alt="CRED-1 Domain Credibility Dataset Banner" width="100%">
 </p>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19071147.svg)](https://doi.org/10.5281/zenodo.19071147)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18769459.svg)](https://doi.org/10.5281/zenodo.18769459)
+[![Publish](https://github.com/aloth/cred-1/actions/workflows/publish.yml/badge.svg)](https://github.com/aloth/cred-1/actions/workflows/publish.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![npm version](https://img.shields.io/npm/v/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
 [![npm downloads](https://img.shields.io/npm/dm/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
@@ -315,8 +316,8 @@ If you use CRED-1 in your work, please cite **both** the paper and the dataset v
   year         = {2026},
   publisher    = {Zenodo},
   version      = {v2026-03-17},
-  doi          = {10.5281/zenodo.19071147},
-  url          = {https://doi.org/10.5281/zenodo.19071147}
+  doi          = {10.5281/zenodo.18769459},
+  url          = {https://doi.org/10.5281/zenodo.18769459}
 }
 ```
 

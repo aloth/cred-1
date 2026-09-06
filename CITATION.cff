@@ -6,8 +6,8 @@ authors:
   - family-names: Loth
     given-names: Alexander
     orcid: https://orcid.org/0009-0003-9327-6865
-version: 2026.8.25
-date-released: 2026-08-25
+version: 2026.9.1
+date-released: 2026-09-01
 doi: 10.5281/zenodo.18769459
 type: dataset
 license: CC-BY-4.0
@@ -25,8 +25,11 @@ identifiers:
     value: 10.5281/zenodo.18769459
     description: "Zenodo concept DOI (always resolves to the latest version)"
   - type: doi
+    value: 10.5281/zenodo.22236425
+    description: "Zenodo version DOI (v2026-09-01)"
+  - type: doi
     value: 10.5281/zenodo.19071147
-    description: "Zenodo version DOI (v2026-03-17, the version cited in the dissertation)"
+    description: "Zenodo version DOI (v2026-03-17)"
   - type: doi
     value: 10.2139/ssrn.6448466
     description: "SSRN preprint describing the method"
