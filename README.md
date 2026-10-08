@@ -12,11 +12,9 @@
 [![CalVer](https://img.shields.io/badge/calver-YYYY.M.D-blue.svg)](https://calver.org/)
 [![Report Missing Domain](https://img.shields.io/badge/Report-Missing%20Domain-orange)](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml)
 
-**CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,674 domains** known to publish mis/disinformation, conspiracy theories, or other unreliable content. Community members can [report missing domains](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml) for inclusion.
+**CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,600+ domains** (exact count in the [latest release](https://github.com/aloth/cred-1/releases/latest)) known to publish mis/disinformation, conspiracy theories, or other unreliable content. Community members can [report missing domains](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml) for inclusion.
 
-> 🎓 **Presented at ACM WebSci 2026 (Braunschweig).** Landing page: [aloth.github.io/agentic-ai-information-integrity/cred-1](https://aloth.github.io/agentic-ai-information-integrity/cred-1/). First production integration: [Trackless Links](https://github.com/aloth/trackless-links) for iOS and macOS.
-
-> 📰 **Independently reviewed in production use.** Mac & i 4/2026 (heise), the German Apple magazine, examined the CRED-1-powered credibility warnings in [Trackless Links](https://github.com/aloth/trackless-links) and confirmed the app checks URLs locally against the open CRED-1 list (2,673 entries at the time of testing). [Review](https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131) (paywalled, German).
+> 🎓 **Presented at ACM WebSci 2026 (Braunschweig).** Landing page: [aloth.github.io/agentic-ai-information-integrity/cred-1](https://aloth.github.io/agentic-ai-information-integrity/cred-1/).
 
 > 🤖 **MCP-ready** — query domain credibility directly from Claude Desktop, Cursor & Windsurf, or any MCP-compatible agent. [Jump to setup ↓](#mcp-server-claude-desktop--cursor--windsurf)
 
@@ -205,7 +203,7 @@ const stats = getStats();
 
 | Field | Description |
 |-------|-------------|
-| `c`   | Category code: `f`=fake, `u`=unreliable, `m`=mixed, `c`=conspiracy, `s`=satire, `r`=rumor. Note that `reliable` has no single-letter code and is stored as the full string, because `r` is taken by `rumor`. |
+| `c`   | Category code: `f`=fake, `u`=unreliable, `m`=mixed, `c`=conspiracy, `s`=satire, `r`=rumor. |
 | `s`   | Credibility score (0.0–1.0, lower = less credible) |
 | `n`   | Number of independent source lists flagging this domain |
 | `d`   | Domain registration date (optional) |
@@ -271,7 +269,7 @@ npm install @aloth/cred1@2026.6.13
 
 ## Production Integrations
 
-- **[Trackless Links](https://github.com/aloth/trackless-links)** — Safari extension for iOS and macOS with real-time CRED-1 credibility warnings
+- **[Trackless Links](https://github.com/aloth/trackless-links)** — Safari extension for iOS and macOS that checks links locally against CRED-1 (reviewed in Mac & i 4/2026)
 - **[RogueGPT](https://github.com/aloth/RogueGPT)** — Uses CRED-1 to identify low-credibility source domains for controlled fake-news stimulus generation
 - **[HuggingFace](https://huggingface.co/datasets/xlth/CRED-1)** — Dataset mirror for ML pipelines
 
