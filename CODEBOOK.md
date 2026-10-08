@@ -129,7 +129,6 @@ Domains are classified into six categories based on consensus labels from OpenSo
 | **unreliable** | `u` | 0.2 | Sources that may publish some factual content but regularly fail basic standards of journalistic accuracy. Includes clickbait, junk science, and hate speech sources. |
 | **satire** | `s` | 0.3 | Sources that use humor, irony, or exaggeration. Not malicious, but content is not factual. |
 | **mixed** | `m` | 0.5 | Sources with a mixed track record — some factual reporting alongside biased, misleading, or unverified content. |
-| **reliable** | `r` | 1.0 | Sources generally considered reliable by fact-checking organizations. Note: CRED-1 contains very few reliable sources (n=8) as the upstream datasets focus on unreliable sources. |
 
 ### OpenSources.co Category Mapping
 
@@ -140,8 +139,9 @@ Domains are classified into six categories based on consensus labels from OpenSo
 | `unreliable`, `clickbait`, `junksci`, `hate`, `rumor` | unreliable |
 | `satire`, `satirical` | satire |
 | `bias`, `political`, `state` | mixed |
-| `reliable` | reliable |
 | `blog` | other |
+
+The OpenSources label `reliable` is ignored. A domain that carries only this label is not included, because CRED-1 lists only domains with known credibility issues.
 
 ### Iffy.news Factual Rating Mapping
 
@@ -150,8 +150,9 @@ Domains are classified into six categories based on consensus labels from OpenSo
 | VL (Very Low) | fake |
 | L (Low) | unreliable |
 | M (Mixed) | mixed |
-| MH (Mostly High) | mostly_reliable |
-| H (High), VH (Very High) | reliable |
+| MH (Mostly High), H (High), VH (Very High), missing | unreliable |
+
+Every Iffy.news entry is listed because of low credibility, so a high MBFC factual rating does not make a domain reliable. If Iffy.news flags a domain as "Wiki Fake", the domain is categorized as fake regardless of its factual rating.
 
 ---
 

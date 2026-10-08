@@ -468,8 +468,6 @@ def step_score(entries: list) -> list:
     print("\n=== Score Recalculation ===\n")
 
     CATEGORY_SCORES = {
-        "reliable":        1.0,
-        "mostly_reliable": 0.8,
         "mixed":           0.5,
         "satire":          0.3,
         "other":           0.5,

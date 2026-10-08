@@ -61,10 +61,6 @@ const CATEGORY_TAXONOMY: Record<string, { description: string; baseScore: string
     description: 'Satire / parody — content is fictional or comedic by design',
     baseScore: '0.4–0.6',
   },
-  reliable: {
-    description: 'Generally reliable, fact-checked mainstream sources',
-    baseScore: '0.7–1.0',
-  },
   other: {
     description: 'Miscellaneous or uncategorised sources',
     baseScore: '0.4–0.6',

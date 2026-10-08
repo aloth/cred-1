@@ -267,7 +267,6 @@ program
       unreliable:  'Regularly fails basic journalistic accuracy standards',
       satire:      'Uses humor/irony — not malicious, but not factual',
       mixed:       'Some factual reporting alongside biased/misleading content',
-      reliable:    'Generally considered reliable by fact-checking organisations',
       other:       'Classified but outside the main taxonomy',
     };
 
@@ -285,7 +284,6 @@ program
         case 'unreliable':  color = chalk.yellow; score = 'base score: 0.2'; break;
         case 'satire':      color = chalk.cyan;   score = 'base score: 0.3'; break;
         case 'mixed':       color = chalk.yellow; score = 'base score: 0.5'; break;
-        case 'reliable':    color = chalk.green;  score = 'base score: 1.0'; break;
         default:            color = chalk.gray;   score = '';
       }
       console.log(`   ${color(chalk.bold(cat.padEnd(12)))}  ${String(count).padStart(5)} domains  ${chalk.gray(score)}`);

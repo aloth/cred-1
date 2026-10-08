@@ -41,7 +41,7 @@ IFFY_CSV_URL = "https://docs.google.com/spreadsheets/d/1ck1_FZC-97uDLIlvRJDTrGqB
 
 # --- Category Mapping ---
 # Normalize categories from both sources into a unified taxonomy.
-# Categories: reliable, mostly_reliable, mixed, unreliable, fake, satire, conspiracy, other
+# Categories: fake, conspiracy, unreliable, mixed, satire, other
 
 OPENSOURCES_CATEGORY_MAP = {
     "fake":        "fake",
@@ -63,20 +63,35 @@ OPENSOURCES_CATEGORY_MAP = {
     "hate":        "unreliable",
     "rumor":       "unreliable",
     "rumor ":      "unreliable",
-    "reliable":    "reliable",
     "state":       "mixed",
     "blog":        "other",
 }
 
-# Iffy.news MBFC Factual ratings to our categories
+# OpenSources labels that do not denote a credibility problem. They are ignored
+# when a domain is categorized; a domain carrying only such labels is not
+# included, because CRED-1 lists only domains with known credibility issues.
+OPENSOURCES_IGNORED_TYPES = {"reliable"}
+
+# Iffy.news MBFC Factual ratings to our categories. Every Iffy.news entry is
+# listed because of low credibility, so other ratings (MH, H, VH, missing) fall
+# back to IFFY_DEFAULT_CATEGORY. An Iffy "Wiki Fake" flag tightens a row to fake.
 IFFY_FACTUAL_MAP = {
     "VL": "fake",        # Very Low
     "L":  "unreliable",  # Low
-    "M":  "mixed",       # Mixed (only if MBFC cred is also low)
-    "MH": "mostly_reliable",
-    "H":  "reliable",
-    "VH": "reliable",
+    "M":  "mixed",       # Mixed
 }
+IFFY_DEFAULT_CATEGORY = "unreliable"
+
+# Lower credibility wins when a domain carries several labels.
+CATEGORY_PRIORITY = ["fake", "conspiracy", "unreliable", "mixed", "satire", "other"]
+
+
+def worst_category(categories):
+    """Return the lowest-credibility category present."""
+    for cat in CATEGORY_PRIORITY:
+        if cat in categories:
+            return cat
+    return "other"
 
 
 def ensure_data_dir():
@@ -148,17 +163,15 @@ def parse_opensources(path: str) -> dict:
         types = []
         for key in ["type", "2nd type", "3rd type"]:
             t = info.get(key, "").strip()
-            if t:
+            if t and t.lower() not in OPENSOURCES_IGNORED_TYPES:
                 mapped = OPENSOURCES_CATEGORY_MAP.get(t, "other")
                 types.append(mapped)
 
-        # Primary category = first one; worst credibility wins
-        category_priority = ["fake", "conspiracy", "unreliable", "mixed", "satire", "other", "mostly_reliable", "reliable"]
-        primary = "other"
-        for cat in category_priority:
-            if cat in types:
-                primary = cat
-                break
+        if not types:
+            continue
+
+        # Worst credibility wins
+        primary = worst_category(types)
 
         entries[d] = {
             "domain": d,
@@ -192,7 +205,10 @@ def parse_iffy(path: str) -> dict:
         lang = row.get("Lang", "").strip()
         name = row.get("Name", "").strip()
 
-        category = IFFY_FACTUAL_MAP.get(factual, "unreliable")
+        category = IFFY_FACTUAL_MAP.get(factual, IFFY_DEFAULT_CATEGORY)
+        wiki_fake = row.get("Wiki Fake", "").strip() == "1"
+        if wiki_fake:
+            category = worst_category([category, "fake"])
 
         try:
             iffy_score = float(score_str) if score_str else None
@@ -222,6 +238,7 @@ def parse_iffy(path: str) -> dict:
             "iffy_year_online": year_online,
             "iffy_lang": lang,
             "iffy_name": name,
+            "iffy_wiki_fake": wiki_fake,
         }
 
     return entries
@@ -238,13 +255,7 @@ def merge_entries(opensources: dict, iffy: dict) -> list:
 
         if os_entry and if_entry:
             # Merge: take worst category, combine sources
-            category_priority = ["fake", "conspiracy", "unreliable", "mixed", "satire", "other", "mostly_reliable", "reliable"]
-            cats = [os_entry["category"], if_entry["category"]]
-            primary = "other"
-            for cat in category_priority:
-                if cat in cats:
-                    primary = cat
-                    break
+            primary = worst_category([os_entry["category"], if_entry["category"]])
 
             entry = {
                 "domain": d,
@@ -254,7 +265,7 @@ def merge_entries(opensources: dict, iffy: dict) -> list:
             }
             # Copy iffy metadata
             for k in ["iffy_factual", "iffy_bias", "iffy_cred", "iffy_score",
-                       "iffy_site_rank", "iffy_year_online", "iffy_lang", "iffy_name"]:
+                       "iffy_site_rank", "iffy_year_online", "iffy_lang", "iffy_name", "iffy_wiki_fake"]:
                 if k in if_entry:
                     entry[k] = if_entry[k]
             # Copy opensources types
@@ -268,6 +279,39 @@ def merge_entries(opensources: dict, iffy: dict) -> list:
             merged.append(if_entry)
 
     return merged
+
+
+COMMUNITY_FILE = os.path.join(DATA_DIR, "community_reports.json")
+
+
+def add_community_reports(merged: list) -> list:
+    """Add community-reported domains (data/community_reports.json) that are not
+    already listed upstream. Each report links to its GitHub issue."""
+    if not os.path.exists(COMMUNITY_FILE):
+        return merged
+    with open(COMMUNITY_FILE) as f:
+        reports = json.load(f)
+    by_domain = {e["domain"]: e for e in merged}
+    added = 0
+    for r in reports:
+        d = normalize_domain(r.get("domain", ""))
+        if not d:
+            continue
+        if d in by_domain:
+            if "community" not in by_domain[d]["sources"]:
+                by_domain[d]["sources"].append("community")
+            continue
+        category = r.get("category", IFFY_DEFAULT_CATEGORY)
+        by_domain[d] = {
+            "domain": d,
+            "category": category,
+            "categories_all": [category],
+            "sources": ["community"],
+            "community_issue": r.get("issue", ""),
+        }
+        added += 1
+    print(f"  → Community reports: {added} new domains added")
+    return [by_domain[d] for d in sorted(by_domain)]
 
 
 def step_merge():
@@ -292,6 +336,7 @@ def step_merge():
 
     print("  Merging...")
     merged = merge_entries(opensources, iffy)
+    merged = add_community_reports(merged)
     print(f"  → {len(merged)} unique domains after merge")
 
     # Overlap stats
@@ -328,8 +373,6 @@ def step_merge():
     print("\n  Building Compact format...")
 
     CREDIBILITY_SCORES = {
-        "reliable":        1.0,
-        "mostly_reliable": 0.8,
         "mixed":           0.5,
         "satire":          0.3,  # not malicious, but not factual
         "other":           0.5,

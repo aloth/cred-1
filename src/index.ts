@@ -35,7 +35,7 @@ export interface Cred1Result {
 
 /** Raw compact-format entry as stored in cred1_compact.json */
 interface CompactEntry {
-  /** Category code: f|u|m|c|s|r|reliable */
+  /** Category code: f|u|m|c|s|r */
   c: string;
   /** Credibility score */
   s: number;
@@ -66,17 +66,12 @@ const CATEGORY_MAP: Record<string, string> = {
   s: 'satire',
   r: 'rumor',
   o: 'other',
-  // Note: `reliable` has no single-letter code. It is the only category stored
-  // as a full string in cred1_compact.json, because `r` was already taken by
-  // `rumor`. Verified against the dataset: r -> rumor (10 domains),
-  // 'reliable' -> reliable (3 domains).
   // Some entries use the full string directly
   fake: 'fake',
   unreliable: 'unreliable',
   mixed: 'mixed',
   conspiracy: 'conspiracy',
   satire: 'satire',
-  reliable: 'reliable',
   rumor: 'rumor',
   other: 'other',
 };
