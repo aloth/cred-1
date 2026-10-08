@@ -1,5 +1,15 @@
 # CRED-1 Changelog
 
+## 2026-10-08
+- **Total domains:** 2672
+- **Ages as of:** 2026-10-08
+- **Added:** 2 new domains
+  - Examples: creativitymovement.net/category/news, anews24.org
+- **Removed:** 4 domains
+  - Examples: consortiumnews.com, anews24.org/, creativitymovement.net/category/news/, www.rt.com
+- **Score updates:** 2 domains rescored by more than 0.01; 44 changed at all
+- **Category change:** reliable and mostly_reliable are no longer produced. The OpenSources reliable label is ignored and high Iffy.news factual ratings map to unreliable, because every Iffy.news entry is listed for low credibility. consortiumnews.com is no longer included; passaictoday.com is now categorized as unreliable.
+
 ## 2026-10-06
 - **Total domains:** 2674
 - **Ages as of:** 2026-10-06
