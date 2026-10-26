@@ -1,5 +1,6 @@
 {
   "name": "@aloth/cred1",
+  "mcpName": "io.github.aloth/cred-1",
   "version": "2026.10.20",
   "description": "CRED-1 domain credibility dataset — JavaScript library and CLI for checking news source reliability",
   "type": "module",
