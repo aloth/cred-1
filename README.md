@@ -150,6 +150,31 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
 }
 ```
 
+### Pinning a version
+
+With `npx -y @aloth/cred1`, npx checks npm for a newer version each time the host starts the server and installs it, and a new version is published every week. A host restart can therefore run a release you have not reviewed. To decide when to update, pin the version in the config:
+
+```json
+{
+  "mcpServers": {
+    "cred1": {
+      "command": "npx",
+      "args": ["-y", "@aloth/cred1@2026.10.27", "--mcp"]
+    }
+  }
+}
+```
+
+Or install a fixed version globally and point the host at the `cred1-mcp` binary as shown above:
+
+```bash
+npm install -g @aloth/cred1@2026.10.27
+```
+
+Replace `2026.10.27` with the version you reviewed; `npm view @aloth/cred1 version` prints the latest one.
+
+Most weekly releases only refresh the bundled dataset (`data/cred1_compact.json`), but every release is built from the current `main` branch, so code changes ship the same way. To see what changed between two versions, compare their tags, for example [`v2026-10-20...v2026-10-27`](https://github.com/aloth/cred-1/compare/v2026-10-20...v2026-10-27). The server reads the dataset from the installed package and makes no network requests. Since `2026.6.14`, releases are published from GitHub Actions with [npm provenance](https://docs.npmjs.com/generating-provenance-statements), which `npm audit signatures` verifies.
+
 ---
 
 ## Library Usage
