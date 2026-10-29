@@ -376,7 +376,9 @@ CRED-1 is archived alongside three companion datasets, which are versioned toget
 ## License
 
 - **Dataset:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Copyright 2025-2026 Alexander Loth.
-- **Code & CLI:** [MIT](LICENSE)
+- **Code & CLI:** [MIT](LICENSE-MIT)
+
+The dataset is everything in `data/` and the releases built from it, including the copies on Zenodo and Hugging Face; [LICENSE](LICENSE) holds the CC BY 4.0 text. The code is `src/`, `pipeline/` and `examples/`; [LICENSE-MIT](LICENSE-MIT) holds the MIT text. The npm package `@aloth/cred1` ships both, so its license field reads `MIT AND CC-BY-4.0`.
 
 The dataset is an aggregation of domain-level ratings from public source-rating initiatives. The aggregation, scoring and documentation are this project's own work and are released under CC BY 4.0; the underlying ratings remain attributable to their respective initiatives, which are named per record and listed in [ATTRIBUTION.md](ATTRIBUTION.md). No access restriction applies to the dataset.
 

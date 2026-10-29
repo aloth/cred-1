@@ -34,7 +34,7 @@
     "cli"
   ],
   "author": "Alexander Loth <home@alexloth.com> (https://alexloth.com)",
-  "license": "MIT",
+  "license": "MIT AND CC-BY-4.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aloth/cred-1.git"
@@ -47,7 +47,8 @@
     "dist",
     "data/cred1_compact.json",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "LICENSE-MIT"
   ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",

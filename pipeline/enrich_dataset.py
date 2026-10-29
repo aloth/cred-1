@@ -18,7 +18,8 @@ Usage:
   python3 enrich_dataset.py --step rdap --limit 50 # test with 50 domains
   python3 enrich_dataset.py --step score           # recalculate scores
 
-License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Dataset license: CC-BY-4.0
+Code license: MIT
 Author: Alexander Loth
 Date:   2026-02-24
 """

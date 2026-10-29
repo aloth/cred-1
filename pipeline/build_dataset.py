@@ -17,7 +17,8 @@ Output:
 Usage:
   python3 build_dataset.py [--step fetch|merge|all]
 
-License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Dataset license: CC-BY-4.0
+Code license: MIT
 Author: Alexander Loth
 Date:   2026-02-24
 """

@@ -2,6 +2,9 @@
 CRED-1 Usage Example
 
 Demonstrates how to load and query the CRED-1 domain credibility dataset.
+
+Dataset license: CC-BY-4.0
+Code license: MIT
 """
 
 import json
