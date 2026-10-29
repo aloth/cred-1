@@ -5,12 +5,9 @@
 </p>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18769459.svg)](https://doi.org/10.5281/zenodo.18769459)
-[![Publish](https://github.com/aloth/cred-1/actions/workflows/publish.yml/badge.svg)](https://github.com/aloth/cred-1/actions/workflows/publish.yml)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![npm version](https://img.shields.io/npm/v/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
 [![npm downloads](https://img.shields.io/npm/dm/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
-[![CalVer](https://img.shields.io/badge/calver-YYYY.M.D-blue.svg)](https://calver.org/)
-[![Report Missing Domain](https://img.shields.io/badge/Report-Missing%20Domain-orange)](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml)
+[![Glama MCP server](https://glama.ai/mcp/servers/aloth/cred-1/badges/score.svg)](https://glama.ai/mcp/servers/aloth/cred-1)
 
 **CRED-1** is an open, reproducible domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals. It provides credibility scores for **2,600+ domains** (exact count in the [latest release](https://github.com/aloth/cred-1/releases/latest)) known to publish mis/disinformation, conspiracy theories, or other unreliable content. Community members can [report missing domains](https://github.com/aloth/cred-1/issues/new?template=domain-report.yml) for inclusion.
 
