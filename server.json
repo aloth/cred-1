@@ -9,13 +9,13 @@
     "id": "1166468607"
   },
   "websiteUrl": "https://aloth.github.io/cred-1/",
-  "version": "2026.10.20",
+  "version": "2026.11.3",
   "packages": [
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@aloth/cred1",
-      "version": "2026.10.20",
+      "version": "2026.11.3",
       "runtimeHint": "npx",
       "runtimeArguments": [
         { "type": "positional", "value": "-y" }
