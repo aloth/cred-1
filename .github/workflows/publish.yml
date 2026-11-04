@@ -37,8 +37,26 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
 
+      # Sigstore can store the provenance entry and still fail the request
+      # (TLOG_CREATE_ENTRY_ERROR 409 on 2026-11-03). Retry with a pause and skip
+      # the publish when the version already reached the registry.
       - name: Publish to npm
-        run: npm publish --access public --provenance
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          for attempt in 1 2 3; do
+            if npm view "@aloth/cred1@$VERSION" version >/dev/null 2>&1; then
+              echo "@aloth/cred1@$VERSION is already on npm"
+              exit 0
+            fi
+            if npm publish --access public --provenance; then
+              exit 0
+            fi
+            echo "Publish attempt $attempt failed"
+            [ "$attempt" -lt 3 ] && sleep 60
+          done
+          npm view "@aloth/cred1@$VERSION" version >/dev/null 2>&1 && exit 0
+          exit 1
 
       # Commit version bump back to main so package.json stays in sync
       - name: Commit version back
