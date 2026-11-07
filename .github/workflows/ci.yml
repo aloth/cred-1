@@ -50,3 +50,29 @@ jobs:
           done
           node dist/cli.js --version
           npm pack --dry-run
+
+  # The Python package (pyproject.toml, python/) ships the same dataset file.
+  # 3.9 is the oldest version pyproject.toml allows.
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.9', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Build and install the wheel
+        run: |
+          python -m pip install --upgrade pip build
+          python -m build
+          pip install "$(ls dist/*.whl)[pandas]" pytest
+
+      - name: Test against the installed wheel
+        working-directory: python
+        run: python -m pytest -v tests
+

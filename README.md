@@ -31,6 +31,16 @@ npm install @aloth/cred1
 
 # Or try without installing
 npx @aloth/cred1 check infowars.com
+
+# Python library, dataset included (pandas optional)
+pip install cred1
+pip install "cred1[pandas]"
+```
+
+```python
+import cred1
+cred1.check("https://www.infowars.com/article")   # dict, or None if not listed
+df = cred1.to_dataframe()                           # whole dataset as a DataFrame
 ```
 
 ## CLI Usage

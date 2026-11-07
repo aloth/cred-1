@@ -117,6 +117,43 @@ jobs:
           done
           exit 1
 
+  # Python package "cred1" with the same CalVer version as npm. Trusted
+  # publishing (OIDC), so no PyPI token is stored. A separate job, so a PyPI
+  # problem never blocks npm, the MCP registry or Homebrew.
+  publish-pypi:
+    needs: publish
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set version from tag
+        run: |
+          TAG="${GITHUB_REF#refs/tags/v}"
+          VERSION=$(echo "$TAG" | awk -F- '{printf "%s.%d.%d", $1, int($2), int($3)}')
+          jq --arg v "$VERSION" '.version = $v' package.json > package.tmp && mv package.tmp package.json
+          echo "Python package version: $VERSION"
+
+      - name: Build and check the wheel
+        run: |
+          python -m pip install --upgrade pip build
+          python -m build
+          python - <<'PY'
+          import glob, zipfile
+          names = zipfile.ZipFile(glob.glob("dist/*.whl")[0]).namelist()
+          assert "cred1/cred1_compact.json" in names, names
+          assert {n.split("/")[0] for n in names if not n.split("/")[0].endswith(".dist-info")} == {"cred1"}, names
+          PY
+
+      - uses: pypa/gh-action-pypi-publish@release/v1
+
   bump-homebrew:
     needs: publish
     runs-on: ubuntu-latest

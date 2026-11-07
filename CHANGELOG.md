@@ -12,6 +12,7 @@ Uses [CalVer](https://calver.org/): `YYYY.M.D` matching GitHub releases (`vYYYY-
 - **Landing page DOI** - the badge and download buttons pointed to the version DOI of v1.0 (10.5281/zenodo.18769460); they now use the concept DOI, which always resolves to the latest version
 
 ### Added
+- **Python package `cred1` on PyPI** - `pip install cred1` gives `check`, `check_many`, `search`, `stats` and `to_dataframe` (with `pip install "cred1[pandas]"`) over the same bundled `cred1_compact.json` as the npm package, with the same CalVer version, domain normalization, categories and score levels. Published from the release tag with PyPI trusted publishing; no CLI or MCP server, those stay in the npm package
 - **`cred1 check --exit-code`** - exits 0 when the domain is listed, 1 when it is not and 2 on a usage error, so scripts can branch on the result without parsing `--json`. Without the flag the exit status is unchanged
 - **`--no-color`** option
 - **CI** - every push to main and every pull request builds the package and runs the tests on Node 20 and 24, including the weekly data commit before its release tag
