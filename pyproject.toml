@@ -13,7 +13,7 @@ readme = "python/README.md"
 license = "MIT AND CC-BY-4.0"
 license-files = ["LICENSE", "LICENSE-MIT"]
 authors = [{ name = "Alexander Loth", email = "home@alexloth.com" }]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 keywords = ["misinformation", "disinformation", "credibility", "news", "fact-checking", "dataset", "domains"]
 classifiers = [
     "Intended Audience :: Science/Research",
