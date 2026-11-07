@@ -4,7 +4,9 @@ Changes to the CRED-1 npm package: library, CLI and MCP server. Dataset changes 
 
 Uses [CalVer](https://calver.org/): `YYYY.M.D` matching GitHub releases (`vYYYY-MM-DD`). Entries under Unreleased ship with the next weekly release.
 
-## Unreleased
+## [2026.11.7] - 2026-11-07
+
+Code release outside the weekly schedule. No dataset changes: `data/cred1_compact.json` is identical to 2026-11-03.
 
 ### Fixed
 - **`NO_COLOR` is honored** - the CLI printed colors even with `NO_COLOR` set; it now follows https://no-color.org, and `--no-color` does the same per command
