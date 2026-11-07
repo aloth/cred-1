@@ -64,6 +64,8 @@ cred1 stats
 cred1 categories
 ```
 
+In scripts, `cred1 check <domain> --exit-code` exits 0 when the domain is listed, 1 when it is not and 2 on a usage error. Color follows `NO_COLOR` and `--no-color`, and is off when the output is not a terminal. Requires Node 20 or newer.
+
 Domain normalization is automatic: `https://www.infowars.com/politics/` resolves to `infowars.com`.
 
 ## MCP Server (Claude Desktop / Cursor / Windsurf)

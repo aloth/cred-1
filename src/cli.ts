@@ -21,7 +21,7 @@ import {
 } from './index.js';
 
 // ---------------------------------------------------------------------------
-// MCP mode — delegate to mcp.js if --mcp flag passed
+// MCP mode: delegate to mcp.js if --mcp flag passed
 // ---------------------------------------------------------------------------
 
 if (process.argv.includes('--mcp')) {
@@ -30,7 +30,7 @@ if (process.argv.includes('--mcp')) {
   const { dirname: dn, join: jn } = await import('node:path');
   const __dir = dn(fu(import.meta.url));
   await import(jn(__dir, 'mcp.js'));
-  // mcp.js connects to transport — process stays alive until the host disconnects
+  // mcp.js connects to transport; the process stays alive until the host disconnects
 } else {
 
 // ---------------------------------------------------------------------------
@@ -87,7 +87,7 @@ function formatResult(result: Cred1Result): void {
 function formatNotFound(domain: string): void {
   const normalised = normalizeDomain(domain);
   console.log(`\n⚪  ${chalk.bold(normalised)}`);
-  console.log(`   ${chalk.gray('Not found in CRED-1 dataset — treat as unknown/neutral')}`);
+  console.log(`   ${chalk.gray('Not found in CRED-1 dataset: treat as unknown/neutral')}`);
   console.log(`   ${chalk.gray('Absence from the dataset does not mean reliable.')}`);
 }
 
@@ -95,12 +95,30 @@ function formatNotFound(domain: string): void {
 // CLI program
 // ---------------------------------------------------------------------------
 
+// NO_COLOR (https://no-color.org) and --no-color turn color off everywhere.
+// chalk already drops color when stdout is not a terminal.
+if ((process.env.NO_COLOR ?? '') !== '' || process.argv.includes('--no-color')) {
+  chalk.level = 0;
+}
+
+const exitCodeMode = process.argv.includes('--exit-code');
+
 const program = new Command();
 
 program
   .name('cred1')
-  .description('CRED-1 domain credibility checker — verify if a news source is reliable or flagged')
-  .version(VERSION);
+  .description('CRED-1 domain credibility checker: verify if a news source is reliable or flagged')
+  .version(VERSION)
+  .option('--no-color', 'Disable colored output (also honors NO_COLOR)');
+
+// With --exit-code, a usage error exits 2 so a script can tell it apart from
+// "not listed" (1). Without the flag, commander's usual exit status stays.
+if (exitCodeMode) {
+  program.exitOverride((err) => {
+    if (err.code === 'commander.helpDisplayed' || err.code === 'commander.version') process.exit(0);
+    process.exit(2);
+  });
+}
 
 // ---------------------------------------------------------------------------
 // check <domain>
@@ -110,8 +128,16 @@ program
   .command('check <domain>')
   .description('Look up credibility for a single domain')
   .option('--json', 'Output as JSON')
-  .action((domain: string, opts: { json?: boolean }) => {
-    const result = checkDomain(domain);
+  .option('--exit-code', 'Exit 0 if the domain is listed, 1 if it is not, 2 on error (for scripts)')
+  .action((domain: string, opts: { json?: boolean; exitCode?: boolean }) => {
+    let result: Cred1Result | null;
+    try {
+      result = checkDomain(domain);
+    } catch (err) {
+      console.error(`error: ${(err as Error).message}`);
+      process.exit(opts.exitCode ? 2 : 1);
+    }
+    if (opts.exitCode && !result) process.exitCode = 1;
 
     if (opts.json) {
       if (result) {
@@ -265,7 +291,7 @@ program
       fake:        'Fabricates information or impersonates legitimate outlets',
       conspiracy:  'Consistently promotes unsupported conspiracy theories',
       unreliable:  'Regularly fails basic journalistic accuracy standards',
-      satire:      'Uses humor/irony — not malicious, but not factual',
+      satire:      'Uses humor/irony, not malicious, but not factual',
       mixed:       'Some factual reporting alongside biased/misleading content',
       other:       'Classified but outside the main taxonomy',
     };
