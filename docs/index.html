@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CRED-1: Open Domain Credibility Dataset — 2,674 Domains Scored for Misinformation</title>
-<meta name="description" content="CRED-1 is an open, reproducible domain credibility dataset with 2,674 domains scored for misinformation. Multi-signal scoring, CC BY 4.0, Python pipeline.">
+<title>CRED-1: Open Domain Credibility Dataset, 2,600+ Domains Scored for Misinformation</title>
+<meta name="description" content="CRED-1 is an open, reproducible domain credibility dataset with 2,600+ domains scored for misinformation. Multi-signal scoring, CC BY 4.0, reproducible Python pipeline, plus a JavaScript library, CLI and MCP server.">
 <meta property="og:title" content="CRED-1: Open Domain Credibility Dataset">
-<meta property="og:description" content="2,674 domains scored for misinformation. Open data, reproducible pipeline, multi-signal credibility scoring.">
+<meta property="og:description" content="2,600+ domains scored for misinformation. Open data, reproducible pipeline, multi-signal credibility scoring.">
 <meta property="og:image" content="https://raw.githubusercontent.com/aloth/cred-1/main/figures/cred1-domain-credibility-dataset-banner.jpg">
 <meta property="og:url" content="https://aloth.github.io/cred-1/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -113,13 +113,19 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "CRED-1: Open Domain Credibility Dataset — 2,674 Domains Scored for Misinformation",
+  "name": "CRED-1: Open Domain Credibility Dataset, 2,600+ Domains Scored for Misinformation",
   "creator": { "@type": "Person", "name": "Alexander Loth", "url": "https://alexloth.com/" },
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "image": "https://raw.githubusercontent.com/aloth/cred-1/main/figures/cred1-domain-credibility-dataset-banner.jpg",
-  "description": "CRED-1 is an open, reproducible domain credibility dataset with 2,674 domains scored for misinformation. Multi-signal scoring, CC BY 4.0, Python pipeline.",
+  "description": "CRED-1 is an open, reproducible domain credibility dataset with 2,600+ domains scored for misinformation. Multi-signal scoring, CC BY 4.0, reproducible Python pipeline, plus a JavaScript library, CLI and MCP server.",
   "url": "https://aloth.github.io/cred-1/",
-  "codeRepository": "https://github.com/aloth/cred-1"
+  "codeRepository": "https://github.com/aloth/cred-1",
+  "identifier": "https://doi.org/10.5281/zenodo.18769459",
+  "isAccessibleForFree": true,
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/aloth/cred-1/main/data/cred1_current.json" },
+    { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/aloth/cred-1/main/data/cred1_current.csv" }
+  ]
 }
 </script>
 </head>
@@ -128,14 +134,14 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
 <section class="hero">
   <img src="https://raw.githubusercontent.com/aloth/cred-1/main/figures/cred1-domain-credibility-dataset-banner.jpg" alt="CRED-1 Dataset Banner" class="hero-banner" loading="eager">
   <div class="hero-badges">
-    <a href="https://doi.org/10.5281/zenodo.18769460"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18769460.svg" alt="DOI"></a>
+    <a href="https://doi.org/10.5281/zenodo.18769459"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18769459.svg" alt="DOI"></a>
     <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="CC BY 4.0"></a>
     <a href="https://github.com/aloth/cred-1/stargazers"><img src="https://img.shields.io/github/stars/aloth/cred-1?style=social" alt="Stars"></a>
   </div>
-  <h1>CRED-1: <span class="num">2,674</span> domains scored for credibility</h1>
+  <h1>CRED-1: <span class="num">2,600+</span> domains scored for credibility</h1>
   <p>An open, reproducible domain credibility dataset for automated pre-bunking of online misinformation. Multi-signal scoring, CC BY 4.0 licensed.</p>
   <div class="hero-cta">
-    <a href="https://doi.org/10.5281/zenodo.18769460" class="btn btn-green">
+    <a href="https://doi.org/10.5281/zenodo.18769459" class="btn btn-green">
       📦 Download Dataset
     </a>
     <a href="https://doi.org/10.2139/ssrn.6448466" class="btn btn-white">
@@ -149,7 +155,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
 </section>
 
 <div class="stats-bar">
-  <div class="stat"><div class="num">2,674</div><div class="label">Domains</div></div>
+  <div class="stat"><div class="num">2,600+</div><div class="label">Domains</div></div>
   <div class="stat"><div class="num">6</div><div class="label">Credibility Signals</div></div>
   <div class="stat"><div class="num">2</div><div class="label">Open Sources</div></div>
   <div class="stat"><div class="num">CC BY 4.0</div><div class="label">License</div></div>
@@ -157,7 +163,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
 
 <section class="quickstart">
   <h2>Get started in 3 lines</h2>
-  <p class="subtitle">Load the dataset and query any domain's credibility score.</p>
+  <p class="subtitle">Load the dataset, or query any domain from the command line or an AI agent.</p>
   <div class="code-tabs">
     <div class="code-block">
       <div class="code-label"><span class="dot"></span> Python</div>
@@ -179,6 +185,24 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
 <br>
 cred &lt;- <span class="fn">fromJSON</span>(<span class="str">"data/cred1_current.json"</span>)<br>
 cred[[<span class="str">"infowars.com"</span>]]$credibility_score  <span class="comment"># 0.14</span>
+      </div>
+    </div>
+    <div class="code-block">
+      <div class="code-label"><span class="dot"></span> Command line (npm)</div>
+      <div class="code-content">
+npx @aloth/cred1 check infowars.com<br>
+<span class="comment"># Score: 0.139 / 1.000, Category: fake, Level: low</span><br>
+<br>
+<span class="fn">cat</span> domains.txt | npx @aloth/cred1 batch --json
+      </div>
+    </div>
+    <div class="code-block">
+      <div class="code-label"><span class="dot"></span> AI agents (MCP server)</div>
+      <div class="code-content">
+{ <span class="str">"mcpServers"</span>: { <span class="str">"cred1"</span>: {<br>
+&nbsp;&nbsp;<span class="str">"command"</span>: <span class="str">"npx"</span>,<br>
+&nbsp;&nbsp;<span class="str">"args"</span>: [<span class="str">"-y"</span>, <span class="str">"@aloth/cred1"</span>, <span class="str">"--mcp"</span>]<br>
+} } }  <span class="comment"># Claude Desktop, Cursor, any MCP client</span>
       </div>
     </div>
   </div>
@@ -301,7 +325,7 @@ cred[[<span class="str">"infowars.com"</span>]]$credibility_score  <span class="
   <h2>Build with CRED-1</h2>
   <p>Open data. Reproducible pipeline. Ready for your research or application.</p>
   <div class="cta-buttons">
-    <a href="https://doi.org/10.5281/zenodo.18769460" class="btn btn-green">📦 Download from Zenodo</a>
+    <a href="https://doi.org/10.5281/zenodo.18769459" class="btn btn-green">📦 Download from Zenodo</a>
     <a href="https://github.com/aloth/cred-1" class="btn-outline">
       <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
       View on GitHub ⭐

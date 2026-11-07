@@ -1,0 +1,52 @@
+name: CI
+
+# Runs on pull requests and on pushes to main. Nothing here publishes; the
+# release path stays in publish.yml, which is triggered by tags only. The
+# weekly data update pushes to main as well, so every new dataset is built and
+# tested here before its release tag is cut.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # 20.19.0 is the oldest Node line still maintained, pinned exactly
+        # because setup-node would resolve a bare '20' to the newest 20.x;
+        # 24 is what publish.yml releases with.
+        node-version: ['20.19.0', '24']
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Test
+        run: npm test
+
+      - name: Verify build output
+        run: |
+          for f in dist/cli.js dist/mcp.js dist/index.js; do
+            test -s "$f" || { echo "missing or empty: $f"; exit 1; }
+          done
+          node dist/cli.js --version
+          npm pack --dry-run

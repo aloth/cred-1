@@ -11,7 +11,7 @@ metadata:
 
 # CRED-1 Credibility Skill
 
-Check the credibility of news sources and websites using the CRED-1 open dataset. 2673 domains, scored 0.0–1.0 (lower = less credible), with categories: fake, conspiracy, unreliable, satire, mixed, reliable.
+Check the credibility of news sources and websites using the CRED-1 open dataset. 2,600+ domains, scored 0.0–1.0 (lower = less credible), with categories: fake, conspiracy, unreliable, satire, mixed, reliable.
 
 ## Installation
 
@@ -45,7 +45,7 @@ cred1 check infowars.com
 
 cred1 check nytimes.com
 # ⚪  nytimes.com
-#    Not found in CRED-1 dataset — treat as unknown/neutral
+#    Not found in CRED-1 dataset: treat as unknown/neutral
 
 cred1 check rt.com
 # 🟡  rt.com
@@ -111,8 +111,8 @@ Show dataset statistics and per-category counts.
 cred1 stats
 # 📊  CRED-1 Dataset Statistics
 #
-#    Total domains:  2,674
-#    Version:        1.0.0
+#    Total domains:  2,672   (changes weekly)
+#    Version:        2026.11.3
 #
 #    Categories:
 #    unreliable    2001   74.9%  ████████████████████████████████
@@ -150,7 +150,7 @@ cred1 --help      # Full command reference
 | low     | ≤ 0.20      | 🔴    | High credibility risk              |
 | mixed   | 0.21–0.50   | 🟡    | Mixed or unreliable signals        |
 | ok      | > 0.50      | 🟢    | Generally considered reliable      |
-| neutral | not found   | ⚪    | Unknown — absence ≠ trustworthy    |
+| neutral | not found   | ⚪    | Unknown, absence ≠ trustworthy     |
 
 ## Using as a Library
 
@@ -169,13 +169,13 @@ const breitbarts = searchDomains('breit');
 
 // Stats
 const stats = getStats();
-// { totalDomains: 2673, categories: { unreliable: 2001, fake: 233, ... }, version: '1.0.0' }
+// e.g. { totalDomains: 2672, categories: { unreliable: 2001, fake: 233, ... }, version: '2026.11.3' }
 ```
 
 ## Dataset
 
-- **Source:** CRED-1 v1.0 (February 2026) — merged from OpenSources.co and Iffy.news
-- **Coverage:** 2,674 domains, primarily English-language outlets
+- **Source:** CRED-1, first released February 2026, merged from OpenSources.co and Iffy.news
+- **Coverage:** 2,600+ domains, primarily English-language outlets
 - **License:** CC-BY-4.0 (dataset), MIT (code)
 - **Important:** Absence from the dataset does NOT mean a domain is trustworthy. CRED-1 focuses on known unreliable sources.
 - **Citation:** Alexander Loth. (2026). CRED-1: An Open Credibility Dataset for Web Domains. GitHub. https://github.com/aloth/cred-1

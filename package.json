@@ -2,7 +2,7 @@
   "name": "@aloth/cred1",
   "mcpName": "io.github.aloth/cred-1",
   "version": "2026.11.3",
-  "description": "CRED-1 domain credibility dataset — JavaScript library and CLI for checking news source reliability",
+  "description": "CRED-1 domain credibility dataset as a JavaScript library, CLI and MCP server for checking news source reliability",
   "type": "module",
   "main": "dist/index.js",
   "exports": {
@@ -15,7 +15,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/cli.ts",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "tsx --test test/*.test.ts"
   },
   "keywords": [
     "credibility",
@@ -31,7 +32,11 @@
     "journalism",
     "reliability",
     "cred1",
-    "cli"
+    "cli",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "ai-agents"
   ],
   "author": "Alexander Loth <home@alexloth.com> (https://alexloth.com)",
   "license": "MIT AND CC-BY-4.0",

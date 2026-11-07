@@ -5,6 +5,7 @@
 </p>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18769459.svg)](https://doi.org/10.5281/zenodo.18769459)
+[![CI](https://github.com/aloth/cred-1/actions/workflows/ci.yml/badge.svg)](https://github.com/aloth/cred-1/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
 [![npm downloads](https://img.shields.io/npm/dm/@aloth/cred1.svg)](https://www.npmjs.com/package/@aloth/cred1)
 [![Glama MCP server](https://glama.ai/mcp/servers/aloth/cred-1/badges/score.svg)](https://glama.ai/mcp/servers/aloth/cred-1)
@@ -13,7 +14,7 @@
 
 > 🎓 **Presented at ACM WebSci 2026 (Braunschweig).** Landing page: [aloth.github.io/agentic-ai-information-integrity/cred-1](https://aloth.github.io/agentic-ai-information-integrity/cred-1/).
 
-> 🤖 **MCP-ready** — query domain credibility directly from Claude Desktop, Cursor & Windsurf, or any MCP-compatible agent. [Jump to setup ↓](#mcp-server-claude-desktop--cursor--windsurf)
+> 🤖 **MCP-ready:** query domain credibility directly from Claude Desktop, Cursor & Windsurf, or any MCP-compatible agent. [Jump to setup ↓](#mcp-server-claude-desktop--cursor--windsurf)
 
 > **Paper:** A. Loth, M. Kappes, and M.-O. Pahl, "CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation," *Preprint*, 2026. [doi:10.2139/ssrn.6448466](https://doi.org/10.2139/ssrn.6448466)
 
@@ -46,7 +47,7 @@ cred1 check infowars.com
 # Domain not in dataset
 cred1 check nytimes.com
 # ⚪  nytimes.com
-#    Not found in CRED-1 dataset — treat as unknown/neutral
+#    Not found in CRED-1 dataset: treat as unknown/neutral
 
 # Batch processing (stdin)
 echo -e "rt.com\ninfowars.com\nnytimes.com" | cred1 batch
@@ -63,7 +64,7 @@ cred1 stats
 cred1 categories
 ```
 
-Domain normalization is automatic — `https://www.infowars.com/politics/` resolves to `infowars.com`.
+Domain normalization is automatic: `https://www.infowars.com/politics/` resolves to `infowars.com`.
 
 ## MCP Server (Claude Desktop / Cursor / Windsurf)
 
@@ -94,7 +95,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 }
 ```
 
-> **Note:** `--mcp` is handled by the CLI wrapper — or run the dedicated binary directly.
+> **Note:** `--mcp` is handled by the CLI wrapper, or run the dedicated binary directly.
 
 Alternatively, if the package is installed globally:
 
@@ -191,7 +192,7 @@ const russian = searchDomains('\\.ru$');
 
 // Dataset statistics
 const stats = getStats();
-// { totalDomains: 2673, categories: { unreliable: 2001, fake: 233, ... }, version: '1.0.0' }
+// e.g. { totalDomains: 2672, categories: { unreliable: 2001, fake: 233, ... }, version: '2026.11.3' }
 ```
 
 ## Traffic-Light Scoring
@@ -201,17 +202,17 @@ const stats = getStats();
 | low     | ≤ 0.20   | 🔴    | High credibility risk            |
 | mixed   | 0.21–0.50 | 🟡    | Unreliable or mixed signals      |
 | ok      | > 0.50   | 🟢    | Generally considered reliable    |
-| neutral | not found | ⚪    | Unknown — absence ≠ trustworthy  |
+| neutral | not found | ⚪    | Unknown, absence ≠ trustworthy   |
 
 ## Key Features
 
-- **2,674 domains** with credibility scores (0.0–1.0)
-- **Dual-mode** — works as CLI tool and JavaScript library
-- **Fully reproducible** — Python pipeline rebuilds the dataset from scratch
+- **2,600+ domains** with credibility scores (0.0–1.0)
+- **Dual-mode:** works as CLI tool and JavaScript library
+- **Fully reproducible:** Python pipeline rebuilds the dataset from scratch
 - **Multi-signal scoring** combining source labels, domain age, web popularity, fact-check frequency, and threat intelligence
-- **Privacy-preserving** — designed for on-device client-side deployment (no server calls needed)
-- **Two openly-licensed sources** — no proprietary data dependencies
-- **Domain normalization** — handles www., protocols, paths automatically
+- **Privacy-preserving:** designed for on-device client-side deployment (no server calls needed)
+- **Two openly-licensed sources:** no proprietary data dependencies
+- **Domain normalization:** handles www., protocols, paths automatically
 
 ## Dataset Schema
 
@@ -229,7 +230,7 @@ const stats = getStats();
 | `s`   | Credibility score (0.0–1.0, lower = less credible) |
 | `n`   | Number of independent source lists flagging this domain |
 | `d`   | Domain registration date (optional) |
-| `r`   | Tranco Top-1M rank (optional — lower rank = more popular) |
+| `r`   | Tranco Top-1M rank (optional, lower rank = more popular) |
 
 ### Full Format (`cred1_current.json`)
 
@@ -282,7 +283,7 @@ CRED-1 uses **calendar versioning** (CalVer) across all distribution channels:
 | GitHub Release | `v2026-06-13` | Tag + Zenodo archive |
 | npm package | `2026.6.13` | Same date, dot-separated (valid semver) |
 
-A new version is released **weekly** with rescored domains. The npm package updates automatically with each GitHub release — no separate version scheme needed.
+A new version is released **weekly** with rescored domains. The npm package updates automatically with each GitHub release, no separate version scheme needed.
 
 To pin a specific dataset version:
 ```bash
@@ -291,9 +292,9 @@ npm install @aloth/cred1@2026.6.13
 
 ## Production Integrations
 
-- **[Trackless Links](https://github.com/aloth/trackless-links)** — Safari extension for iOS and macOS that checks links locally against CRED-1 (reviewed in Mac & i 4/2026)
-- **[RogueGPT](https://github.com/aloth/RogueGPT)** — Uses CRED-1 to identify low-credibility source domains for controlled fake-news stimulus generation
-- **[HuggingFace](https://huggingface.co/datasets/xlth/CRED-1)** — Dataset mirror for ML pipelines
+- **[Trackless Links](https://github.com/aloth/trackless-links)**: Safari extension for iOS and macOS that checks links locally against CRED-1 (reviewed in Mac & i 4/2026)
+- **[RogueGPT](https://github.com/aloth/RogueGPT)**: uses CRED-1 to identify low-credibility source domains for controlled fake-news stimulus generation
+- **[HuggingFace](https://huggingface.co/datasets/xlth/CRED-1)**: dataset mirror for ML pipelines
 
 ## Contributing
 
@@ -381,4 +382,4 @@ The dataset is an aggregation of domain-level ratings from public source-rating 
 
 ## Author
 
-Alexander Loth — [alexloth.com](https://alexloth.com) · [@xlth](https://x.com/xlth) · [ORCID](https://orcid.org/0009-0003-9327-6865)
+Alexander Loth · [alexloth.com](https://alexloth.com) · [@xlth](https://x.com/xlth) · [ORCID](https://orcid.org/0009-0003-9327-6865)
