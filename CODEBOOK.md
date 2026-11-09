@@ -19,6 +19,8 @@ JSON object mapping domain names (string keys) to full metadata objects with all
 | `iffy_factual` | string | `VL`,`L`,`M`,`MH`,`H`,`VH` | MBFC Factual Reporting rating. **Optional** - absent if not from Iffy.news. |
 | `iffy_bias` | string | e.g. `FN`,`R`,`RC`,`C`,`LC`,`L` | MBFC political bias rating. **Optional**. |
 | `iffy_score` | float | 0.0-1.0 | Iffy.news credibility score. **Optional**. |
+| `iffy_wiki_fake` | boolean | `true` | Iffy.news Wiki Fake flag. **Optional**, absent if not set. |
+| `iffy_network` | string | e.g. `Brian_Timpone` | Operator network of a Wiki Fake domain. **Optional**. |
 | `factcheck_claims` | integer | 1+ | Google Fact Check Tools API claim count. **Optional** - absent if zero. |
 | `safe_browsing_flagged` | boolean | `true`/`false` | Google Safe Browsing threat flag. **Optional**. |
 | `score_cat` | float | 0.0-1.0 | Category-based score component. |
@@ -73,6 +75,8 @@ CSV file with the same fields as JSON, sorted by `credibility_score` ascending (
 | `iffy_factual` | string | `VL`, `L`, `M`, `MH`, `H`, `VH`, `` | MBFC Factual Reporting rating as provided by Iffy.news. Empty if domain is only in OpenSources. | Iffy.news |
 | `iffy_bias` | string | e.g. `FN`, `R`, `RC`, `C`, `LC`, `L`, `LEFT`, `` | MBFC political bias rating. Empty if not from Iffy.news. | Iffy.news |
 | `iffy_score` | float | 0.0–1.0, or empty | Iffy.news credibility score. Lower = less credible. Empty if not from Iffy.news. | Iffy.news |
+| `iffy_wiki_fake` | boolean | `true`, or empty | Iffy.news "Wiki Fake" flag (operator documented on Wikipedia as a fake news source). Such rows are categorized `fake`. Added 2026-11-09. | Iffy.news |
+| `iffy_network` | string | e.g. `Brian_Timpone`, or empty | Operator network of a Wiki Fake domain, taken from the Wikipedia link in Iffy.news (last path segment; list articles are ignored). Use it to report results with and without large templated networks. Added 2026-11-09. | Iffy.news |
 
 ### Enrichment Signal Fields
 

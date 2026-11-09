@@ -185,6 +185,23 @@ def parse_opensources(path: str) -> dict:
     return entries
 
 
+def wiki_network(row):
+    """Operator network of a Wiki Fake row, from the last path segment of its Wikipedia link.
+
+    Mirrors the weekly pipeline: returns None unless the row is flagged and links to an
+    operator article (Wikipedia list articles such as List_of_fake_news_websites are skipped).
+    """
+    if row.get("Wiki Fake", "").strip() != "1":
+        return None
+    link = (row.get("Wikipedia") or "").strip()
+    if "/wiki/" not in link:
+        return None
+    name = link.split("/wiki/", 1)[1].split("#", 1)[0].split("?", 1)[0].strip("/")
+    if not name or name.startswith("List_of_"):
+        return None
+    return name
+
+
 def parse_iffy(path: str) -> dict:
     """Parse Iffy.news CSV into {domain: entry} dict."""
     with open(path, "r", encoding="utf-8") as f:
@@ -240,6 +257,7 @@ def parse_iffy(path: str) -> dict:
             "iffy_lang": lang,
             "iffy_name": name,
             "iffy_wiki_fake": wiki_fake,
+            "iffy_network": wiki_network(row),
         }
 
     return entries
@@ -266,7 +284,7 @@ def merge_entries(opensources: dict, iffy: dict) -> list:
             }
             # Copy iffy metadata
             for k in ["iffy_factual", "iffy_bias", "iffy_cred", "iffy_score",
-                       "iffy_site_rank", "iffy_year_online", "iffy_lang", "iffy_name", "iffy_wiki_fake"]:
+                       "iffy_site_rank", "iffy_year_online", "iffy_lang", "iffy_name", "iffy_wiki_fake", "iffy_network"]:
                 if k in if_entry:
                     entry[k] = if_entry[k]
             # Copy opensources types
