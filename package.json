@@ -1,7 +1,7 @@
 {
   "name": "@aloth/cred1",
   "mcpName": "io.github.aloth/cred-1",
-  "version": "2026.11.7",
+  "version": "2026.11.9",
   "description": "CRED-1 domain credibility dataset as a JavaScript library, CLI and MCP server for checking news source reliability",
   "type": "module",
   "main": "dist/index.js",
