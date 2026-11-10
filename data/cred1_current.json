@@ -14,7 +14,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 2,
-    "tranco_rank": 180944
+    "tranco_rank": 180434
   },
   "10news.one": {
     "category": "unreliable",
@@ -44,7 +44,7 @@
   "163.com": {
     "category": "mixed",
     "credibility_score": 0.483,
-    "domain_age_years": 29.1,
+    "domain_age_years": 29.2,
     "domain_registered": "1997-09-15T04:00:00Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
@@ -55,7 +55,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.56,
     "sources": 1,
-    "tranco_rank": 424
+    "tranco_rank": 425
   },
   "16wmpo.com": {
     "category": "fake",
@@ -76,7 +76,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.37,
     "sources": 1,
-    "tranco_rank": 6134
+    "tranco_rank": 6074
   },
   "2020conservative.com": {
     "category": "fake",
@@ -119,7 +119,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 2,
-    "tranco_rank": 149252
+    "tranco_rank": 148784
   },
   "24jours.com": {
     "category": "unreliable",
@@ -160,7 +160,7 @@
   "369news.net": {
     "category": "mixed",
     "credibility_score": 0.458,
-    "domain_age_years": 11.0,
+    "domain_age_years": 11.1,
     "domain_registered": "2015-10-22T13:25:17Z",
     "factcheck_claims": 0,
     "iffy_bias": "CP",
@@ -185,7 +185,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.37,
     "sources": 1,
-    "tranco_rank": 5735
+    "tranco_rank": 5715
   },
   "4threvolutionarywar.wordpress.com": {
     "category": "conspiracy",
@@ -239,7 +239,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 318129
+    "tranco_rank": 317382
   },
   "9gag.com": {
     "category": "mixed",
@@ -255,7 +255,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.37,
     "sources": 1,
-    "tranco_rank": 5769
+    "tranco_rank": 5732
   },
   "aanirfan.blogspot.co.uk": {
     "category": "unreliable",
@@ -280,7 +280,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 178795
+    "tranco_rank": 178273
   },
   "aattp.org": {
     "category": "unreliable",
@@ -345,7 +345,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.21,
     "sources": 2,
-    "tranco_rank": 58213
+    "tranco_rank": 57960
   },
   "abqtimes.com": {
     "category": "fake",
@@ -374,14 +374,14 @@
   },
   "acallforanuprising.com": {
     "category": "unreliable",
-    "credibility_score": 0.204,
-    "domain_age_years": 11.7,
+    "credibility_score": 0.205,
+    "domain_age_years": 11.8,
     "domain_registered": "2015-02-09T17:17:00Z",
     "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "L",
     "iffy_score": 0.1,
-    "score_age": 0.58,
+    "score_age": 0.59,
     "score_cat": 0.2,
     "score_iffy": 0.1,
     "sources": 1
@@ -410,7 +410,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 266915
+    "tranco_rank": 266800
   },
   "actforamerica.org/news": {
     "category": "unreliable",
@@ -450,17 +450,17 @@
   "activistpost.com": {
     "category": "conspiracy",
     "credibility_score": 0.141,
-    "domain_age_years": 16.5,
+    "domain_age_years": 16.6,
     "domain_registered": "2010-04-23T22:20:54Z",
     "iffy_bias": "CP",
     "iffy_factual": "L",
     "iffy_score": 0.1,
-    "score_age": 0.82,
+    "score_age": 0.83,
     "score_cat": 0.1,
     "score_iffy": 0.1,
     "score_tranco": 0.19,
     "sources": 2,
-    "tranco_rank": 71600
+    "tranco_rank": 71529
   },
   "actualidadpanamericana.com": {
     "category": "satire",
@@ -510,7 +510,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 262438
+    "tranco_rank": 261598
   },
   "adflegal.org": {
     "category": "unreliable",
@@ -525,7 +525,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 88705
+    "tranco_rank": 88732
   },
   "adflegal.org/media": {
     "category": "unreliable",
@@ -550,9 +550,9 @@
     "domain_registered": "1994-07-14T04:00:00Z",
     "score_age": 1.0,
     "score_cat": 0.5,
-    "score_tranco": 0.28,
+    "score_tranco": 0.29,
     "sources": 1,
-    "tranco_rank": 19515
+    "tranco_rank": 19377
   },
   "ae911truth.org": {
     "category": "mixed",
@@ -567,7 +567,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 157475
+    "tranco_rank": 157570
   },
   "afa.net": {
     "category": "unreliable",
@@ -583,7 +583,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 129082
+    "tranco_rank": 128694
   },
   "aflegal.org": {
     "category": "unreliable",
@@ -599,7 +599,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 267918
+    "tranco_rank": 266669
   },
   "afn.net": {
     "category": "unreliable",
@@ -615,11 +615,11 @@
     "score_iffy": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 545464
+    "tranco_rank": 544741
   },
   "africanexponent.com": {
     "category": "mixed",
-    "credibility_score": 0.438,
+    "credibility_score": 0.437,
     "domain_age_years": 11.4,
     "domain_registered": "2015-06-13T15:16:45Z",
     "factcheck_claims": 0,
@@ -631,7 +631,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 330470
+    "tranco_rank": 331547
   },
   "aguascalientesdailypost.com": {
     "category": "mixed",
@@ -667,7 +667,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 657776
+    "tranco_rank": 655593
   },
   "aim4truth.org": {
     "category": "fake",
@@ -682,7 +682,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 657877
+    "tranco_rank": 656233
   },
   "akronreporter.com": {
     "category": "fake",
@@ -729,7 +729,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 36239
+    "tranco_rank": 36172
   },
   "alexanderhiggins.com": {
     "category": "mixed",
@@ -743,9 +743,9 @@
     "score_age": 1.0,
     "score_cat": 0.5,
     "score_iffy": 0.2,
-    "score_tranco": 0.01,
+    "score_tranco": 0.0,
     "sources": 1,
-    "tranco_rank": 916178
+    "tranco_rank": 942537
   },
   "allianceforadvancedhealth.com": {
     "category": "mixed",
@@ -774,7 +774,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.05,
     "sources": 2,
-    "tranco_rank": 484889
+    "tranco_rank": 483478
   },
   "alohastatenews.com": {
     "category": "fake",
@@ -805,7 +805,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 156113
+    "tranco_rank": 155622
   },
   "alphanewsmn.com": {
     "category": "unreliable",
@@ -830,7 +830,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 602429
+    "tranco_rank": 596682
   },
   "altermedzentrum.com": {
     "category": "fake",
@@ -869,7 +869,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 906529
+    "tranco_rank": 895213
   },
   "alternet.org": {
     "category": "mixed",
@@ -881,7 +881,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.32,
     "sources": 1,
-    "tranco_rank": 12559
+    "tranco_rank": 12555
   },
   "althealthworks.com": {
     "category": "unreliable",
@@ -949,7 +949,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 194583
+    "tranco_rank": 194565
   },
   "americanactionnews.com": {
     "category": "fake",
@@ -1030,7 +1030,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 2,
-    "tranco_rank": 187957
+    "tranco_rank": 186424
   },
   "americangulag.org": {
     "category": "fake",
@@ -1051,6 +1051,7 @@
     "credibility_score": 0.043,
     "domain_age_years": 11.1,
     "domain_registered": "2015-09-23T16:16:43Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
@@ -1221,7 +1222,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 913187
+    "tranco_rank": 931997
   },
   "americanprogress.org": {
     "category": "mixed",
@@ -1233,7 +1234,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.32,
     "sources": 1,
-    "tranco_rank": 12105
+    "tranco_rank": 12120
   },
   "americanreviewer.com": {
     "category": "conspiracy",
@@ -1287,9 +1288,9 @@
     "score_cat": 0.2,
     "score_factcheck": 1.0,
     "score_iffy": 0.1,
-    "score_tranco": 0.27,
+    "score_tranco": 0.26,
     "sources": 2,
-    "tranco_rank": 25600
+    "tranco_rank": 25798
   },
   "americantoday.news": {
     "category": "unreliable",
@@ -1324,7 +1325,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 551703
+    "tranco_rank": 553087
   },
   "americasfreedomfighters.com": {
     "category": "fake",
@@ -1355,7 +1356,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 270768
+    "tranco_rank": 270110
   },
   "americasnewssource.com": {
     "category": "fake",
@@ -1401,7 +1402,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 280218
+    "tranco_rank": 280088
   },
   "amic.ru": {
     "category": "mixed",
@@ -1413,7 +1414,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.22,
     "sources": 1,
-    "tranco_rank": 45573
+    "tranco_rank": 45655
   },
   "ammoland.com": {
     "category": "mixed",
@@ -1424,7 +1425,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.17,
     "sources": 1,
-    "tranco_rank": 95307
+    "tranco_rank": 91816
   },
   "amoskeagtimes.com": {
     "category": "fake",
@@ -1474,7 +1475,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 119706
+    "tranco_rank": 119887
   },
   "amtvmedia.com": {
     "category": "unreliable",
@@ -1509,7 +1510,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 659779
+    "tranco_rank": 643519
   },
   "ancient-code.com": {
     "category": "fake",
@@ -1525,7 +1526,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.07,
     "sources": 2,
-    "tranco_rank": 366318
+    "tranco_rank": 365898
   },
   "ancient-origins.net": {
     "category": "mixed",
@@ -1540,7 +1541,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 26273
+    "tranco_rank": 26269
   },
   "andersoninstitute.com": {
     "category": "mixed",
@@ -1645,7 +1646,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 283646
+    "tranco_rank": 282496
   },
   "anhinternational.org": {
     "category": "mixed",
@@ -1661,7 +1662,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 656779
+    "tranco_rank": 655577
   },
   "annarbortimes.com": {
     "category": "fake",
@@ -1734,7 +1735,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.06,
     "sources": 2,
-    "tranco_rank": 417593
+    "tranco_rank": 413192
   },
   "anonjekloy.tk": {
     "category": "fake",
@@ -1767,6 +1768,7 @@
     "credibility_score": 0.121,
     "domain_age_years": 10.3,
     "domain_registered": "2016-08-02T03:20:26Z",
+    "factcheck_claims": 0,
     "score_age": 0.52,
     "score_cat": 0.1,
     "sources": 1
@@ -1797,7 +1799,7 @@
     "score_factcheck": 1.0,
     "score_tranco": 0.25,
     "sources": 1,
-    "tranco_rank": 31395
+    "tranco_rank": 31326
   },
   "antoniusaquinas.wp.com": {
     "category": "conspiracy",
@@ -1836,7 +1838,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.34,
     "sources": 1,
-    "tranco_rank": 8779
+    "tranco_rank": 8730
   },
   "archaeology-world.com": {
     "category": "mixed",
@@ -2010,7 +2012,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 220915
+    "tranco_rank": 220632
   },
   "auburntimes.com": {
     "category": "fake",
@@ -2062,7 +2064,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 699937
+    "tranco_rank": 700106
   },
   "australiaoneparty.com": {
     "category": "unreliable",
@@ -2092,7 +2094,7 @@
     "score_iffy": 0.3,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 14933
+    "tranco_rank": 14978
   },
   "automaticearth.com": {
     "category": "unreliable",
@@ -2124,7 +2126,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 460734
+    "tranco_rank": 464750
   },
   "awarenessact.com": {
     "category": "fake",
@@ -2141,7 +2143,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.01,
     "sources": 2,
-    "tranco_rank": 852956
+    "tranco_rank": 846886
   },
   "awazetribune.com": {
     "category": "satire",
@@ -2234,7 +2236,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 227090
+    "tranco_rank": 226360
   },
   "bannedbook.org": {
     "category": "mixed",
@@ -2249,7 +2251,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 166138
+    "tranco_rank": 165497
   },
   "baptistnews.com": {
     "category": "mixed",
@@ -2260,7 +2262,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 84920
+    "tranco_rank": 85048
   },
   "barenakedislam.com": {
     "category": "fake",
@@ -2276,7 +2278,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 2,
-    "tranco_rank": 381376
+    "tranco_rank": 380104
   },
   "barnesreview.org": {
     "category": "unreliable",
@@ -2301,7 +2303,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 316507
+    "tranco_rank": 315850
   },
   "batonrougereporter.com": {
     "category": "fake",
@@ -2379,7 +2381,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.27,
     "sources": 1,
-    "tranco_rank": 24462
+    "tranco_rank": 24566
   },
   "beachbroadcastnews.com": {
     "category": "fake",
@@ -2400,6 +2402,7 @@
     "credibility_score": 0.048,
     "domain_age_years": 7.1,
     "domain_registered": "2019-10-15T14:55:23Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -2439,7 +2442,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 664795
+    "tranco_rank": 662929
   },
   "beehivebugle.com": {
     "category": "satire",
@@ -2465,7 +2468,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.26,
     "sources": 2,
-    "tranco_rank": 25798
+    "tranco_rank": 26003
   },
   "beholdisrael.org": {
     "category": "mixed",
@@ -2520,7 +2523,7 @@
     "score_factcheck": 1.0,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 334816
+    "tranco_rank": 334258
   },
   "bients.com": {
     "category": "unreliable",
@@ -2618,7 +2621,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 244139
+    "tranco_rank": 243912
   },
   "bignuggetnews.com": {
     "category": "unreliable",
@@ -2680,9 +2683,9 @@
     "score_age": 0.99,
     "score_cat": 0.5,
     "score_iffy": 0.2,
-    "score_tranco": 0.12,
+    "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 178332
+    "tranco_rank": 177775
   },
   "bioscienceresource.org": {
     "category": "mixed",
@@ -2700,24 +2703,24 @@
   },
   "bipartisanreport.com": {
     "category": "fake",
-    "credibility_score": 0.052,
-    "domain_age_years": 14.7,
+    "credibility_score": 0.053,
+    "domain_age_years": 14.8,
     "domain_registered": "2012-02-09T02:23:25Z",
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
     "iffy_wiki_fake": true,
-    "score_age": 0.73,
+    "score_age": 0.74,
     "score_cat": 0.0,
     "score_iffy": 0.1,
     "score_tranco": 0.01,
     "sources": 2,
-    "tranco_rank": 859674
+    "tranco_rank": 852743
   },
   "bitchute.com": {
     "category": "fake",
     "credibility_score": 0.199,
-    "domain_age_years": 12.4,
+    "domain_age_years": 12.5,
     "domain_registered": "2014-05-29T01:47:54Z",
     "factcheck_claims": 1,
     "iffy_bias": "FN",
@@ -2729,7 +2732,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.35,
     "sources": 1,
-    "tranco_rank": 7863
+    "tranco_rank": 7816
   },
   "blackagendareport.com": {
     "category": "unreliable",
@@ -2741,7 +2744,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 116109
+    "tranco_rank": 115429
   },
   "blackeyepolitics.com": {
     "category": "unreliable",
@@ -2791,7 +2794,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 236334
+    "tranco_rank": 238537
   },
   "blacknews.com": {
     "category": "mixed",
@@ -2806,7 +2809,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 349221
+    "tranco_rank": 347804
   },
   "blckbx.tv": {
     "category": "fake",
@@ -2914,7 +2917,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.02,
     "sources": 1,
-    "tranco_rank": 731041
+    "tranco_rank": 730428
   },
   "boisecitywire.com": {
     "category": "mixed",
@@ -2944,7 +2947,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 268377
+    "tranco_rank": 268351
   },
   "bonsens.info": {
     "category": "unreliable",
@@ -2983,7 +2986,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 432454
+    "tranco_rank": 427607
   },
   "bossip.com": {
     "category": "mixed",
@@ -2999,7 +3002,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.17,
     "sources": 1,
-    "tranco_rank": 95970
+    "tranco_rank": 95971
   },
   "bostonbroadside.com": {
     "category": "mixed",
@@ -3080,7 +3083,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 299907
+    "tranco_rank": 297240
   },
   "bransontimes.com": {
     "category": "fake",
@@ -3103,15 +3106,16 @@
     "credibility_score": 0.041,
     "domain_age_years": 15.2,
     "domain_registered": "2011-08-19T19:34:12Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
     "score_age": 0.76,
     "score_cat": 0.0,
     "score_iffy": 0.0,
-    "score_tranco": 0.06,
+    "score_tranco": 0.07,
     "sources": 2,
-    "tranco_rank": 407540
+    "tranco_rank": 404232
   },
   "breakingchristiannews.com": {
     "category": "unreliable",
@@ -3127,7 +3131,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.0,
     "sources": 1,
-    "tranco_rank": 993624
+    "tranco_rank": 983234
   },
   "breakingfirst.com": {
     "category": "unreliable",
@@ -3146,14 +3150,14 @@
   "breakingnews247.net": {
     "category": "fake",
     "credibility_score": 0.04,
-    "domain_age_years": 10.0,
+    "domain_age_years": 10.1,
     "domain_registered": "2016-10-22T09:37:10Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
     "iffy_wiki_fake": true,
-    "score_age": 0.5,
+    "score_age": 0.51,
     "score_cat": 0.0,
     "score_iffy": 0.1,
     "sources": 1
@@ -3182,7 +3186,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 220620
+    "tranco_rank": 220411
   },
   "breitbart.com": {
     "category": "fake",
@@ -3201,7 +3205,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.38,
     "sources": 2,
-    "tranco_rank": 5348
+    "tranco_rank": 5333
   },
   "brevardsun.com": {
     "category": "fake",
@@ -3239,6 +3243,7 @@
     "credibility_score": 0.033,
     "domain_age_years": 8.3,
     "domain_registered": "2018-07-06T22:24:06Z",
+    "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
@@ -3248,7 +3253,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 37836
+    "tranco_rank": 37817
   },
   "brightside.me": {
     "category": "mixed",
@@ -3260,7 +3265,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.36,
     "sources": 1,
-    "tranco_rank": 7065
+    "tranco_rank": 7049
   },
   "bristolreporter.com": {
     "category": "fake",
@@ -3787,7 +3792,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.25,
     "sources": 1,
-    "tranco_rank": 33055
+    "tranco_rank": 33076
   },
   "butlercountytoday.com": {
     "category": "fake",
@@ -3947,13 +3952,13 @@
   "c19nitazoxanide.com": {
     "category": "mixed",
     "credibility_score": 0.436,
-    "domain_age_years": 2.3,
+    "domain_age_years": 2.4,
     "domain_registered": "2024-07-04T21:22:15Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_score": 0.2,
-    "score_age": 0.11,
+    "score_age": 0.12,
     "score_cat": 0.5,
     "score_iffy": 0.2,
     "sources": 1
@@ -4070,7 +4075,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 76435
+    "tranco_rank": 76586
   },
   "caitlinjohnston.com": {
     "category": "mixed",
@@ -4096,7 +4101,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 39527
+    "tranco_rank": 39435
   },
   "caldronpool.com": {
     "category": "mixed",
@@ -4178,7 +4183,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.18,
     "sources": 2,
-    "tranco_rank": 78061
+    "tranco_rank": 77817
   },
   "canarymission.org": {
     "category": "mixed",
@@ -4194,7 +4199,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 582778
+    "tranco_rank": 584876
   },
   "cancer.news": {
     "category": "fake",
@@ -4340,7 +4345,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.17,
     "sources": 1,
-    "tranco_rank": 98066
+    "tranco_rank": 98269
   },
   "catholic.org": {
     "category": "mixed",
@@ -4355,7 +4360,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 27150
+    "tranco_rank": 27097
   },
   "cato.org/blog": {
     "category": "mixed",
@@ -4377,7 +4382,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 139363
+    "tranco_rank": 139313
   },
   "cbn.com": {
     "category": "mixed",
@@ -4393,7 +4398,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 15323
+    "tranco_rank": 15300
   },
   "cbsnews.com.co": {
     "category": "fake",
@@ -4459,7 +4464,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 75478
+    "tranco_rank": 75407
   },
   "celebtricity.com": {
     "category": "satire",
@@ -4527,7 +4532,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 2,
-    "tranco_rank": 169259
+    "tranco_rank": 168907
   },
   "centerforsecuritypolicy.org/#articles": {
     "category": "unreliable",
@@ -4793,7 +4798,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 307002
+    "tranco_rank": 305912
   },
   "cgtn.com": {
     "category": "mixed",
@@ -4808,7 +4813,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.37,
     "sources": 1,
-    "tranco_rank": 5943
+    "tranco_rank": 5915
   },
   "chambanasun.com": {
     "category": "fake",
@@ -4831,6 +4836,7 @@
     "credibility_score": 0.026,
     "domain_age_years": 10.2,
     "domain_registered": "2016-08-30T17:15:28Z",
+    "factcheck_claims": 0,
     "score_age": 0.51,
     "score_cat": 0.0,
     "sources": 1
@@ -4874,7 +4880,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 122586
+    "tranco_rank": 122560
   },
   "chaser.com.au": {
     "category": "satire",
@@ -4882,7 +4888,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.02,
     "sources": 1,
-    "tranco_rank": 711346
+    "tranco_rank": 710776
   },
   "checkoutthehealthyworld.com": {
     "category": "unreliable",
@@ -4910,7 +4916,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 505408
+    "tranco_rank": 506110
   },
   "chicksontheright.com": {
     "category": "unreliable",
@@ -4968,7 +4974,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 38391
+    "tranco_rank": 38335
   },
   "childrenshealthdefense.org/defender": {
     "category": "unreliable",
@@ -4990,7 +4996,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.43,
     "sources": 1,
-    "tranco_rank": 2625
+    "tranco_rank": 2619
   },
   "chlorellafactor.com": {
     "category": "fake",
@@ -5039,7 +5045,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 16672
+    "tranco_rank": 16591
   },
   "christianscience.com": {
     "category": "unreliable",
@@ -5054,7 +5060,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 103114
+    "tranco_rank": 104704
   },
   "christiansfortruth.com": {
     "category": "fake",
@@ -5106,7 +5112,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 220668
+    "tranco_rank": 220078
   },
   "churchmilitant.com": {
     "category": "mixed",
@@ -5121,7 +5127,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 228860
+    "tranco_rank": 231460
   },
   "cincyreporter.com": {
     "category": "fake",
@@ -5149,7 +5155,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 878348
+    "tranco_rank": 891577
   },
   "citizensunited.org": {
     "category": "mixed",
@@ -5169,7 +5175,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 26800
+    "tranco_rank": 26777
   },
   "cityworldnews.com": {
     "category": "fake",
@@ -5208,7 +5214,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 264755
+    "tranco_rank": 264912
   },
   "clashdaily.com": {
     "category": "fake",
@@ -5224,7 +5230,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 2,
-    "tranco_rank": 428095
+    "tranco_rank": 429541
   },
   "clayandbuck.com": {
     "category": "mixed",
@@ -5240,7 +5246,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 391058
+    "tranco_rank": 388982
   },
   "claycotimes.com": {
     "category": "fake",
@@ -5315,20 +5321,20 @@
     "score_cat": 0.3,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 161499
+    "tranco_rank": 161069
   },
   "climate.news": {
     "category": "fake",
-    "credibility_score": 0.06,
+    "credibility_score": 0.104,
     "domain_age_years": 9.0,
     "domain_registered": "2017-10-24T18:35:17.413Z",
-    "factcheck_claims": 19,
+    "factcheck_claims": 6,
     "iffy_bias": "FN",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
     "score_age": 0.45,
     "score_cat": 0.0,
-    "score_factcheck": 0.25,
+    "score_factcheck": 0.54,
     "score_iffy": 0.0,
     "sources": 1
   },
@@ -5346,7 +5352,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 452741
+    "tranco_rank": 453850
   },
   "climatedepot.com": {
     "category": "fake",
@@ -5363,7 +5369,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 156191
+    "tranco_rank": 156093
   },
   "climatesciencenews.com": {
     "category": "fake",
@@ -5453,7 +5459,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.25,
     "sources": 2,
-    "tranco_rank": 30151
+    "tranco_rank": 30138
   },
   "coachellatoday.com": {
     "category": "fake",
@@ -5500,7 +5506,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.19,
     "sources": 2,
-    "tranco_rank": 77356
+    "tranco_rank": 76819
   },
   "cobbnewsga.com": {
     "category": "fake",
@@ -5558,7 +5564,7 @@
     "score_cat": 0.0,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 517406
+    "tranco_rank": 518756
   },
   "collapse.news": {
     "category": "fake",
@@ -5588,7 +5594,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.19,
     "sources": 2,
-    "tranco_rank": 72316
+    "tranco_rank": 72336
   },
   "collectivelyconscious.net": {
     "category": "conspiracy",
@@ -5638,7 +5644,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 79166
+    "tranco_rank": 79120
   },
   "commondreams.org": {
     "category": "unreliable",
@@ -5649,7 +5655,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.32,
     "sources": 1,
-    "tranco_rank": 11708
+    "tranco_rank": 11693
   },
   "concernedwomen.org": {
     "category": "unreliable",
@@ -5665,7 +5671,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 646152
+    "tranco_rank": 641126
   },
   "concisepolitics.com": {
     "category": "conspiracy",
@@ -5719,7 +5725,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 2,
-    "tranco_rank": 556765
+    "tranco_rank": 560337
   },
   "conservapedia.com": {
     "category": "mixed",
@@ -5735,7 +5741,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.25,
     "sources": 2,
-    "tranco_rank": 31809
+    "tranco_rank": 31691
   },
   "conservative-headlines.org": {
     "category": "unreliable",
@@ -5804,7 +5810,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 299749
+    "tranco_rank": 298190
   },
   "conservativedailypost.com": {
     "category": "fake",
@@ -5844,7 +5850,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.03,
     "sources": 2,
-    "tranco_rank": 617661
+    "tranco_rank": 619261
   },
   "conservativeflashnews.com": {
     "category": "fake",
@@ -5890,7 +5896,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 578823
+    "tranco_rank": 581210
   },
   "conservativeinfidel.com": {
     "category": "fake",
@@ -5985,7 +5991,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 188102
+    "tranco_rank": 186455
   },
   "conservativerevival.com": {
     "category": "unreliable",
@@ -6027,7 +6033,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 645587
+    "tranco_rank": 643655
   },
   "conservativeundergroundnews.com": {
     "category": "mixed",
@@ -6043,7 +6049,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 449527
+    "tranco_rank": 444252
   },
   "conspiracydailyupdate.com": {
     "category": "fake",
@@ -6059,7 +6065,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 536123
+    "tranco_rank": 515475
   },
   "conspiracyplanet.com": {
     "category": "conspiracy",
@@ -6075,7 +6081,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.0,
     "sources": 2,
-    "tranco_rank": 954350
+    "tranco_rank": 960239
   },
   "conspiracywire.com": {
     "category": "conspiracy",
@@ -6145,7 +6151,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 505550
+    "tranco_rank": 505480
   },
   "corbettreport.com": {
     "category": "conspiracy",
@@ -6160,7 +6166,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 121474
+    "tranco_rank": 121236
   },
   "cornhuskerstatenews.com": {
     "category": "fake",
@@ -6238,18 +6244,18 @@
     "score_cat": 0.5,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 848603
+    "tranco_rank": 849541
   },
   "countercurrents.org": {
     "category": "unreliable",
-    "credibility_score": 0.24,
+    "credibility_score": 0.241,
     "domain_age_years": 25.0,
     "domain_registered": "2001-11-09T09:09:42.522Z",
     "score_age": 1.0,
     "score_cat": 0.2,
     "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 55154
+    "tranco_rank": 54927
   },
   "counterinformation.wordpress.com": {
     "category": "mixed",
@@ -6294,7 +6300,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 537172
+    "tranco_rank": 544622
   },
   "counterpunch.org": {
     "category": "mixed",
@@ -6306,7 +6312,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 15700
+    "tranco_rank": 15655
   },
   "counterthink.com": {
     "category": "fake",
@@ -6336,7 +6342,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 268388
+    "tranco_rank": 268016
   },
   "covid19criticalcare.com": {
     "category": "unreliable",
@@ -6352,7 +6358,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 142019
+    "tranco_rank": 142023
   },
   "cowards.ca": {
     "category": "mixed",
@@ -6402,7 +6408,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 52557
+    "tranco_rank": 52935
   },
   "creationwiki.org": {
     "category": "unreliable",
@@ -6418,7 +6424,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 376332
+    "tranco_rank": 372500
   },
   "creativitymovement.net/category/news": {
     "category": "unreliable",
@@ -6450,7 +6456,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 863267
+    "tranco_rank": 862657
   },
   "crystalair.com": {
     "category": "satire",
@@ -6517,7 +6523,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 13968
+    "tranco_rank": 13938
   },
   "curiousmindmagazine.com": {
     "category": "unreliable",
@@ -6533,7 +6539,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 684426
+    "tranco_rank": 685053
   },
   "currentsciencedaily.com": {
     "category": "fake",
@@ -6577,7 +6583,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.35,
     "sources": 1,
-    "tranco_rank": 7921
+    "tranco_rank": 7928
   },
   "dailyboulder.com": {
     "category": "mixed",
@@ -6620,7 +6626,7 @@
     "score_factcheck": 0.47,
     "score_tranco": 0.32,
     "sources": 1,
-    "tranco_rank": 12607
+    "tranco_rank": 12597
   },
   "dailycitizen.focusonthefamily.com": {
     "category": "unreliable",
@@ -6646,7 +6652,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 852716
+    "tranco_rank": 854633
   },
   "dailydiscord.com": {
     "category": "satire",
@@ -6672,7 +6678,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 863277
+    "tranco_rank": 858578
   },
   "dailygrail.com": {
     "category": "mixed",
@@ -6688,7 +6694,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 323040
+    "tranco_rank": 323511
   },
   "dailyheadlines.com": {
     "category": "fake",
@@ -6727,7 +6733,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 537702
+    "tranco_rank": 537956
   },
   "dailyhonker.com": {
     "category": "mixed",
@@ -6787,7 +6793,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.34,
     "sources": 1,
-    "tranco_rank": 9114
+    "tranco_rank": 9106
   },
   "dailyleak.org": {
     "category": "fake",
@@ -6813,7 +6819,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.52,
     "sources": 1,
-    "tranco_rank": 730
+    "tranco_rank": 731
   },
   "dailynews10.com": {
     "category": "fake",
@@ -6896,7 +6902,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 119356
+    "tranco_rank": 118771
   },
   "dailysignal.com": {
     "category": "mixed",
@@ -6909,7 +6915,7 @@
     "score_factcheck": 1.0,
     "score_tranco": 0.27,
     "sources": 1,
-    "tranco_rank": 25307
+    "tranco_rank": 25606
   },
   "dailysnark.com": {
     "category": "satire",
@@ -6921,7 +6927,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 598503
+    "tranco_rank": 600361
   },
   "dailysquib.co.uk": {
     "category": "satire",
@@ -6938,11 +6944,12 @@
     "credibility_score": 0.098,
     "domain_age_years": 2.4,
     "domain_registered": "2024-06-05T18:36:35Z",
+    "factcheck_claims": 0,
     "score_age": 0.12,
     "score_cat": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 644877
+    "tranco_rank": 642934
   },
   "dailystormer.in": {
     "category": "fake",
@@ -6990,7 +6997,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 13921
+    "tranco_rank": 13926
   },
   "dailyusaupdate.com": {
     "category": "fake",
@@ -7011,7 +7018,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 16638
+    "tranco_rank": 16572
   },
   "dakotatimes.com": {
     "category": "fake",
@@ -7131,7 +7138,7 @@
   },
   "davidduke.com": {
     "category": "unreliable",
-    "credibility_score": 0.233,
+    "credibility_score": 0.232,
     "domain_age_years": 27.9,
     "domain_registered": "1998-12-06T05:00:00Z",
     "factcheck_claims": 0,
@@ -7139,7 +7146,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 499486
+    "tranco_rank": 501346
   },
   "davidharrisjr.com": {
     "category": "unreliable",
@@ -7170,18 +7177,19 @@
     "score_iffy": 0.0,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 70385
+    "tranco_rank": 69670
   },
   "davidstockmanscontracorner.com": {
     "category": "mixed",
     "credibility_score": 0.485,
     "domain_age_years": 12.8,
     "domain_registered": "2014-01-13T16:57:11Z",
+    "factcheck_claims": 0,
     "score_age": 0.64,
     "score_cat": 0.5,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 482052
+    "tranco_rank": 478588
   },
   "davidwolfe.com": {
     "category": "conspiracy",
@@ -7197,7 +7205,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 256679
+    "tranco_rank": 256116
   },
   "daytonreporter.com": {
     "category": "fake",
@@ -7228,7 +7236,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 2,
-    "tranco_rank": 427934
+    "tranco_rank": 428003
   },
   "dcdirtylaundry.com": {
     "category": "fake",
@@ -7333,12 +7341,12 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 122735
+    "tranco_rank": 122520
   },
   "debunkingskeptics.com": {
     "category": "conspiracy",
     "credibility_score": 0.139,
-    "domain_age_years": 17.5,
+    "domain_age_years": 17.6,
     "domain_registered": "2009-04-22T13:05:13Z",
     "factcheck_claims": 0,
     "iffy_bias": "CP",
@@ -7416,7 +7424,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 604324
+    "tranco_rank": 601919
   },
   "defendingtherepublic.org": {
     "category": "fake",
@@ -7520,7 +7528,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.25,
     "sources": 1,
-    "tranco_rank": 29636
+    "tranco_rank": 29561
   },
   "dennismichaellynch.com": {
     "category": "mixed",
@@ -7566,10 +7574,10 @@
   "departedmedia.com": {
     "category": "fake",
     "credibility_score": 0.002,
-    "domain_age_years": 0.7,
+    "domain_age_years": 0.8,
     "domain_registered": "2026-02-09T19:00:16Z",
     "factcheck_claims": 0,
-    "score_age": 0.03,
+    "score_age": 0.04,
     "score_cat": 0.0,
     "sources": 1
   },
@@ -7597,7 +7605,7 @@
     "score_factcheck": 1.0,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 38239
+    "tranco_rank": 37845
   },
   "derfmagazine.com": {
     "category": "satire",
@@ -7621,7 +7629,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 659757
+    "tranco_rank": 653348
   },
   "desmoinessun.com": {
     "category": "fake",
@@ -7692,12 +7700,12 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 122225
+    "tranco_rank": 121734
   },
   "disclosuremedia.net": {
     "category": "conspiracy",
     "credibility_score": 0.099,
-    "domain_age_years": 1.4,
+    "domain_age_years": 1.5,
     "domain_registered": "2025-05-29T13:10:28Z",
     "factcheck_claims": 0,
     "score_age": 0.07,
@@ -7731,7 +7739,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 226970
+    "tranco_rank": 226611
   },
   "discovery.org": {
     "category": "unreliable",
@@ -7747,7 +7755,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 119249
+    "tranco_rank": 118978
   },
   "disntr.com": {
     "category": "mixed",
@@ -7772,7 +7780,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.22,
     "sources": 1,
-    "tranco_rank": 48305
+    "tranco_rank": 48147
   },
   "dissident-mag.com": {
     "category": "fake",
@@ -7801,7 +7809,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 109210
+    "tranco_rank": 108930
   },
   "distributednews.com": {
     "category": "fake",
@@ -7817,7 +7825,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 479173
+    "tranco_rank": 477861
   },
   "diversitychronicle.wordpress.com": {
     "category": "satire",
@@ -7861,7 +7869,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 73745
+    "tranco_rank": 73826
   },
   "doctoroz.com": {
     "category": "mixed",
@@ -7877,7 +7885,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 73130
+    "tranco_rank": 73028
   },
   "doctors4covidethics.org": {
     "category": "fake",
@@ -7893,7 +7901,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 524915
+    "tranco_rank": 521144
   },
   "dollarvigilante.com": {
     "category": "mixed",
@@ -7905,7 +7913,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 631234
+    "tranco_rank": 635564
   },
   "donaldjtrump.com": {
     "category": "unreliable",
@@ -7921,7 +7929,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 27586
+    "tranco_rank": 27583
   },
   "donaldtrumpnews.co": {
     "category": "fake",
@@ -7998,7 +8006,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 26265
+    "tranco_rank": 26286
   },
   "drnorthrup.com": {
     "category": "unreliable",
@@ -8013,7 +8021,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 528083
+    "tranco_rank": 531351
   },
   "drrichswier.com": {
     "category": "unreliable",
@@ -8024,7 +8032,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 474388
+    "tranco_rank": 478107
   },
   "drudgereport.com": {
     "category": "mixed",
@@ -8036,7 +8044,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 16269
+    "tranco_rank": 16190
   },
   "drudgereport.com.co": {
     "category": "fake",
@@ -8108,7 +8116,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 517514
+    "tranco_rank": 520478
   },
   "durhamreporter.com": {
     "category": "fake",
@@ -8158,9 +8166,9 @@
     "iffy_score": 0.2,
     "score_cat": 0.5,
     "score_iffy": 0.2,
-    "score_tranco": 0.74,
+    "score_tranco": 0.73,
     "sources": 1,
-    "tranco_rank": 38
+    "tranco_rank": 39
   },
   "eaglerising.com": {
     "category": "unreliable",
@@ -8504,6 +8512,7 @@
     "credibility_score": 0.048,
     "domain_age_years": 7.2,
     "domain_registered": "2019-09-04T20:54:48Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -8519,6 +8528,7 @@
     "credibility_score": 0.048,
     "domain_age_years": 7.2,
     "domain_registered": "2019-09-04T20:54:44Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -8682,7 +8692,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.27,
     "sources": 1,
-    "tranco_rank": 23104
+    "tranco_rank": 23083
   },
   "ebolahoax.com": {
     "category": "conspiracy",
@@ -8801,6 +8811,7 @@
     "credibility_score": 0.048,
     "domain_age_years": 7.1,
     "domain_registered": "2019-10-15T14:55:26Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -8904,7 +8915,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.27,
     "sources": 1,
-    "tranco_rank": 24049
+    "tranco_rank": 24132
   },
   "educate-yourself.org": {
     "category": "fake",
@@ -8920,7 +8931,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.13,
     "sources": 2,
-    "tranco_rank": 169605
+    "tranco_rank": 169231
   },
   "educateinspirechange.org": {
     "category": "mixed",
@@ -8970,7 +8981,7 @@
   "electroverse.net": {
     "category": "unreliable",
     "credibility_score": 0.196,
-    "domain_age_years": 8.3,
+    "domain_age_years": 8.4,
     "domain_registered": "2018-07-05T08:55:57Z",
     "factcheck_claims": 0,
     "iffy_bias": "CP",
@@ -9001,7 +9012,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 417890
+    "tranco_rank": 418759
   },
   "elizabethtowntimes.com": {
     "category": "fake",
@@ -9055,7 +9066,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 280893
+    "tranco_rank": 279656
   },
   "eluxemagazine.com": {
     "category": "mixed",
@@ -9071,7 +9082,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 568210
+    "tranco_rank": 566360
   },
   "embols.com": {
     "category": "fake",
@@ -9112,7 +9123,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 56315
+    "tranco_rank": 56153
   },
   "empirehearland.com": {
     "category": "fake",
@@ -9175,7 +9186,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 158161
+    "tranco_rank": 157447
   },
   "en-volve.com": {
     "category": "fake",
@@ -9192,7 +9203,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 653466
+    "tranco_rank": 650422
   },
   "en-vovle.com": {
     "category": "fake",
@@ -9334,7 +9345,7 @@
     "score_cat": 0.0,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 171407
+    "tranco_rank": 170988
   },
   "endthefed.org": {
     "category": "unreliable",
@@ -9357,9 +9368,9 @@
     "domain_registered": "1995-08-13T04:00:00Z",
     "score_age": 1.0,
     "score_cat": 0.2,
-    "score_tranco": 0.05,
+    "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 536151
+    "tranco_rank": 541309
   },
   "enduringvision.com": {
     "category": "fake",
@@ -9443,7 +9454,7 @@
     "score_factcheck": 1.0,
     "score_tranco": 0.22,
     "sources": 1,
-    "tranco_rank": 48823
+    "tranco_rank": 48601
   },
   "escapeallthesethings.com": {
     "category": "unreliable",
@@ -9499,7 +9510,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 570492
+    "tranco_rank": 568116
   },
   "eutimes.net": {
     "category": "conspiracy",
@@ -9516,7 +9527,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 248321
+    "tranco_rank": 247539
   },
   "eutopia.buzz": {
     "category": "fake",
@@ -9568,7 +9579,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 108852
+    "tranco_rank": 108448
   },
   "evil.news": {
     "category": "unreliable",
@@ -9597,7 +9608,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 189483
+    "tranco_rank": 187905
   },
   "ewao.com": {
     "category": "unreliable",
@@ -9636,7 +9647,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 429691
+    "tranco_rank": 428421
   },
   "experimentalvaccines.org": {
     "category": "conspiracy",
@@ -9678,7 +9689,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 64464
+    "tranco_rank": 64273
   },
   "expose1933.com": {
     "category": "conspiracy",
@@ -9699,7 +9710,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.43,
     "sources": 1,
-    "tranco_rank": 2591
+    "tranco_rank": 2593
   },
   "extinction.news": {
     "category": "fake",
@@ -9802,7 +9813,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 41948
+    "tranco_rank": 41923
   },
   "factswanted.com": {
     "category": "mixed",
@@ -9838,12 +9849,12 @@
   "fairporteducationalalliance.org": {
     "category": "mixed",
     "credibility_score": 0.442,
-    "domain_age_years": 4.8,
+    "domain_age_years": 4.9,
     "domain_registered": "2022-01-03T17:41:11.903Z",
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_score": 0.2,
-    "score_age": 0.24,
+    "score_age": 0.25,
     "score_cat": 0.5,
     "score_iffy": 0.2,
     "sources": 1
@@ -9861,7 +9872,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 132100
+    "tranco_rank": 132264
   },
   "faithpanda.com": {
     "category": "mixed",
@@ -9879,7 +9890,7 @@
   "fakingnews.com": {
     "category": "fake",
     "credibility_score": 0.045,
-    "domain_age_years": 18.1,
+    "domain_age_years": 18.2,
     "domain_registered": "2008-09-15T12:02:37Z",
     "factcheck_claims": 0,
     "score_age": 0.91,
@@ -9896,7 +9907,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 502941
+    "tranco_rank": 502422
   },
   "familysurvivalheadlines.com": {
     "category": "mixed",
@@ -9962,7 +9973,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.32,
     "sources": 1,
-    "tranco_rank": 12202
+    "tranco_rank": 12436
   },
   "fayettevillestandard.com": {
     "category": "fake",
@@ -9998,12 +10009,12 @@
   "fda.news": {
     "category": "fake",
     "credibility_score": 0.028,
-    "domain_age_years": 11.2,
+    "domain_age_years": 11.3,
     "domain_registered": "2015-08-10T15:58:00.89Z",
     "iffy_bias": "CP",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
-    "score_age": 0.56,
+    "score_age": 0.57,
     "score_cat": 0.0,
     "score_iffy": 0.0,
     "sources": 1
@@ -10013,6 +10024,7 @@
     "credibility_score": 0.049,
     "domain_age_years": 7.7,
     "domain_registered": "2019-02-20T15:43:27Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -10074,7 +10086,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.0,
     "sources": 2,
-    "tranco_rank": 974913
+    "tranco_rank": 972585
   },
   "filmingcops.com": {
     "category": "mixed",
@@ -10099,7 +10111,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 123438
+    "tranco_rank": 123649
   },
   "financialsurvivalnetwork.com": {
     "category": "unreliable",
@@ -10328,7 +10340,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.25,
     "sources": 1,
-    "tranco_rank": 32566
+    "tranco_rank": 32541
   },
   "fognews.ru": {
     "category": "satire",
@@ -10366,7 +10378,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 242976
+    "tranco_rank": 242236
   },
   "foodmatters.com": {
     "category": "mixed",
@@ -10382,7 +10394,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 191850
+    "tranco_rank": 190647
   },
   "foothillsreview.com": {
     "category": "fake",
@@ -10412,7 +10424,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 580519
+    "tranco_rank": 574409
   },
   "foreignpolicyjournal.com": {
     "category": "mixed",
@@ -10424,7 +10436,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 118460
+    "tranco_rank": 117984
   },
   "foreverconscious.com": {
     "category": "unreliable",
@@ -10439,7 +10451,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 858021
+    "tranco_rank": 859970
   },
   "fortherightnews.com": {
     "category": "unreliable",
@@ -10494,7 +10506,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.55,
     "sources": 1,
-    "tranco_rank": 509
+    "tranco_rank": 507
   },
   "fprnradio.com": {
     "category": "fake",
@@ -10534,7 +10546,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 447165
+    "tranco_rank": 447145
   },
   "frankspeech.com": {
     "category": "fake",
@@ -10550,7 +10562,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 279969
+    "tranco_rank": 276868
   },
   "frc.org": {
     "category": "unreliable",
@@ -10565,7 +10577,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 80328
+    "tranco_rank": 80342
   },
   "freakoutnation.com": {
     "category": "mixed",
@@ -10601,7 +10613,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 25852
+    "tranco_rank": 26007
   },
   "freedom.news": {
     "category": "fake",
@@ -10707,7 +10719,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 353384
+    "tranco_rank": 353175
   },
   "freedomproject.com": {
     "category": "unreliable",
@@ -10732,7 +10744,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 108543
+    "tranco_rank": 108302
   },
   "freedomworks.org": {
     "category": "mixed",
@@ -10744,7 +10756,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 247102
+    "tranco_rank": 246820
   },
   "freedomworldnews.com": {
     "category": "unreliable",
@@ -10791,7 +10803,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 339873
+    "tranco_rank": 337899
   },
   "freewoodpost.com": {
     "category": "satire",
@@ -10855,7 +10867,7 @@
   },
   "friatider.se": {
     "category": "unreliable",
-    "credibility_score": 0.183,
+    "credibility_score": 0.182,
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
@@ -10863,7 +10875,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 123463
+    "tranco_rank": 126047
   },
   "fridaymash.com": {
     "category": "satire",
@@ -10889,7 +10901,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 599635
+    "tranco_rank": 594912
   },
   "fromthetrenchesworldreport.com": {
     "category": "conspiracy",
@@ -10905,7 +10917,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 2,
-    "tranco_rank": 419983
+    "tranco_rank": 414950
   },
   "front.moveon.org": {
     "category": "mixed",
@@ -10934,7 +10946,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.23,
     "sources": 2,
-    "tranco_rank": 39489
+    "tranco_rank": 39413
   },
   "frontpagenewspaper.com": {
     "category": "mixed",
@@ -10949,7 +10961,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 184565
+    "tranco_rank": 181969
   },
   "ftwaynetimes.com": {
     "category": "fake",
@@ -10991,7 +11003,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.22,
     "sources": 1,
-    "tranco_rank": 47346
+    "tranco_rank": 47192
   },
   "gadsdentoday.com": {
     "category": "fake",
@@ -11023,7 +11035,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.26,
     "sources": 2,
-    "tranco_rank": 27060
+    "tranco_rank": 27081
   },
   "galacticconnection.com": {
     "category": "unreliable",
@@ -11036,8 +11048,8 @@
   },
   "galesburgreporter.com": {
     "category": "fake",
-    "credibility_score": 0.052,
-    "domain_age_years": 8.9,
+    "credibility_score": 0.053,
+    "domain_age_years": 9.0,
     "domain_registered": "2017-11-28T19:23:37Z",
     "iffy_bias": "FN",
     "iffy_factual": "M",
@@ -11117,7 +11129,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 496157
+    "tranco_rank": 499408
   },
   "gatestoneinstitute.org": {
     "category": "mixed",
@@ -11132,7 +11144,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 57870
+    "tranco_rank": 57751
   },
   "gazeta.ru": {
     "category": "mixed",
@@ -11144,7 +11156,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.36,
     "sources": 1,
-    "tranco_rank": 6902
+    "tranco_rank": 6906
   },
   "gbnews.com": {
     "category": "fake",
@@ -11162,7 +11174,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 13685
+    "tranco_rank": 13673
   },
   "gbnews.uk": {
     "category": "mixed",
@@ -11178,7 +11190,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 334826
+    "tranco_rank": 333146
   },
   "gear.news": {
     "category": "fake",
@@ -11196,7 +11208,7 @@
   },
   "gellerreport.com": {
     "category": "fake",
-    "credibility_score": 0.046,
+    "credibility_score": 0.045,
     "domain_age_years": 10.1,
     "domain_registered": "2016-09-20T13:49:01Z",
     "iffy_bias": "FN",
@@ -11207,9 +11219,9 @@
     "score_age": 0.51,
     "score_cat": 0.0,
     "score_iffy": 0.1,
-    "score_tranco": 0.11,
+    "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 232355
+    "tranco_rank": 236572
   },
   "gemstatewire.com": {
     "category": "mixed",
@@ -11244,6 +11256,7 @@
     "credibility_score": 0.049,
     "domain_age_years": 7.4,
     "domain_registered": "2019-06-30T20:46:10Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -11295,7 +11308,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 2,
-    "tranco_rank": 183395
+    "tranco_rank": 182118
   },
   "geopol.institute": {
     "category": "unreliable",
@@ -11321,7 +11334,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 252381
+    "tranco_rank": 251702
   },
   "geopolitics.co": {
     "category": "mixed",
@@ -11333,7 +11346,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 611432
+    "tranco_rank": 606068
   },
   "geopolmonitor.com": {
     "category": "mixed",
@@ -11404,7 +11417,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 15891
+    "tranco_rank": 15842
   },
   "ghost.report": {
     "category": "mixed",
@@ -11453,7 +11466,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 56401
+    "tranco_rank": 56271
   },
   "glaciercountrynews.com": {
     "category": "fake",
@@ -11508,7 +11521,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 153197
+    "tranco_rank": 153097
   },
   "globalinfotoday.com": {
     "category": "unreliable",
@@ -11552,7 +11565,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.3,
     "sources": 2,
-    "tranco_rank": 15964
+    "tranco_rank": 15933
   },
   "globalskywatch.com": {
     "category": "unreliable",
@@ -11577,7 +11590,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.36,
     "sources": 1,
-    "tranco_rank": 7190
+    "tranco_rank": 7186
   },
   "globemagazine.com": {
     "category": "fake",
@@ -11593,7 +11606,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 268800
+    "tranco_rank": 267868
   },
   "glossynews.com": {
     "category": "satire",
@@ -11663,7 +11676,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 184280
+    "tranco_rank": 183687
   },
   "gnews.org": {
     "category": "fake",
@@ -11678,9 +11691,9 @@
     "score_age": 0.74,
     "score_cat": 0.0,
     "score_iffy": 0.1,
-    "score_tranco": 0.03,
+    "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 624551
+    "tranco_rank": 614797
   },
   "godandscience.org": {
     "category": "unreliable",
@@ -11695,7 +11708,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 307399
+    "tranco_rank": 304200
   },
   "godfatherpolitics.com": {
     "category": "mixed",
@@ -11725,7 +11738,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.23,
     "sources": 2,
-    "tranco_rank": 40132
+    "tranco_rank": 40046
   },
   "goldcountrytoday.com": {
     "category": "fake",
@@ -11807,7 +11820,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 649128
+    "tranco_rank": 652726
   },
   "goop.com": {
     "category": "fake",
@@ -11825,7 +11838,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.25,
     "sources": 1,
-    "tranco_rank": 31543
+    "tranco_rank": 31554
   },
   "gop.com": {
     "category": "mixed",
@@ -11841,7 +11854,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 44534
+    "tranco_rank": 44348
   },
   "gop.gov": {
     "category": "mixed",
@@ -11858,7 +11871,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 239583
+    "tranco_rank": 241078
   },
   "gopdailybrief.com": {
     "category": "mixed",
@@ -11897,7 +11910,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.29,
     "sources": 1,
-    "tranco_rank": 17814
+    "tranco_rank": 17789
   },
   "govtslaves.com": {
     "category": "unreliable",
@@ -12037,7 +12050,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.08,
     "sources": 2,
-    "tranco_rank": 338149
+    "tranco_rank": 340219
   },
   "greatamericandaily.com": {
     "category": "unreliable",
@@ -12125,7 +12138,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.24,
     "sources": 2,
-    "tranco_rank": 38012
+    "tranco_rank": 38041
   },
   "greenpeace.org": {
     "category": "mixed",
@@ -12142,7 +12155,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.41,
     "sources": 1,
-    "tranco_rank": 3425
+    "tranco_rank": 3420
   },
   "greensbororeporter.com": {
     "category": "fake",
@@ -12204,7 +12217,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 34322
+    "tranco_rank": 34279
   },
   "gtrtimes.com": {
     "category": "fake",
@@ -12233,7 +12246,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 16639
+    "tranco_rank": 16597
   },
   "guardianlv.com": {
     "category": "mixed",
@@ -12245,7 +12258,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 102618
+    "tranco_rank": 105148
   },
   "guccifer2.wordpress.com": {
     "category": "unreliable",
@@ -12275,6 +12288,7 @@
     "credibility_score": 0.474,
     "domain_age_years": 28.5,
     "domain_registered": "1998-05-11T04:00:00Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_score": 0.2,
@@ -12283,7 +12297,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.38,
     "sources": 1,
-    "tranco_rank": 5358
+    "tranco_rank": 5337
   },
   "gummypost.com": {
     "category": "fake",
@@ -12300,6 +12314,7 @@
     "credibility_score": 0.441,
     "domain_age_years": 11.3,
     "domain_registered": "2015-08-07T20:58:46Z",
+    "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "M",
     "iffy_score": 0.2,
@@ -12308,7 +12323,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 133316
+    "tranco_rank": 132713
   },
   "gunsternews.com": {
     "category": "mixed",
@@ -12364,7 +12379,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 104434
+    "tranco_rank": 105448
   },
   "hangthebankers.com": {
     "category": "conspiracy",
@@ -12379,7 +12394,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.0,
     "sources": 2,
-    "tranco_rank": 992606
+    "tranco_rank": 990065
   },
   "hannity.com": {
     "category": "unreliable",
@@ -12393,9 +12408,9 @@
     "score_age": 1.0,
     "score_cat": 0.2,
     "score_iffy": 0.1,
-    "score_tranco": 0.15,
+    "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 118912
+    "tranco_rank": 116947
   },
   "hardnews.network": {
     "category": "mixed",
@@ -12454,7 +12469,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 157049
+    "tranco_rank": 156398
   },
   "headtopics.com": {
     "category": "mixed",
@@ -12470,7 +12485,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.36,
     "sources": 1,
-    "tranco_rank": 7076
+    "tranco_rank": 7039
   },
   "healingfoodreference.com": {
     "category": "fake",
@@ -12536,7 +12551,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.2,
     "sources": 2,
-    "tranco_rank": 62207
+    "tranco_rank": 62897
   },
   "healthnutnews.com": {
     "category": "fake",
@@ -12551,9 +12566,9 @@
     "score_age": 0.65,
     "score_cat": 0.0,
     "score_iffy": 0.0,
-    "score_tranco": 0.03,
+    "score_tranco": 0.02,
     "sources": 2,
-    "tranco_rank": 707249
+    "tranco_rank": 708467
   },
   "healthranger.com": {
     "category": "fake",
@@ -12598,7 +12613,7 @@
   "healthy-holistic-living.com": {
     "category": "fake",
     "credibility_score": 0.068,
-    "domain_age_years": 20.3,
+    "domain_age_years": 20.4,
     "domain_registered": "2006-07-05T14:54:01Z",
     "factcheck_claims": 0,
     "iffy_bias": "CP",
@@ -12610,7 +12625,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 2,
-    "tranco_rank": 419369
+    "tranco_rank": 419342
   },
   "healthyandnaturalworld.com": {
     "category": "mixed",
@@ -12626,7 +12641,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 312464
+    "tranco_rank": 311860
   },
   "healthycareandbeauty.com": {
     "category": "fake",
@@ -12646,9 +12661,9 @@
     "score_age": 0.71,
     "score_cat": 0.0,
     "score_iffy": 0.1,
-    "score_tranco": 0.03,
+    "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 617381
+    "tranco_rank": 613232
   },
   "healthyworldhouse.com": {
     "category": "fake",
@@ -12670,7 +12685,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.21,
     "sources": 2,
-    "tranco_rank": 55905
+    "tranco_rank": 55920
   },
   "heatst.com": {
     "category": "unreliable",
@@ -12682,7 +12697,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 238335
+    "tranco_rank": 240009
   },
   "hellochristian.com": {
     "category": "mixed",
@@ -12723,7 +12738,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 149284
+    "tranco_rank": 149030
   },
   "herb.co": {
     "category": "mixed",
@@ -12735,7 +12750,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 146095
+    "tranco_rank": 145455
   },
   "herbreference.com": {
     "category": "fake",
@@ -12798,7 +12813,7 @@
     "score_factcheck": 0.82,
     "score_tranco": 0.33,
     "sources": 1,
-    "tranco_rank": 10889
+    "tranco_rank": 10976
   },
   "hernandoreporter.com": {
     "category": "fake",
@@ -12868,6 +12883,7 @@
     "credibility_score": 0.082,
     "domain_age_years": 24.6,
     "domain_registered": "2002-03-30T20:28:03Z",
+    "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "M",
     "iffy_score": 0.2,
@@ -12877,7 +12893,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 582853
+    "tranco_rank": 584232
   },
   "hillsboroughsun.com": {
     "category": "fake",
@@ -12925,7 +12941,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 290313
+    "tranco_rank": 289398
   },
   "hoggwatch.com": {
     "category": "fake",
@@ -13176,7 +13192,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 2,
-    "tranco_rank": 208474
+    "tranco_rank": 208357
   },
   "humortimes.com": {
     "category": "satire",
@@ -13259,7 +13275,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 267197
+    "tranco_rank": 265178
   },
   "iceagenow.info": {
     "category": "unreliable",
@@ -13303,7 +13319,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.19,
     "sources": 2,
-    "tranco_rank": 69616
+    "tranco_rank": 69667
   },
   "idahofreedom.org": {
     "category": "unreliable",
@@ -13359,7 +13375,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 295391
+    "tranco_rank": 295004
   },
   "ifyouonlynews.com": {
     "category": "unreliable",
@@ -13385,7 +13401,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 263418
+    "tranco_rank": 263720
   },
   "ihatethemedia.com": {
     "category": "unreliable",
@@ -13438,7 +13454,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 650347
+    "tranco_rank": 649050
   },
   "ihr.org": {
     "category": "fake",
@@ -13454,7 +13470,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.11,
     "sources": 2,
-    "tranco_rank": 221876
+    "tranco_rank": 221669
   },
   "ihypocrite.net": {
     "category": "mixed",
@@ -13480,7 +13496,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 63534
+    "tranco_rank": 63334
   },
   "illegalaliencrimereport.com": {
     "category": "mixed",
@@ -13539,7 +13555,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 2,
-    "tranco_rank": 433694
+    "tranco_rank": 434469
   },
   "illuminatiwatcher.com": {
     "category": "unreliable",
@@ -13581,7 +13597,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 438181
+    "tranco_rank": 441638
   },
   "immediatesafety.org": {
     "category": "fake",
@@ -13619,7 +13635,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 362371
+    "tranco_rank": 362252
   },
   "independentminute.com": {
     "category": "fake",
@@ -13649,12 +13665,12 @@
     "score_iffy": 0.2,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 375190
+    "tranco_rank": 373928
   },
   "independentsentinel.com": {
     "category": "mixed",
     "credibility_score": 0.449,
-    "domain_age_years": 15.6,
+    "domain_age_years": 15.7,
     "domain_registered": "2011-03-17T18:06:26Z",
     "iffy_bias": "FN",
     "iffy_factual": "M",
@@ -13664,7 +13680,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 236052
+    "tranco_rank": 238810
   },
   "indiaarising.com": {
     "category": "unreliable",
@@ -13702,7 +13718,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.08,
     "sources": 2,
-    "tranco_rank": 312604
+    "tranco_rank": 315590
   },
   "infogalactic.com": {
     "category": "unreliable",
@@ -13716,9 +13732,9 @@
     "score_age": 0.54,
     "score_cat": 0.2,
     "score_iffy": 0.1,
-    "score_tranco": 0.22,
+    "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 50677
+    "tranco_rank": 51827
   },
   "informationclearinghouse.info": {
     "category": "conspiracy",
@@ -13734,7 +13750,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.2,
     "sources": 2,
-    "tranco_rank": 59117
+    "tranco_rank": 59039
   },
   "informationliberation.com": {
     "category": "unreliable",
@@ -13749,7 +13765,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 169402
+    "tranco_rank": 168679
   },
   "informer.rs": {
     "category": "mixed",
@@ -13761,7 +13777,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.35,
     "sources": 1,
-    "tranco_rank": 8019
+    "tranco_rank": 7998
   },
   "informetoday.com": {
     "category": "unreliable",
@@ -13777,9 +13793,9 @@
     "iffy_score": 0.1,
     "score_cat": 0.2,
     "score_iffy": 0.1,
-    "score_tranco": 0.18,
+    "score_tranco": 0.17,
     "sources": 1,
-    "tranco_rank": 86387
+    "tranco_rank": 89138
   },
   "infoscum.com": {
     "category": "mixed",
@@ -13821,7 +13837,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.27,
     "sources": 2,
-    "tranco_rank": 22580
+    "tranco_rank": 22582
   },
   "ingredients.news": {
     "category": "fake",
@@ -13851,7 +13867,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 34696
+    "tranco_rank": 34695
   },
   "instapundit.com": {
     "category": "mixed",
@@ -13867,7 +13883,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 60650
+    "tranco_rank": 61462
   },
   "instaworldnews.com": {
     "category": "mixed",
@@ -13903,7 +13919,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 2,
-    "tranco_rank": 363926
+    "tranco_rank": 362756
   },
   "interestingdailynews.com": {
     "category": "fake",
@@ -13940,7 +13956,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 281160
+    "tranco_rank": 280187
   },
   "intrendtoday.com": {
     "category": "fake",
@@ -13980,7 +13996,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 133323
+    "tranco_rank": 132980
   },
   "iowacitytoday.com": {
     "category": "fake",
@@ -14012,7 +14028,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 860382
+    "tranco_rank": 853946
   },
   "ipatriot.com": {
     "category": "fake",
@@ -14074,7 +14090,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 220718
+    "tranco_rank": 220950
   },
   "israelislamandendtimes.com": {
     "category": "unreliable",
@@ -14150,7 +14166,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.29,
     "sources": 1,
-    "tranco_rank": 17792
+    "tranco_rank": 17954
   },
   "itmakessenseblog.com": {
     "category": "fake",
@@ -14176,7 +14192,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 656997
+    "tranco_rank": 654425
   },
   "iwanttoexplore.com": {
     "category": "fake",
@@ -14198,7 +14214,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.38,
     "sources": 1,
-    "tranco_rank": 5143
+    "tranco_rank": 5158
   },
   "jackpineradicals.com": {
     "category": "mixed",
@@ -14235,7 +14251,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 28600
+    "tranco_rank": 28569
   },
   "jamesrgrangerjr.com": {
     "category": "mixed",
@@ -14261,7 +14277,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 263651
+    "tranco_rank": 263375
   },
   "jedanews.com": {
     "category": "unreliable",
@@ -14336,7 +14352,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.13,
     "sources": 2,
-    "tranco_rank": 161023
+    "tranco_rank": 160695
   },
   "jesusdaily.com": {
     "category": "unreliable",
@@ -14366,7 +14382,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 75015
+    "tranco_rank": 75079
   },
   "jocotoday.com": {
     "category": "fake",
@@ -14386,16 +14402,15 @@
   },
   "joebiden.news": {
     "category": "fake",
-    "credibility_score": 0.172,
+    "credibility_score": 0.023,
     "domain_age_years": 9.0,
     "domain_registered": "2017-11-25T17:57:23.003Z",
-    "factcheck_claims": 1,
+    "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
     "score_age": 0.45,
     "score_cat": 0.0,
-    "score_factcheck": 1.0,
     "score_iffy": 0.0,
     "sources": 1
   },
@@ -14427,7 +14442,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 596605
+    "tranco_rank": 591138
   },
   "johnnyrobish.com": {
     "category": "satire",
@@ -14490,7 +14505,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.13,
     "sources": 2,
-    "tranco_rank": 168620
+    "tranco_rank": 167748
   },
   "judicialwatch.org": {
     "category": "fake",
@@ -14505,9 +14520,9 @@
     "score_age": 1.0,
     "score_cat": 0.0,
     "score_iffy": 0.1,
-    "score_tranco": 0.22,
+    "score_tranco": 0.23,
     "sources": 2,
-    "tranco_rank": 44769
+    "tranco_rank": 44503
   },
   "judithcurry.com": {
     "category": "fake",
@@ -14525,7 +14540,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 266498
+    "tranco_rank": 265699
   },
   "junkscience.com": {
     "category": "unreliable",
@@ -14540,7 +14555,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 220311
+    "tranco_rank": 220355
   },
   "justonefocus.org": {
     "category": "fake",
@@ -14582,7 +14597,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 36724
+    "tranco_rank": 36611
   },
   "jw.org": {
     "category": "unreliable",
@@ -14599,7 +14614,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.49,
     "sources": 1,
-    "tranco_rank": 1143
+    "tranco_rank": 1139
   },
   "kalamazootimes.com": {
     "category": "fake",
@@ -14662,7 +14677,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 2,
-    "tranco_rank": 275934
+    "tranco_rank": 275889
   },
   "kauaisun.com": {
     "category": "fake",
@@ -14772,7 +14787,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 856951
+    "tranco_rank": 856433
   },
   "keywestreporter.com": {
     "category": "fake",
@@ -14820,7 +14835,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 159870
+    "tranco_rank": 157102
   },
   "kla.tv": {
     "category": "fake",
@@ -14835,9 +14850,9 @@
     "score_cat": 0.0,
     "score_factcheck": 0.82,
     "score_iffy": 0.0,
-    "score_tranco": 0.14,
+    "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 136265
+    "tranco_rank": 134855
   },
   "kmt11.com": {
     "category": "fake",
@@ -14896,7 +14911,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.4,
     "sources": 1,
-    "tranco_rank": 4114
+    "tranco_rank": 4120
   },
   "krbcnews.com": {
     "category": "fake",
@@ -14918,7 +14933,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.38,
     "sources": 1,
-    "tranco_rank": 5122
+    "tranco_rank": 5129
   },
   "kunstler.com": {
     "category": "unreliable",
@@ -14932,7 +14947,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 174476
+    "tranco_rank": 173819
   },
   "ky12news.com": {
     "category": "fake",
@@ -15097,7 +15112,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 349417
+    "tranco_rank": 348800
   },
   "laneconews.com": {
     "category": "fake",
@@ -15159,7 +15174,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 310160
+    "tranco_rank": 310187
   },
   "lastdeplorables.com": {
     "category": "fake",
@@ -15210,7 +15225,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.02,
     "sources": 1,
-    "tranco_rank": 717401
+    "tranco_rank": 722252
   },
   "laverita.info": {
     "category": "mixed",
@@ -15225,7 +15240,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 71358
+    "tranco_rank": 71276
   },
   "lawrencereporter.com": {
     "category": "fake",
@@ -15271,7 +15286,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 205890
+    "tranco_rank": 205397
   },
   "learnprogress.org": {
     "category": "fake",
@@ -15329,6 +15344,7 @@
     "credibility_score": 0.205,
     "domain_age_years": 11.9,
     "domain_registered": "2014-12-05T17:57:54.067Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
@@ -15353,7 +15369,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 143284
+    "tranco_rank": 142972
   },
   "legitgov.org": {
     "category": "mixed",
@@ -15368,7 +15384,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 681933
+    "tranco_rank": 676975
   },
   "lehighnews.org": {
     "category": "fake",
@@ -15394,9 +15410,9 @@
     "iffy_score": 0.2,
     "score_cat": 0.5,
     "score_iffy": 0.2,
-    "score_tranco": 0.42,
+    "score_tranco": 0.41,
     "sources": 1,
-    "tranco_rank": 3231
+    "tranco_rank": 3242
   },
   "lesmoutonsrebelles.com": {
     "category": "fake",
@@ -15444,7 +15460,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.25,
     "sources": 2,
-    "tranco_rank": 30685
+    "tranco_rank": 30670
   },
   "liberalamerica.org": {
     "category": "unreliable",
@@ -15530,7 +15546,7 @@
     "score_cat": 0.0,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 486462
+    "tranco_rank": 486423
   },
   "libertyfederation.com": {
     "category": "unreliable",
@@ -15616,7 +15632,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 601271
+    "tranco_rank": 595957
   },
   "libertyvideos.org": {
     "category": "conspiracy",
@@ -15697,7 +15713,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.0,
     "sources": 1,
-    "tranco_rank": 994945
+    "tranco_rank": 986690
   },
   "lifeandabout.com": {
     "category": "mixed",
@@ -15723,7 +15739,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.2,
     "sources": 2,
-    "tranco_rank": 62560
+    "tranco_rank": 62265
   },
   "lifeprevention.com": {
     "category": "unreliable",
@@ -15750,7 +15766,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.27,
     "sources": 2,
-    "tranco_rank": 24019
+    "tranco_rank": 24045
   },
   "lifespa.com": {
     "category": "unreliable",
@@ -15765,7 +15781,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 639125
+    "tranco_rank": 639440
   },
   "lifezette.com": {
     "category": "unreliable",
@@ -15776,7 +15792,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 147603
+    "tranco_rank": 147340
   },
   "limareporter.com": {
     "category": "fake",
@@ -15808,7 +15824,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 378664
+    "tranco_rank": 378648
   },
   "litchfieldhillstoday.com": {
     "category": "fake",
@@ -15855,7 +15871,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 79674
+    "tranco_rank": 79535
   },
   "liveaction.org": {
     "category": "fake",
@@ -15872,7 +15888,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 124896
+    "tranco_rank": 124578
   },
   "liveactionnews.org": {
     "category": "mixed",
@@ -15896,7 +15912,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 13216
+    "tranco_rank": 13209
   },
   "livestrong.com": {
     "category": "mixed",
@@ -15912,7 +15928,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.32,
     "sources": 1,
-    "tranco_rank": 12095
+    "tranco_rank": 12114
   },
   "livevote.com": {
     "category": "unreliable",
@@ -15972,7 +15988,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 76913
+    "tranco_rank": 74073
   },
   "local31news.com": {
     "category": "fake",
@@ -15991,9 +16007,9 @@
     "score_age": 0.76,
     "score_cat": 0.2,
     "score_iffy": 0.1,
-    "score_tranco": 0.04,
+    "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 539226
+    "tranco_rank": 528309
   },
   "londonwebnews.com": {
     "category": "fake",
@@ -16023,7 +16039,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.0,
     "sources": 1,
-    "tranco_rank": 955784
+    "tranco_rank": 957363
   },
   "loraintimes.com": {
     "category": "fake",
@@ -16055,7 +16071,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 236326
+    "tranco_rank": 238148
   },
   "louisvillecitywire.com": {
     "category": "fake",
@@ -16083,7 +16099,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 112056
+    "tranco_rank": 112212
   },
   "lowedeltanews.com": {
     "category": "fake",
@@ -16103,7 +16119,7 @@
   "lucianne.com": {
     "category": "mixed",
     "credibility_score": 0.461,
-    "domain_age_years": 27.6,
+    "domain_age_years": 27.7,
     "domain_registered": "1999-03-17T05:00:00Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
@@ -16114,7 +16130,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 207293
+    "tranco_rank": 205484
   },
   "lushforlife.com": {
     "category": "satire",
@@ -16296,7 +16312,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 453252
+    "tranco_rank": 447868
   },
   "magapill.com": {
     "category": "mixed",
@@ -16631,7 +16647,7 @@
     "score_cat": 0.0,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 131370
+    "tranco_rank": 130958
   },
   "mediaroots.org": {
     "category": "mixed",
@@ -16685,7 +16701,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.28,
     "sources": 1,
-    "tranco_rank": 21536
+    "tranco_rank": 21522
   },
   "medicalkidnap.com": {
     "category": "fake",
@@ -16702,7 +16718,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 507418
+    "tranco_rank": 513362
   },
   "medicalmedium.com": {
     "category": "unreliable",
@@ -16718,7 +16734,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 246637
+    "tranco_rank": 246021
   },
   "medicine.news": {
     "category": "unreliable",
@@ -16778,7 +16794,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.22,
     "sources": 1,
-    "tranco_rank": 51077
+    "tranco_rank": 50901
   },
   "megafreshnews.com": {
     "category": "unreliable",
@@ -16805,7 +16821,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 41387
+    "tranco_rank": 41312
   },
   "mena.org.eg/en": {
     "category": "mixed",
@@ -16869,7 +16885,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 15296
+    "tranco_rank": 15281
   },
   "merica1st.com": {
     "category": "unreliable",
@@ -16947,7 +16963,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 867859
+    "tranco_rank": 867420
   },
   "metrolexnews.com": {
     "category": "fake",
@@ -17015,7 +17031,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 431171
+    "tranco_rank": 429808
   },
   "mgtow.tv": {
     "category": "unreliable",
@@ -17030,7 +17046,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 446089
+    "tranco_rank": 437813
   },
   "miamicourant.com": {
     "category": "fake",
@@ -17262,7 +17278,7 @@
   },
   "militarywatchmagazine.com": {
     "category": "mixed",
-    "credibility_score": 0.436,
+    "credibility_score": 0.437,
     "domain_age_years": 8.8,
     "domain_registered": "2018-02-08T12:25:07Z",
     "factcheck_claims": 0,
@@ -17274,7 +17290,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 72727
+    "tranco_rank": 71841
   },
   "militianews.com": {
     "category": "conspiracy",
@@ -17315,7 +17331,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 13653
+    "tranco_rank": 13660
   },
   "mindmatters.ai": {
     "category": "unreliable",
@@ -17331,7 +17347,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 201361
+    "tranco_rank": 201280
   },
   "minneapolisreview.com": {
     "category": "fake",
@@ -17378,7 +17394,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.23,
     "sources": 2,
-    "tranco_rank": 44131
+    "tranco_rank": 44170
   },
   "mixi.media": {
     "category": "unreliable",
@@ -17394,7 +17410,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 36843
+    "tranco_rank": 36412
   },
   "mnbusinessdaily.com": {
     "category": "fake",
@@ -17529,7 +17545,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 480037
+    "tranco_rank": 477906
   },
   "mondoweiss.net": {
     "category": "mixed",
@@ -17544,7 +17560,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 40524
+    "tranco_rank": 40437
   },
   "monmouthtimes.com": {
     "category": "fake",
@@ -17651,7 +17667,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 343353
+    "tranco_rank": 342930
   },
   "moonofalabama.org": {
     "category": "unreliable",
@@ -17667,7 +17683,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 129240
+    "tranco_rank": 128857
   },
   "morelosdailypost.com": {
     "category": "mixed",
@@ -17747,7 +17763,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 149417
+    "tranco_rank": 149055
   },
   "mrconservative.com": {
     "category": "fake",
@@ -17854,7 +17870,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 552631
+    "tranco_rank": 549109
   },
   "munciereporter.com": {
     "category": "fake",
@@ -17988,7 +18004,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 43815
+    "tranco_rank": 43764
   },
   "nantahalanews.com": {
     "category": "fake",
@@ -18060,13 +18076,13 @@
   "nationaleconomicseditorial.com": {
     "category": "unreliable",
     "credibility_score": 0.2,
-    "domain_age_years": 9.9,
+    "domain_age_years": 10.0,
     "domain_registered": "2016-11-27T00:05:09Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
-    "score_age": 0.49,
+    "score_age": 0.5,
     "score_cat": 0.2,
     "score_iffy": 0.1,
     "sources": 1
@@ -18085,7 +18101,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.17,
     "sources": 1,
-    "tranco_rank": 99974
+    "tranco_rank": 100948
   },
   "nationalfile.com": {
     "category": "fake",
@@ -18103,7 +18119,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 149030
+    "tranco_rank": 148698
   },
   "nationalinsiders.com": {
     "category": "unreliable",
@@ -18129,7 +18145,7 @@
     "score_cat": 0.0,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 624238
+    "tranco_rank": 618309
   },
   "nationalreview.com": {
     "category": "mixed",
@@ -18141,7 +18157,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.34,
     "sources": 1,
-    "tranco_rank": 8540
+    "tranco_rank": 8533
   },
   "nationalrighttolifenews.org": {
     "category": "unreliable",
@@ -18160,13 +18176,13 @@
   "nationalsecurity.news": {
     "category": "fake",
     "credibility_score": 0.028,
-    "domain_age_years": 11.2,
+    "domain_age_years": 11.3,
     "domain_registered": "2015-08-10T15:01:19.34Z",
     "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
-    "score_age": 0.56,
+    "score_age": 0.57,
     "score_cat": 0.0,
     "score_iffy": 0.0,
     "sources": 1
@@ -18194,7 +18210,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.08,
     "sources": 2,
-    "tranco_rank": 329391
+    "tranco_rank": 326415
   },
   "nationalzero.com": {
     "category": "mixed",
@@ -18208,9 +18224,9 @@
     "score_age": 0.32,
     "score_cat": 0.5,
     "score_iffy": 0.2,
-    "score_tranco": 0.04,
+    "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 537774
+    "tranco_rank": 536954
   },
   "nationandstate.com": {
     "category": "unreliable",
@@ -18250,6 +18266,7 @@
     "credibility_score": 0.067,
     "domain_age_years": 13.6,
     "domain_registered": "2013-03-19T03:27:47Z",
+    "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "M",
     "iffy_score": 0.2,
@@ -18259,7 +18276,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.06,
     "sources": 2,
-    "tranco_rank": 465733
+    "tranco_rank": 465264
   },
   "naturalcures.com": {
     "category": "mixed",
@@ -18287,7 +18304,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 292011
+    "tranco_rank": 291308
   },
   "naturalhealthresponse.com": {
     "category": "mixed",
@@ -18316,7 +18333,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 689632
+    "tranco_rank": 689361
   },
   "naturalmedicine.news": {
     "category": "fake",
@@ -18348,13 +18365,14 @@
     "score_iffy": 0.0,
     "score_tranco": 0.3,
     "sources": 2,
-    "tranco_rank": 15435
+    "tranco_rank": 15398
   },
   "naturalnewsblogs.com": {
     "category": "fake",
     "credibility_score": 0.024,
     "domain_age_years": 9.7,
     "domain_registered": "2017-03-10T17:20:03Z",
+    "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
@@ -18380,7 +18398,7 @@
   "naturalpedia.com": {
     "category": "fake",
     "credibility_score": 0.05,
-    "domain_age_years": 20.0,
+    "domain_age_years": 20.1,
     "domain_registered": "2006-10-22T22:45:24Z",
     "factcheck_claims": 0,
     "iffy_bias": "CP",
@@ -18404,7 +18422,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 148036
+    "tranco_rank": 147880
   },
   "naturalstatenews.com": {
     "category": "fake",
@@ -18811,7 +18829,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 442053
+    "tranco_rank": 434504
   },
   "nefloridanews.com": {
     "category": "fake",
@@ -19092,7 +19110,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 2,
-    "tranco_rank": 358628
+    "tranco_rank": 357811
   },
   "nepanhandlenews.com": {
     "category": "fake",
@@ -19163,7 +19181,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 162580
+    "tranco_rank": 161151
   },
   "nevalleytimes.com": {
     "category": "fake",
@@ -19223,6 +19241,7 @@
     "credibility_score": 0.048,
     "domain_age_years": 7.1,
     "domain_registered": "2019-10-15T14:55:14Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -19265,7 +19284,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 453296
+    "tranco_rank": 454090
   },
   "newmexicosun.com": {
     "category": "fake",
@@ -19329,7 +19348,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.42,
     "sources": 1,
-    "tranco_rank": 2896
+    "tranco_rank": 2898
   },
   "news18.com": {
     "category": "mixed",
@@ -19345,7 +19364,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.4,
     "sources": 1,
-    "tranco_rank": 3982
+    "tranco_rank": 3993
   },
   "news4ktla.com": {
     "category": "fake",
@@ -19395,7 +19414,7 @@
   },
   "newsbiscuit.com": {
     "category": "satire",
-    "credibility_score": 0.321,
+    "credibility_score": 0.322,
     "domain_age_years": 20.3,
     "domain_registered": "2006-07-11T14:29:27Z",
     "factcheck_claims": 0,
@@ -19403,7 +19422,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 661590
+    "tranco_rank": 658552
   },
   "newsblaze.com": {
     "category": "mixed",
@@ -19419,7 +19438,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 125704
+    "tranco_rank": 125608
   },
   "newsbreak.com": {
     "category": "mixed",
@@ -19435,7 +19454,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.43,
     "sources": 1,
-    "tranco_rank": 2816
+    "tranco_rank": 2802
   },
   "newsbreakers.org": {
     "category": "satire",
@@ -19515,6 +19534,7 @@
     "credibility_score": 0.019,
     "domain_age_years": 1.8,
     "domain_registered": "2025-02-02T19:15:13Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
@@ -19636,7 +19656,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.33,
     "sources": 2,
-    "tranco_rank": 10636
+    "tranco_rank": 10834
   },
   "newsmutiny.com": {
     "category": "fake",
@@ -19661,7 +19681,7 @@
   "newspunch.com": {
     "category": "fake",
     "credibility_score": 0.118,
-    "domain_age_years": 22.0,
+    "domain_age_years": 22.1,
     "domain_registered": "2004-10-22T23:47:29Z",
     "factcheck_claims": 10,
     "iffy_bias": "FN",
@@ -19675,7 +19695,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 177748
+    "tranco_rank": 177195
   },
   "newspushed.com": {
     "category": "unreliable",
@@ -19731,7 +19751,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 665917
+    "tranco_rank": 667556
   },
   "newsrnd.com": {
     "category": "mixed",
@@ -19746,7 +19766,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 275885
+    "tranco_rank": 274230
   },
   "newssloth.com": {
     "category": "mixed",
@@ -19777,7 +19797,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 119986
+    "tranco_rank": 120043
   },
   "newsthump.com": {
     "category": "satire",
@@ -19789,7 +19809,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 282007
+    "tranco_rank": 282500
   },
   "newstoad.net": {
     "category": "satire",
@@ -19824,7 +19844,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 344567
+    "tranco_rank": 343361
   },
   "newswatch28.com": {
     "category": "fake",
@@ -19863,7 +19883,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.14,
     "sources": 2,
-    "tranco_rank": 141508
+    "tranco_rank": 141426
   },
   "newyorker.com/humor": {
     "category": "satire",
@@ -19942,7 +19962,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 273019
+    "tranco_rank": 272365
   },
   "njbusinessdaily.com": {
     "category": "fake",
@@ -20009,7 +20029,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 293986
+    "tranco_rank": 292452
   },
   "nolareporter.com": {
     "category": "fake",
@@ -20051,7 +20071,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.09,
     "sources": 2,
-    "tranco_rank": 302929
+    "tranco_rank": 301483
   },
   "noqreport.com": {
     "category": "unreliable",
@@ -20066,7 +20086,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 324004
+    "tranco_rank": 323288
   },
   "nordicmonitor.com": {
     "category": "mixed",
@@ -20081,7 +20101,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 268529
+    "tranco_rank": 267740
   },
   "northalaskanews.com": {
     "category": "fake",
@@ -21096,7 +21116,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 291355
+    "tranco_rank": 289939
   },
   "novitimes.com": {
     "category": "fake",
@@ -21153,7 +21173,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 2,
-    "tranco_rank": 299666
+    "tranco_rank": 297455
   },
   "npiamerica.org": {
     "category": "unreliable",
@@ -21193,7 +21213,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 140085
+    "tranco_rank": 139971
   },
   "ntd.com": {
     "category": "mixed",
@@ -21209,7 +21229,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 62394
+    "tranco_rank": 62086
   },
   "ntd.tv": {
     "category": "mixed",
@@ -21226,7 +21246,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 847555
+    "tranco_rank": 845438
   },
   "nutrientreference.com": {
     "category": "fake",
@@ -21265,7 +21285,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 42553
+    "tranco_rank": 42511
   },
   "nvbusinessdaily.com": {
     "category": "fake",
@@ -21296,7 +21316,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 164176
+    "tranco_rank": 163830
   },
   "nwalabamanews.com": {
     "category": "fake",
@@ -21461,6 +21481,7 @@
     "credibility_score": 0.048,
     "domain_age_years": 7.1,
     "domain_registered": "2019-10-15T14:55:14Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -21802,7 +21823,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.22,
     "sources": 2,
-    "tranco_rank": 47288
+    "tranco_rank": 47056
   },
   "oathkeepers.org": {
     "category": "unreliable",
@@ -21818,7 +21839,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.05,
     "sources": 2,
-    "tranco_rank": 500468
+    "tranco_rank": 499185
   },
   "objectiveministries.org": {
     "category": "satire",
@@ -21843,14 +21864,14 @@
   "observer.com": {
     "category": "mixed",
     "credibility_score": 0.518,
-    "domain_age_years": 32.5,
+    "domain_age_years": 32.6,
     "domain_registered": "1994-04-23T04:00:00Z",
     "factcheck_claims": 0,
     "score_age": 1.0,
     "score_cat": 0.5,
     "score_tranco": 0.36,
     "sources": 1,
-    "tranco_rank": 7376
+    "tranco_rank": 7396
   },
   "ocalastandard.com": {
     "category": "fake",
@@ -21876,7 +21897,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 200272
+    "tranco_rank": 199596
   },
   "occupydemocrats.com": {
     "category": "fake",
@@ -21895,7 +21916,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.04,
     "sources": 2,
-    "tranco_rank": 551875
+    "tranco_rank": 550464
   },
   "occupyliberals.com": {
     "category": "unreliable",
@@ -21945,7 +21966,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.16,
     "sources": 2,
-    "tranco_rank": 102393
+    "tranco_rank": 104554
   },
   "offgridsurvival.com": {
     "category": "conspiracy",
@@ -21957,7 +21978,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 550876
+    "tranco_rank": 544913
   },
   "offthegridnews.com": {
     "category": "mixed",
@@ -21973,7 +21994,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 189784
+    "tranco_rank": 188915
   },
   "oftwominds.com": {
     "category": "conspiracy",
@@ -21984,7 +22005,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 344089
+    "tranco_rank": 341418
   },
   "ohioindependent.com": {
     "category": "fake",
@@ -22113,7 +22134,7 @@
     "score_cat": 0.0,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 195568
+    "tranco_rank": 190008
   },
   "online-updates.net": {
     "category": "mixed",
@@ -22183,7 +22204,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 53543
+    "tranco_rank": 53427
   },
   "organicfacts.net": {
     "category": "mixed",
@@ -22199,7 +22220,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 60150
+    "tranco_rank": 60075
   },
   "orientalreview.org": {
     "category": "conspiracy",
@@ -22207,7 +22228,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 513005
+    "tranco_rank": 509908
   },
   "origo.hu": {
     "category": "mixed",
@@ -22219,7 +22240,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 13791
+    "tranco_rank": 13779
   },
   "orinocotribune.com": {
     "category": "unreliable",
@@ -22235,7 +22256,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 273299
+    "tranco_rank": 273209
   },
   "orlandostandard.com": {
     "category": "fake",
@@ -22266,18 +22287,18 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 189730
+    "tranco_rank": 187944
   },
   "other98.com": {
     "category": "unreliable",
-    "credibility_score": 0.216,
-    "domain_age_years": 16.5,
+    "credibility_score": 0.217,
+    "domain_age_years": 16.6,
     "domain_registered": "2010-04-23T00:12:26Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
-    "score_age": 0.82,
+    "score_age": 0.83,
     "score_cat": 0.2,
     "score_iffy": 0.1,
     "sources": 2
@@ -22423,7 +22444,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.01,
     "sources": 2,
-    "tranco_rank": 864323
+    "tranco_rank": 865062
   },
   "palmcoasttimes.com": {
     "category": "fake",
@@ -22450,7 +22471,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 429409
+    "tranco_rank": 428834
   },
   "pamelageller.com": {
     "category": "fake",
@@ -22461,7 +22482,7 @@
     "score_cat": 0.0,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 467153
+    "tranco_rank": 466228
   },
   "panamacityreporter.com": {
     "category": "fake",
@@ -22522,7 +22543,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 40033
+    "tranco_rank": 40016
   },
   "pascoreporter.com": {
     "category": "fake",
@@ -22615,13 +22636,13 @@
   "patriotfires.com": {
     "category": "unreliable",
     "credibility_score": 0.176,
-    "domain_age_years": 0.3,
+    "domain_age_years": 0.4,
     "domain_registered": "2026-07-05T18:21:10Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
-    "score_age": 0.01,
+    "score_age": 0.02,
     "score_cat": 0.2,
     "score_iffy": 0.1,
     "sources": 1
@@ -22651,7 +22672,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 378907
+    "tranco_rank": 372087
   },
   "patrioticviralnews.com": {
     "category": "unreliable",
@@ -22681,7 +22702,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 707641
+    "tranco_rank": 696296
   },
   "patriotnewsdaily.com": {
     "category": "satire",
@@ -22713,7 +22734,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 121302
+    "tranco_rank": 120945
   },
   "patriotpulse.net": {
     "category": "mixed",
@@ -22729,7 +22750,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 549297
+    "tranco_rank": 544572
   },
   "patriotrising.com": {
     "category": "conspiracy",
@@ -22756,7 +22777,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.25,
     "sources": 1,
-    "tranco_rank": 32620
+    "tranco_rank": 32585
   },
   "patriots4truth.org": {
     "category": "fake",
@@ -22808,7 +22829,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.16,
     "sources": 2,
-    "tranco_rank": 110716
+    "tranco_rank": 110365
   },
   "pcmustdie.com": {
     "category": "unreliable",
@@ -22959,9 +22980,9 @@
     "score_age": 0.54,
     "score_cat": 0.0,
     "score_iffy": 0.2,
-    "score_tranco": 0.02,
+    "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 724265
+    "tranco_rank": 672650
   },
   "perezhilton.com": {
     "category": "mixed",
@@ -22976,7 +22997,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 34622
+    "tranco_rank": 34619
   },
   "personalinterpretation.com": {
     "category": "unreliable",
@@ -23001,7 +23022,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 574859
+    "tranco_rank": 573927
   },
   "peta.org": {
     "category": "mixed",
@@ -23017,7 +23038,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.32,
     "sources": 1,
-    "tranco_rank": 11967
+    "tranco_rank": 11968
   },
   "phxreporter.com": {
     "category": "fake",
@@ -23171,7 +23192,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.25,
     "sources": 2,
-    "tranco_rank": 29850
+    "tranco_rank": 29786
   },
   "planetaprisao.com.br": {
     "category": "fake",
@@ -23217,6 +23238,7 @@
     "credibility_score": 0.448,
     "domain_age_years": 7.2,
     "domain_registered": "2019-09-04T20:54:45Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_score": 0.2,
@@ -23308,10 +23330,10 @@
   "politicalo.com": {
     "category": "fake",
     "credibility_score": 0.028,
-    "domain_age_years": 11.2,
+    "domain_age_years": 11.3,
     "domain_registered": "2015-08-10T18:38:56Z",
     "factcheck_claims": 0,
-    "score_age": 0.56,
+    "score_age": 0.57,
     "score_cat": 0.0,
     "sources": 1
   },
@@ -23418,7 +23440,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 118427
+    "tranco_rank": 117930
   },
   "politifact.news": {
     "category": "unreliable",
@@ -23449,7 +23471,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.17,
     "sources": 1,
-    "tranco_rank": 90393
+    "tranco_rank": 90390
   },
   "politros.com": {
     "category": "mixed",
@@ -23465,7 +23487,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 513776
+    "tranco_rank": 504743
   },
   "polktimes.com": {
     "category": "fake",
@@ -23553,7 +23575,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 371471
+    "tranco_rank": 369343
   },
   "populartechnology.net": {
     "category": "mixed",
@@ -23660,7 +23682,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 669914
+    "tranco_rank": 668669
   },
   "powderedwigsociety.com": {
     "category": "unreliable",
@@ -23697,7 +23719,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 54293
+    "tranco_rank": 54119
   },
   "prairiestatewire.com": {
     "category": "fake",
@@ -23720,7 +23742,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.35,
     "sources": 1,
-    "tranco_rank": 7578
+    "tranco_rank": 7579
   },
   "pravdareport.com": {
     "category": "fake",
@@ -23735,7 +23757,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.09,
     "sources": 2,
-    "tranco_rank": 280158
+    "tranco_rank": 279856
   },
   "prayingmedic.com": {
     "category": "fake",
@@ -23751,7 +23773,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.0,
     "sources": 1,
-    "tranco_rank": 961553
+    "tranco_rank": 969653
   },
   "prepareforchange.net": {
     "category": "unreliable",
@@ -23766,7 +23788,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 295603
+    "tranco_rank": 295417
   },
   "preppersdailynews.com": {
     "category": "unreliable",
@@ -23872,7 +23894,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.19,
     "sources": 2,
-    "tranco_rank": 73984
+    "tranco_rank": 73790
   },
   "presstv.ir": {
     "category": "unreliable",
@@ -23880,7 +23902,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.27,
     "sources": 1,
-    "tranco_rank": 23103
+    "tranco_rank": 23201
   },
   "preventgenocide2030.org": {
     "category": "fake",
@@ -23911,7 +23933,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 252228
+    "tranco_rank": 251886
   },
   "principia-scientific.org": {
     "category": "fake",
@@ -23927,7 +23949,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 643114
+    "tranco_rank": 641676
   },
   "prisonplanet.com": {
     "category": "fake",
@@ -23944,7 +23966,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.2,
     "sources": 2,
-    "tranco_rank": 62995
+    "tranco_rank": 62772
   },
   "prisonplanet.tv": {
     "category": "conspiracy",
@@ -23959,7 +23981,7 @@
   "prntly.com": {
     "category": "fake",
     "credibility_score": 0.045,
-    "domain_age_years": 12.1,
+    "domain_age_years": 12.2,
     "domain_registered": "2014-09-16T18:44:45Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
@@ -23967,7 +23989,7 @@
     "iffy_network": "Prntly",
     "iffy_score": 0.1,
     "iffy_wiki_fake": true,
-    "score_age": 0.6,
+    "score_age": 0.61,
     "score_cat": 0.0,
     "score_iffy": 0.1,
     "sources": 2
@@ -24006,7 +24028,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 63616
+    "tranco_rank": 63254
   },
   "progressivestoday.com": {
     "category": "unreliable",
@@ -24045,7 +24067,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 128503
+    "tranco_rank": 128330
   },
   "prophecynewswatch.com": {
     "category": "unreliable",
@@ -24060,7 +24082,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 253245
+    "tranco_rank": 249944
   },
   "prophecytoday.com": {
     "category": "unreliable",
@@ -24100,7 +24122,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.47,
     "sources": 1,
-    "tranco_rank": 1423
+    "tranco_rank": 1419
   },
   "protrumpnews.com": {
     "category": "unreliable",
@@ -24115,7 +24137,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 329572
+    "tranco_rank": 327798
   },
   "proudcons.com": {
     "category": "fake",
@@ -24207,12 +24229,12 @@
     "score_iffy": 0.2,
     "score_tranco": 0.22,
     "sources": 1,
-    "tranco_rank": 50930
+    "tranco_rank": 50858
   },
   "quincyreporter.com": {
     "category": "fake",
-    "credibility_score": 0.052,
-    "domain_age_years": 8.9,
+    "credibility_score": 0.053,
+    "domain_age_years": 9.0,
     "domain_registered": "2017-11-28T19:23:37Z",
     "iffy_bias": "FN",
     "iffy_factual": "M",
@@ -24239,7 +24261,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 228258
+    "tranco_rank": 226986
   },
   "randolphcountynews.com": {
     "category": "fake",
@@ -24332,7 +24354,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.34,
     "sources": 1,
-    "tranco_rank": 8666
+    "tranco_rank": 8660
   },
   "react365.com": {
     "category": "fake",
@@ -24372,7 +24394,7 @@
   "realclimatescience.com": {
     "category": "unreliable",
     "credibility_score": 0.198,
-    "domain_age_years": 11.8,
+    "domain_age_years": 11.9,
     "domain_registered": "2015-01-03T18:34:59Z",
     "iffy_bias": "CP",
     "iffy_factual": "L",
@@ -24382,7 +24404,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 429478
+    "tranco_rank": 424950
   },
   "realconservativesunite.com": {
     "category": "unreliable",
@@ -24413,7 +24435,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 2,
-    "tranco_rank": 406213
+    "tranco_rank": 403301
   },
   "realjewnews.com": {
     "category": "fake",
@@ -24481,7 +24503,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.16,
     "sources": 1,
-    "tranco_rank": 115720
+    "tranco_rank": 115498
   },
   "redacted.inc": {
     "category": "mixed",
@@ -24541,7 +24563,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 356568
+    "tranco_rank": 355143
   },
   "redorbit.com": {
     "category": "mixed",
@@ -24557,13 +24579,13 @@
     "score_iffy": 0.2,
     "score_tranco": 0.22,
     "sources": 1,
-    "tranco_rank": 46911
+    "tranco_rank": 46834
   },
   "redoubtnews.com": {
     "category": "mixed",
     "credibility_score": 0.457,
     "domain_age_years": 10.9,
-    "domain_registered": "2016-01-01",
+    "domain_registered": "2016-01-01T21:05:07Z",
     "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "M",
@@ -24634,7 +24656,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 26531
+    "tranco_rank": 26514
   },
   "redstatenation.com": {
     "category": "unreliable",
@@ -24673,9 +24695,9 @@
     "factcheck_claims": 0,
     "score_age": 0.69,
     "score_cat": 0.3,
-    "score_tranco": 0.06,
+    "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 409544
+    "tranco_rank": 407127
   },
   "redvoicemedia.com": {
     "category": "unreliable",
@@ -24690,7 +24712,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 349383
+    "tranco_rank": 347546
   },
   "redwhiteandright.com": {
     "category": "unreliable",
@@ -24770,7 +24792,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.17,
     "sources": 1,
-    "tranco_rank": 101323
+    "tranco_rank": 101345
   },
   "remnantnewspaper.com": {
     "category": "unreliable",
@@ -24786,7 +24808,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 319222
+    "tranco_rank": 318397
   },
   "renewamerica.com": {
     "category": "unreliable",
@@ -24802,7 +24824,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 273426
+    "tranco_rank": 272446
   },
   "renoreporter.com": {
     "category": "fake",
@@ -24834,7 +24856,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.25,
     "sources": 2,
-    "tranco_rank": 30108
+    "tranco_rank": 30070
   },
   "republicandaily.com": {
     "category": "mixed",
@@ -24864,7 +24886,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.28,
     "sources": 1,
-    "tranco_rank": 21407
+    "tranco_rank": 21445
   },
   "researchantisemitism.ca": {
     "category": "unreliable",
@@ -24917,7 +24939,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.09,
     "sources": 2,
-    "tranco_rank": 306825
+    "tranco_rank": 305962
   },
   "returnofkings.com": {
     "category": "fake",
@@ -24934,7 +24956,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 2,
-    "tranco_rank": 352000
+    "tranco_rank": 350553
   },
   "returntonow.net": {
     "category": "unreliable",
@@ -24950,7 +24972,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 595890
+    "tranco_rank": 587360
   },
   "revolutionradio.org": {
     "category": "unreliable",
@@ -24989,7 +25011,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 130490
+    "tranco_rank": 129921
   },
   "rfangle.com": {
     "category": "mixed",
@@ -25023,7 +25045,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.43,
     "sources": 1,
-    "tranco_rank": 2655
+    "tranco_rank": 2667
   },
   "rickwells.us": {
     "category": "fake",
@@ -25064,7 +25086,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 682970
+    "tranco_rank": 673076
   },
   "rightsidenews.com": {
     "category": "unreliable",
@@ -25080,7 +25102,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 517497
+    "tranco_rank": 517475
   },
   "rightsmarts.com": {
     "category": "mixed",
@@ -25122,7 +25144,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 257277
+    "tranco_rank": 256611
   },
   "rightwingtribune.com": {
     "category": "fake",
@@ -25152,6 +25174,7 @@
     "credibility_score": 0.22,
     "domain_age_years": 23.7,
     "domain_registered": "2003-02-27T00:50:02Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "L",
     "iffy_score": 0.1,
@@ -25160,7 +25183,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 268017
+    "tranco_rank": 267658
   },
   "ripostelaique.com": {
     "category": "fake",
@@ -25177,7 +25200,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 261837
+    "tranco_rank": 261316
   },
   "riverbendtimes.com": {
     "category": "fake",
@@ -25363,6 +25386,7 @@
     "credibility_score": 0.049,
     "domain_age_years": 7.4,
     "domain_registered": "2019-06-30T20:46:19Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -25383,7 +25407,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 352568
+    "tranco_rank": 348465
   },
   "rogue-nation3.com": {
     "category": "fake",
@@ -25437,7 +25461,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 130735
+    "tranco_rank": 130104
   },
   "rossiyasegodnya.com": {
     "category": "unreliable",
@@ -25483,7 +25507,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 314764
+    "tranco_rank": 314153
   },
   "rt.com": {
     "category": "fake",
@@ -25501,7 +25525,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.43,
     "sources": 2,
-    "tranco_rank": 2651
+    "tranco_rank": 2657
   },
   "rudaw.net": {
     "category": "mixed",
@@ -25517,7 +25541,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 39307
+    "tranco_rank": 39111
   },
   "rumble.com": {
     "category": "unreliable",
@@ -25534,7 +25558,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.43,
     "sources": 1,
-    "tranco_rank": 2567
+    "tranco_rank": 2566
   },
   "rumorjournal.com": {
     "category": "fake",
@@ -25556,7 +25580,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.12,
     "sources": 2,
-    "tranco_rank": 181114
+    "tranco_rank": 180222
   },
   "ruptly.tv": {
     "category": "mixed",
@@ -25572,7 +25596,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 267040
+    "tranco_rank": 266446
   },
   "rushlimbaugh.com": {
     "category": "fake",
@@ -25587,7 +25611,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 87492
+    "tranco_rank": 87471
   },
   "russia-insider.com": {
     "category": "unreliable",
@@ -25603,7 +25627,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 130316
+    "tranco_rank": 130453
   },
   "ruthinstitute.org": {
     "category": "unreliable",
@@ -25889,7 +25913,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 393165
+    "tranco_rank": 394964
   },
   "sarasotareview.com": {
     "category": "fake",
@@ -25941,7 +25965,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 456367
+    "tranco_rank": 460091
   },
   "savannahsuntimes.com": {
     "category": "fake",
@@ -26047,7 +26071,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 60236
+    "tranco_rank": 60046
   },
   "sciencevibe.com": {
     "category": "fake",
@@ -26311,9 +26335,9 @@
   "secretsofthefed.com": {
     "category": "conspiracy",
     "credibility_score": 0.131,
-    "domain_age_years": 14.2,
+    "domain_age_years": 14.3,
     "domain_registered": "2012-08-10T19:47:41Z",
-    "score_age": 0.71,
+    "score_age": 0.72,
     "score_cat": 0.1,
     "sources": 1
   },
@@ -26360,7 +26384,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 651447
+    "tranco_rank": 643643
   },
   "segrandrapids.com": {
     "category": "fake",
@@ -26689,7 +26713,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 181334
+    "tranco_rank": 180843
   },
   "sgvstandard.com": {
     "category": "fake",
@@ -26720,7 +26744,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 57329
+    "tranco_rank": 57052
   },
   "shareblue.com": {
     "category": "unreliable",
@@ -26765,6 +26789,7 @@
     "credibility_score": 0.049,
     "domain_age_years": 7.4,
     "domain_registered": "2019-06-30T20:46:04Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -26805,7 +26830,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 2,
-    "tranco_rank": 255236
+    "tranco_rank": 254833
   },
   "showmestatetimes.com": {
     "category": "fake",
@@ -26841,7 +26866,7 @@
   "shtfplan.com": {
     "category": "unreliable",
     "credibility_score": 0.216,
-    "domain_age_years": 17.8,
+    "domain_age_years": 17.9,
     "domain_registered": "2009-01-03T04:21:44Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
@@ -26852,7 +26877,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 167063
+    "tranco_rank": 166096
   },
   "sickchirpse.com": {
     "category": "fake",
@@ -26867,7 +26892,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 403912
+    "tranco_rank": 403135
   },
   "silnews.com": {
     "category": "fake",
@@ -26910,7 +26935,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 491641
+    "tranco_rank": 488986
   },
   "silverstealers.net": {
     "category": "conspiracy",
@@ -27012,7 +27037,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 420704
+    "tranco_rank": 416640
   },
   "snanews.de": {
     "category": "fake",
@@ -27052,7 +27077,7 @@
   "sohu.com": {
     "category": "mixed",
     "credibility_score": 0.482,
-    "domain_age_years": 28.3,
+    "domain_age_years": 28.4,
     "domain_registered": "1998-07-05T04:00:00Z",
     "iffy_bias": "FN",
     "iffy_factual": "M",
@@ -27062,7 +27087,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.54,
     "sources": 1,
-    "tranco_rank": 569
+    "tranco_rank": 567
   },
   "solanosun.com": {
     "category": "fake",
@@ -27110,7 +27135,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 864387
+    "tranco_rank": 862795
   },
   "sonsoflibertyradio.com": {
     "category": "conspiracy",
@@ -27152,7 +27177,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 37216
+    "tranco_rank": 37192
   },
   "southabqnews.com": {
     "category": "fake",
@@ -27182,7 +27207,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 386618
+    "tranco_rank": 388495
   },
   "southalabamatimes.com": {
     "category": "fake",
@@ -27332,6 +27357,7 @@
     "credibility_score": 0.049,
     "domain_age_years": 7.4,
     "domain_registered": "2019-07-03T17:53:22Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "Brian_Timpone",
@@ -27344,8 +27370,8 @@
   },
   "southcentralreporter.com": {
     "category": "fake",
-    "credibility_score": 0.052,
-    "domain_age_years": 8.9,
+    "credibility_score": 0.053,
+    "domain_age_years": 9.0,
     "domain_registered": "2017-11-28T19:23:37Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
@@ -27543,7 +27569,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 189544
+    "tranco_rank": 188139
   },
   "southfultontoday.com": {
     "category": "fake",
@@ -28181,7 +28207,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 323875
+    "tranco_rank": 323774
   },
   "sovren.media": {
     "category": "unreliable",
@@ -28196,9 +28222,9 @@
     "score_cat": 0.2,
     "score_factcheck": 0.82,
     "score_iffy": 0.1,
-    "score_tranco": 0.11,
+    "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 230598
+    "tranco_rank": 236455
   },
   "space.news": {
     "category": "fake",
@@ -28248,7 +28274,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 230325
+    "tranco_rank": 233819
   },
   "sportspickle.com": {
     "category": "satire",
@@ -28311,6 +28337,7 @@
     "credibility_score": 0.056,
     "domain_age_years": 15.0,
     "domain_registered": "2011-10-24T00:15:14Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
@@ -28319,7 +28346,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.38,
     "sources": 2,
-    "tranco_rank": 5593
+    "tranco_rank": 5578
   },
   "squawker.org": {
     "category": "unreliable",
@@ -28375,7 +28402,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 318104
+    "tranco_rank": 316925
   },
   "stateofthenation2012.com": {
     "category": "unreliable",
@@ -28390,7 +28417,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 700204
+    "tranco_rank": 684956
   },
   "stcharlestimes.com": {
     "category": "fake",
@@ -28495,7 +28522,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 375716
+    "tranco_rank": 375909
   },
   "stjoebentonharbor.com": {
     "category": "fake",
@@ -28633,7 +28660,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 131691
+    "tranco_rank": 130710
   },
   "stpaulreporter.com": {
     "category": "fake",
@@ -28695,7 +28722,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 134056
+    "tranco_rank": 133710
   },
   "stream.org": {
     "category": "mixed",
@@ -28710,7 +28737,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 194160
+    "tranco_rank": 193181
   },
   "studionewsnetwork.com": {
     "category": "mixed",
@@ -28789,6 +28816,7 @@
     "credibility_score": 0.042,
     "domain_age_years": 4.8,
     "domain_registered": "2022-02-07T17:08:23Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "The_American_Independent",
@@ -28813,7 +28841,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 120734
+    "tranco_rank": 120683
   },
   "sumtertimes.com": {
     "category": "fake",
@@ -28925,7 +28953,7 @@
   },
   "survivalblog.com": {
     "category": "unreliable",
-    "credibility_score": 0.221,
+    "credibility_score": 0.22,
     "domain_age_years": 21.3,
     "domain_registered": "2005-07-05T18:21:28Z",
     "factcheck_claims": 0,
@@ -28937,7 +28965,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 212443
+    "tranco_rank": 219760
   },
   "survivethenews.com": {
     "category": "unreliable",
@@ -28953,7 +28981,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 656440
+    "tranco_rank": 654375
   },
   "sussexreview.com": {
     "category": "fake",
@@ -28985,7 +29013,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 481130
+    "tranco_rank": 476063
   },
   "swalaskanews.com": {
     "category": "fake",
@@ -29029,7 +29057,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 65378
+    "tranco_rank": 65034
   },
   "swarizonanews.com": {
     "category": "fake",
@@ -29328,7 +29356,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 130628
+    "tranco_rank": 130166
   },
   "swriversidenews.com": {
     "category": "fake",
@@ -29449,7 +29477,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 205517
+    "tranco_rank": 204958
   },
   "talknetwork.com": {
     "category": "fake",
@@ -29533,7 +29561,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 36943
+    "tranco_rank": 36902
   },
   "tass.com": {
     "category": "mixed",
@@ -29549,7 +29577,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 14227
+    "tranco_rank": 14201
   },
   "tass.ru": {
     "category": "mixed",
@@ -29620,9 +29648,9 @@
     "score_age": 1.0,
     "score_cat": 0.0,
     "score_iffy": 0.1,
-    "score_tranco": 0.03,
+    "score_tranco": 0.04,
     "sources": 2,
-    "tranco_rank": 620714
+    "tranco_rank": 613603
   },
   "teapartypatriots.org": {
     "category": "mixed",
@@ -29637,7 +29665,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 412064
+    "tranco_rank": 410917
   },
   "technocracy.news": {
     "category": "fake",
@@ -29654,7 +29682,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 144997
+    "tranco_rank": 144506
   },
   "technocrats.news": {
     "category": "fake",
@@ -29684,7 +29712,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 86704
+    "tranco_rank": 86454
   },
   "tehrantimes.com": {
     "category": "mixed",
@@ -29699,7 +29727,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 29454
+    "tranco_rank": 29367
   },
   "telesurenglish.net": {
     "category": "mixed",
@@ -29714,7 +29742,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 79446
+    "tranco_rank": 79132
   },
   "tellerreport.com": {
     "category": "mixed",
@@ -29730,7 +29758,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 123160
+    "tranco_rank": 122791
   },
   "tennesseestar.com": {
     "category": "fake",
@@ -29748,7 +29776,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 160646
+    "tranco_rank": 160571
   },
   "tfp.org": {
     "category": "unreliable",
@@ -29763,7 +29791,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 436035
+    "tranco_rank": 430666
   },
   "thatviralfeed.net": {
     "category": "fake",
@@ -29795,7 +29823,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 224458
+    "tranco_rank": 223838
   },
   "theamericanindependent.wordpress.com": {
     "category": "fake",
@@ -29820,7 +29848,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 637775
+    "tranco_rank": 636411
   },
   "theantimedia.org": {
     "category": "conspiracy",
@@ -29830,9 +29858,9 @@
     "factcheck_claims": 0,
     "score_age": 0.72,
     "score_cat": 0.1,
-    "score_tranco": 0.08,
+    "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 309104
+    "tranco_rank": 307692
   },
   "theautomaticearth.com": {
     "category": "unreliable",
@@ -29847,7 +29875,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 459093
+    "tranco_rank": 453516
   },
   "thebeardedpatriot.com": {
     "category": "unreliable",
@@ -29873,7 +29901,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 260410
+    "tranco_rank": 259445
   },
   "thebeltwayreport.com": {
     "category": "mixed",
@@ -29914,7 +29942,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 378070
+    "tranco_rank": 374258
   },
   "theblacksphere.net": {
     "category": "mixed",
@@ -29943,7 +29971,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.29,
     "sources": 2,
-    "tranco_rank": 17179
+    "tranco_rank": 17178
   },
   "thebluestateconservative.com": {
     "category": "unreliable",
@@ -30025,7 +30053,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.07,
     "sources": 2,
-    "tranco_rank": 361091
+    "tranco_rank": 360257
   },
   "theconnecticutstar.com": {
     "category": "fake",
@@ -30085,7 +30113,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 79212
+    "tranco_rank": 78458
   },
   "thecontroversialfiles.net": {
     "category": "fake",
@@ -30109,7 +30137,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 573072
+    "tranco_rank": 571638
   },
   "thecovidworld.com": {
     "category": "fake",
@@ -30134,7 +30162,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.42,
     "sources": 1,
-    "tranco_rank": 3205
+    "tranco_rank": 3200
   },
   "thedailybell.com": {
     "category": "unreliable",
@@ -30150,7 +30178,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 267421
+    "tranco_rank": 266117
   },
   "thedailycheck.net": {
     "category": "mixed",
@@ -30189,7 +30217,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 157103
+    "tranco_rank": 156797
   },
   "thedailysheeple.com": {
     "category": "conspiracy",
@@ -30205,7 +30233,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 2,
-    "tranco_rank": 350595
+    "tranco_rank": 348753
   },
   "thedailywtf.com": {
     "category": "satire",
@@ -30217,7 +30245,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 65319
+    "tranco_rank": 64694
   },
   "thedcpatriot.com": {
     "category": "unreliable",
@@ -30245,7 +30273,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 265086
+    "tranco_rank": 264478
   },
   "theduran.com": {
     "category": "unreliable",
@@ -30261,7 +30289,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.13,
     "sources": 2,
-    "tranco_rank": 157857
+    "tranco_rank": 158164
   },
   "theeconomiccollapseblog.com": {
     "category": "conspiracy",
@@ -30273,7 +30301,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 88560
+    "tranco_rank": 88047
   },
   "theepochtimes.com": {
     "category": "fake",
@@ -30292,7 +30320,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.37,
     "sources": 1,
-    "tranco_rank": 5854
+    "tranco_rank": 5825
   },
   "theeventchronicle.com": {
     "category": "conspiracy",
@@ -30308,7 +30336,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.03,
     "sources": 2,
-    "tranco_rank": 651138
+    "tranco_rank": 650193
   },
   "theexpose.uk": {
     "category": "fake",
@@ -30323,7 +30351,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 688832
+    "tranco_rank": 683387
   },
   "theextinctionprotocol.com": {
     "category": "conspiracy",
@@ -30347,7 +30375,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.27,
     "sources": 1,
-    "tranco_rank": 22638
+    "tranco_rank": 22634
   },
   "thefederalistpapers.org": {
     "category": "conspiracy",
@@ -30363,7 +30391,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 2,
-    "tranco_rank": 288252
+    "tranco_rank": 286904
   },
   "thefifthcolumnnews.com": {
     "category": "mixed",
@@ -30388,7 +30416,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 2,
-    "tranco_rank": 457952
+    "tranco_rank": 455771
   },
   "thefreedomtimes.com": {
     "category": "unreliable",
@@ -30423,7 +30451,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 122569
+    "tranco_rank": 122265
   },
   "thefrisky.com": {
     "category": "mixed",
@@ -30438,7 +30466,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.17,
     "sources": 1,
-    "tranco_rank": 96787
+    "tranco_rank": 96718
   },
   "thefullertoninformer.com": {
     "category": "fake",
@@ -30469,7 +30497,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.32,
     "sources": 2,
-    "tranco_rank": 12568
+    "tranco_rank": 12556
   },
   "thegoldandoilguy.com/articles": {
     "category": "unreliable",
@@ -30490,7 +30518,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 291611
+    "tranco_rank": 299603
   },
   "thegoptimes.com": {
     "category": "mixed",
@@ -30520,7 +30548,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 66193
+    "tranco_rank": 65656
   },
   "theguadalajarapost.com": {
     "category": "mixed",
@@ -30558,7 +30586,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 181698
+    "tranco_rank": 180955
   },
   "thehayride.com": {
     "category": "unreliable",
@@ -30574,7 +30602,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 336791
+    "tranco_rank": 327013
   },
   "thehealthyamerican.org": {
     "category": "fake",
@@ -30603,7 +30631,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 121385
+    "tranco_rank": 120205
   },
   "thehornnews.com": {
     "category": "unreliable",
@@ -30619,7 +30647,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 325164
+    "tranco_rank": 323493
   },
   "theineptowl.com": {
     "category": "satire",
@@ -30652,7 +30680,7 @@
     "score_factcheck": 1.0,
     "score_tranco": 0.36,
     "sources": 1,
-    "tranco_rank": 6615
+    "tranco_rank": 6621
   },
   "theinternetpost.net": {
     "category": "fake",
@@ -30719,7 +30747,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 288469
+    "tranco_rank": 286019
   },
   "thelastamericanvagabond.com": {
     "category": "unreliable",
@@ -30735,14 +30763,14 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 245186
+    "tranco_rank": 244463
   },
   "thelastgreatstand.com": {
     "category": "fake",
     "credibility_score": 0.02,
-    "domain_age_years": 7.8,
+    "domain_age_years": 7.9,
     "domain_registered": "2019-01-03T19:12:13Z",
-    "score_age": 0.39,
+    "score_age": 0.4,
     "score_cat": 0.0,
     "sources": 1
   },
@@ -30784,7 +30812,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 2,
-    "tranco_rank": 276124
+    "tranco_rank": 275403
   },
   "thelibertydaily.com": {
     "category": "mixed",
@@ -30799,7 +30827,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 150372
+    "tranco_rank": 149377
   },
   "thelibertyloft.com": {
     "category": "mixed",
@@ -30858,7 +30886,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 644468
+    "tranco_rank": 644666
   },
   "themexicocitypost.com": {
     "category": "mixed",
@@ -30912,7 +30940,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 391892
+    "tranco_rank": 390935
   },
   "themindunleashed.com": {
     "category": "conspiracy",
@@ -30927,7 +30955,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.08,
     "sources": 2,
-    "tranco_rank": 326880
+    "tranco_rank": 327673
   },
   "themindunleashed.org": {
     "category": "conspiracy",
@@ -30939,7 +30967,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 376495
+    "tranco_rank": 372472
   },
   "theminnesotasun.com": {
     "category": "fake",
@@ -30977,7 +31005,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 423174
+    "tranco_rank": 423037
   },
   "themuslimissue.wordpress.com": {
     "category": "conspiracy",
@@ -31002,7 +31030,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.37,
     "sources": 1,
-    "tranco_rank": 5944
+    "tranco_rank": 5895
   },
   "thenationalpatriot.com": {
     "category": "unreliable",
@@ -31031,7 +31059,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 136555
+    "tranco_rank": 136162
   },
   "thenayaritpost.com": {
     "category": "mixed",
@@ -31079,7 +31107,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 40679
+    "tranco_rank": 40611
   },
   "thenewsdoctors.com": {
     "category": "mixed",
@@ -31147,7 +31175,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.35,
     "sources": 1,
-    "tranco_rank": 7489
+    "tranco_rank": 7508
   },
   "theorganicprepper.com": {
     "category": "mixed",
@@ -31163,7 +31191,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 366066
+    "tranco_rank": 363745
   },
   "thepatriotictimes.com": {
     "category": "mixed",
@@ -31257,11 +31285,11 @@
     "score_cat": 0.3,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 258073
+    "tranco_rank": 256583
   },
   "thepoliticalinsider.com": {
     "category": "fake",
-    "credibility_score": 0.071,
+    "credibility_score": 0.07,
     "domain_age_years": 20.4,
     "domain_registered": "2006-05-31T22:53:37Z",
     "factcheck_claims": 0,
@@ -31274,13 +31302,13 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 2,
-    "tranco_rank": 212233
+    "tranco_rank": 219183
   },
   "thepolitics.online": {
     "category": "unreliable",
     "credibility_score": 0.178,
     "domain_age_years": 1.1,
-    "domain_registered": "2025-09-19T04:33:21.0Z",
+    "domain_registered": "2025-09-19T04:33:21.000Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "L",
@@ -31317,7 +31345,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 628752
+    "tranco_rank": 625136
   },
   "theproudliberal.org": {
     "category": "mixed",
@@ -31335,7 +31363,7 @@
   "thepublicdiscourse.com": {
     "category": "unreliable",
     "credibility_score": 0.218,
-    "domain_age_years": 18.1,
+    "domain_age_years": 18.2,
     "domain_registered": "2008-09-15T15:44:12Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
@@ -31346,7 +31374,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 123237
+    "tranco_rank": 123223
   },
   "thepulse.one": {
     "category": "unreliable",
@@ -31429,6 +31457,7 @@
     "credibility_score": 0.025,
     "domain_age_years": 10.0,
     "domain_registered": "2016-11-10T21:43:26Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
@@ -31465,7 +31494,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 173586
+    "tranco_rank": 173452
   },
   "thereporterz.com": {
     "category": "fake",
@@ -31505,7 +31534,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 2,
-    "tranco_rank": 150665
+    "tranco_rank": 150313
   },
   "therightstuff.biz": {
     "category": "fake",
@@ -31521,7 +31550,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.01,
     "sources": 2,
-    "tranco_rank": 874048
+    "tranco_rank": 866505
   },
   "therundownlive.com": {
     "category": "unreliable",
@@ -31560,9 +31589,9 @@
     "category": "satire",
     "credibility_score": 0.285,
     "score_cat": 0.3,
-    "score_tranco": 0.01,
+    "score_tranco": 0.0,
     "sources": 1,
-    "tranco_rank": 921682
+    "tranco_rank": 940996
   },
   "theskunk.org": {
     "category": "satire",
@@ -31611,7 +31640,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 386135
+    "tranco_rank": 386407
   },
   "thestarnewsnetwork.com": {
     "category": "mixed",
@@ -31627,7 +31656,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 408418
+    "tranco_rank": 414145
   },
   "thestatelyharold.com": {
     "category": "satire",
@@ -31687,7 +31716,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 147016
+    "tranco_rank": 146881
   },
   "thetrumpmedia.com": {
     "category": "fake",
@@ -31714,7 +31743,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 2,
-    "tranco_rank": 232229
+    "tranco_rank": 233645
   },
   "thetruthdivision.com": {
     "category": "fake",
@@ -31739,7 +31768,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 2,
-    "tranco_rank": 229434
+    "tranco_rank": 232243
   },
   "thetruthvoice.net": {
     "category": "unreliable",
@@ -31756,16 +31785,17 @@
     "credibility_score": 0.134,
     "domain_age_years": 17.6,
     "domain_registered": "2009-04-12T00:49:13Z",
+    "factcheck_claims": 0,
     "score_age": 0.88,
     "score_cat": 0.1,
     "score_tranco": 0.0,
     "sources": 1,
-    "tranco_rank": 987776
+    "tranco_rank": 989633
   },
   "theunionjournal.com": {
     "category": "unreliable",
     "credibility_score": 0.194,
-    "domain_age_years": 7.5,
+    "domain_age_years": 7.6,
     "domain_registered": "2019-04-23T14:11:24Z",
     "factcheck_claims": 0,
     "iffy_bias": "FN",
@@ -31816,7 +31846,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 422413
+    "tranco_rank": 420593
   },
   "thevalleyreport.com": {
     "category": "satire",
@@ -31864,7 +31894,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 413083
+    "tranco_rank": 413144
   },
   "thewatchtowers.com": {
     "category": "conspiracy",
@@ -31900,7 +31930,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.25,
     "sources": 1,
-    "tranco_rank": 30074
+    "tranco_rank": 30016
   },
   "thinkamericana.com": {
     "category": "unreliable",
@@ -31952,7 +31982,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 16201
+    "tranco_rank": 16162
   },
   "thoughtcrimeradio.net": {
     "category": "fake",
@@ -32006,7 +32036,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.27,
     "sources": 1,
-    "tranco_rank": 23854
+    "tranco_rank": 24014
   },
   "thrivemovement.com": {
     "category": "unreliable",
@@ -32022,7 +32052,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 607317
+    "tranco_rank": 605635
   },
   "thumbreporter.com": {
     "category": "fake",
@@ -32085,7 +32115,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 419326
+    "tranco_rank": 416383
   },
   "toledoreporter.com": {
     "category": "fake",
@@ -32113,7 +32143,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 590948
+    "tranco_rank": 576402
   },
   "toofab.com": {
     "category": "mixed",
@@ -32127,9 +32157,9 @@
     "score_age": 1.0,
     "score_cat": 0.5,
     "score_iffy": 0.2,
-    "score_tranco": 0.17,
+    "score_tranco": 0.18,
     "sources": 1,
-    "tranco_rank": 90590
+    "tranco_rank": 84738
   },
   "topekasnews.com": {
     "category": "satire",
@@ -32177,7 +32207,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 13380
+    "tranco_rank": 13368
   },
   "torontotoday.net": {
     "category": "fake",
@@ -32222,7 +32252,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.42,
     "sources": 1,
-    "tranco_rank": 2879
+    "tranco_rank": 2884
   },
   "tplnews.com": {
     "category": "mixed",
@@ -32247,7 +32277,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 130753
+    "tranco_rank": 130123
   },
   "treason.news": {
     "category": "fake",
@@ -32306,13 +32336,14 @@
     "score_iffy": 0.1,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 870116
+    "tranco_rank": 867586
   },
   "trendingpoliticsnews.com": {
     "category": "mixed",
     "credibility_score": 0.423,
     "domain_age_years": 4.7,
     "domain_registered": "2022-03-03T18:15:33Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_score": 0.2,
@@ -32321,13 +32352,14 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 193089
+    "tranco_rank": 190100
   },
   "tri-cityrecord.org": {
     "category": "fake",
     "credibility_score": 0.042,
     "domain_age_years": 4.8,
     "domain_registered": "2022-02-07T17:08:43.226Z",
+    "factcheck_claims": 0,
     "iffy_bias": "FN",
     "iffy_factual": "M",
     "iffy_network": "The_American_Independent",
@@ -32352,7 +32384,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 175668
+    "tranco_rank": 174954
   },
   "trianglenews.org": {
     "category": "fake",
@@ -32430,7 +32462,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 2,
-    "tranco_rank": 194937
+    "tranco_rank": 194787
   },
   "trueamericans.me": {
     "category": "fake",
@@ -32453,7 +32485,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.07,
     "sources": 2,
-    "tranco_rank": 383909
+    "tranco_rank": 384564
   },
   "truetrumpers.com": {
     "category": "fake",
@@ -32540,7 +32572,7 @@
   "trumpvision365.com": {
     "category": "fake",
     "credibility_score": 0.004,
-    "domain_age_years": 1.6,
+    "domain_age_years": 1.7,
     "domain_registered": "2025-03-17T21:46:02Z",
     "score_age": 0.08,
     "score_cat": 0.0,
@@ -32562,7 +32594,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 449221
+    "tranco_rank": 447667
   },
   "truth11.com": {
     "category": "fake",
@@ -32577,7 +32609,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 696251
+    "tranco_rank": 702191
   },
   "truthandaction.org": {
     "category": "conspiracy",
@@ -32593,7 +32625,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.0,
     "sources": 2,
-    "tranco_rank": 995583
+    "tranco_rank": 991541
   },
   "truthbroadcastnetwork.com": {
     "category": "conspiracy",
@@ -32637,7 +32669,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.0,
     "sources": 1,
-    "tranco_rank": 976478
+    "tranco_rank": 973176
   },
   "truthkings.com": {
     "category": "conspiracy",
@@ -32672,7 +32704,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 296000
+    "tranco_rank": 295671
   },
   "truthuncensored.net": {
     "category": "unreliable",
@@ -32702,7 +32734,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 27643
+    "tranco_rank": 27820
   },
   "tucsonstandard.com": {
     "category": "fake",
@@ -32802,7 +32834,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 38101
+    "tranco_rank": 38080
   },
   "tworiversnews.org": {
     "category": "fake",
@@ -32858,7 +32890,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 250290
+    "tranco_rank": 250330
   },
   "ukraina.ru": {
     "category": "mixed",
@@ -32870,7 +32902,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.2,
     "sources": 1,
-    "tranco_rank": 62024
+    "tranco_rank": 62501
   },
   "unclesamsmisguidedchildren.com": {
     "category": "unreliable",
@@ -32909,7 +32941,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 307755
+    "tranco_rank": 307225
   },
   "undergroundnewsreport.com": {
     "category": "fake",
@@ -32977,7 +33009,7 @@
   "unitedmediapublishing.com": {
     "category": "fake",
     "credibility_score": 0.029,
-    "domain_age_years": 11.6,
+    "domain_age_years": 11.7,
     "domain_registered": "2015-03-17T18:03:18Z",
     "score_age": 0.58,
     "score_cat": 0.0,
@@ -32996,7 +33028,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.03,
     "sources": 1,
-    "tranco_rank": 691347
+    "tranco_rank": 682004
   },
   "universepolitics.com": {
     "category": "fake",
@@ -33022,7 +33054,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 195804
+    "tranco_rank": 195742
   },
   "unmuzzlednews.com": {
     "category": "mixed",
@@ -33052,7 +33084,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.24,
     "sources": 2,
-    "tranco_rank": 35969
+    "tranco_rank": 35929
   },
   "upgazette.com": {
     "category": "fake",
@@ -33131,7 +33163,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 14419
+    "tranco_rank": 14746
   },
   "us.blastingnews.com": {
     "category": "unreliable",
@@ -33195,10 +33227,10 @@
   "usadailyinfo.com": {
     "category": "fake",
     "credibility_score": 0.023,
-    "domain_age_years": 9.1,
+    "domain_age_years": 9.2,
     "domain_registered": "2017-09-15T19:09:50Z",
     "factcheck_claims": 0,
-    "score_age": 0.45,
+    "score_age": 0.46,
     "score_cat": 0.0,
     "sources": 1
   },
@@ -33441,7 +33473,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 2,
-    "tranco_rank": 198074
+    "tranco_rank": 197311
   },
   "usbacklash.org": {
     "category": "fake",
@@ -33499,6 +33531,7 @@
     "credibility_score": 0.021,
     "domain_age_years": 8.2,
     "domain_registered": "2018-09-05T18:25:16Z",
+    "factcheck_claims": 0,
     "score_age": 0.41,
     "score_cat": 0.0,
     "sources": 1
@@ -33583,7 +33616,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 256926
+    "tranco_rank": 256307
   },
   "usuncut.com": {
     "category": "unreliable",
@@ -33593,9 +33626,9 @@
     "factcheck_claims": 0,
     "score_age": 1.0,
     "score_cat": 0.2,
-    "score_tranco": 0.06,
+    "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 407819
+    "tranco_rank": 405319
   },
   "usviewer.com": {
     "category": "fake",
@@ -33649,7 +33682,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 264993
+    "tranco_rank": 264851
   },
   "vaccineinjurynews.com": {
     "category": "fake",
@@ -33693,7 +33726,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.01,
     "sources": 1,
-    "tranco_rank": 857537
+    "tranco_rank": 855939
   },
   "vaccinesafety.info": {
     "category": "fake",
@@ -33727,6 +33760,7 @@
     "credibility_score": 0.025,
     "domain_age_years": 10.0,
     "domain_registered": "2016-11-11T14:34:04Z",
+    "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "VL",
     "iffy_score": 0.0,
@@ -33748,7 +33782,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 531836
+    "tranco_rank": 532662
   },
   "vadogwood.com": {
     "category": "fake",
@@ -33778,7 +33812,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.23,
     "sources": 1,
-    "tranco_rank": 40241
+    "tranco_rank": 40081
   },
   "valleygazette.org": {
     "category": "fake",
@@ -33839,7 +33873,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.13,
     "sources": 2,
-    "tranco_rank": 159232
+    "tranco_rank": 158973
   },
   "veracruzdailypost.com": {
     "category": "mixed",
@@ -33909,7 +33943,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.18,
     "sources": 2,
-    "tranco_rank": 78963
+    "tranco_rank": 78984
   },
   "victorvalleytimes.com": {
     "category": "fake",
@@ -33941,7 +33975,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 239360
+    "tranco_rank": 240237
   },
   "vigilantcitizen.com": {
     "category": "fake",
@@ -33956,7 +33990,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 2,
-    "tranco_rank": 132251
+    "tranco_rank": 132019
   },
   "viralactions.com": {
     "category": "fake",
@@ -34026,7 +34060,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 195795
+    "tranco_rank": 196226
   },
   "votefraud.news": {
     "category": "fake",
@@ -34063,7 +34097,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.3,
     "sources": 1,
-    "tranco_rank": 14814
+    "tranco_rank": 14828
   },
   "wakeup-world.com": {
     "category": "unreliable",
@@ -34079,7 +34113,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 1,
-    "tranco_rank": 229058
+    "tranco_rank": 231560
   },
   "wakeupthesheep.com": {
     "category": "conspiracy",
@@ -34104,7 +34138,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 2,
-    "tranco_rank": 194452
+    "tranco_rank": 193157
   },
   "wakingupwisconsin.com": {
     "category": "conspiracy",
@@ -34130,7 +34164,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 268319
+    "tranco_rank": 268171
   },
   "wallstreetonparade.com": {
     "category": "unreliable",
@@ -34141,7 +34175,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.09,
     "sources": 1,
-    "tranco_rank": 280569
+    "tranco_rank": 279811
   },
   "warnerrobinstoday.com": {
     "category": "fake",
@@ -34215,7 +34249,7 @@
     "score_factcheck": 0.65,
     "score_tranco": 0.35,
     "sources": 1,
-    "tranco_rank": 7663
+    "tranco_rank": 7632
   },
   "washingtonfed.com": {
     "category": "fake",
@@ -34242,7 +34276,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 120414
+    "tranco_rank": 120086
   },
   "washingtonsources.org": {
     "category": "mixed",
@@ -34271,7 +34305,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.38,
     "sources": 1,
-    "tranco_rank": 5048
+    "tranco_rank": 5055
   },
   "washoegazette.com": {
     "category": "fake",
@@ -34330,7 +34364,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.08,
     "sources": 1,
-    "tranco_rank": 326054
+    "tranco_rank": 320368
   },
   "waterlootimes.com": {
     "category": "fake",
@@ -34363,7 +34397,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.22,
     "sources": 1,
-    "tranco_rank": 44837
+    "tranco_rank": 44844
   },
   "waynecountytoday.com": {
     "category": "mixed",
@@ -34578,7 +34612,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.09,
     "sources": 2,
-    "tranco_rank": 279971
+    "tranco_rank": 278965
   },
   "weaselzippers.us": {
     "category": "unreliable",
@@ -34586,7 +34620,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 481307
+    "tranco_rank": 479203
   },
   "webdaily.com": {
     "category": "fake",
@@ -34606,7 +34640,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.24,
     "sources": 1,
-    "tranco_rank": 34510
+    "tranco_rank": 34456
   },
   "weeklyworldnews.com": {
     "category": "fake",
@@ -34618,7 +34652,7 @@
     "score_cat": 0.0,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 147818
+    "tranco_rank": 147898
   },
   "weibo.com": {
     "category": "mixed",
@@ -34633,7 +34667,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.58,
     "sources": 1,
-    "tranco_rank": 325
+    "tranco_rank": 326
   },
   "wellnessachiever.net": {
     "category": "mixed",
@@ -34663,7 +34697,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.07,
     "sources": 1,
-    "tranco_rank": 392751
+    "tranco_rank": 391092
   },
   "weshapelife.org": {
     "category": "conspiracy",
@@ -34836,7 +34870,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 173575
+    "tranco_rank": 172407
   },
   "westernndnews.com": {
     "category": "fake",
@@ -35070,7 +35104,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.21,
     "sources": 1,
-    "tranco_rank": 53511
+    "tranco_rank": 53516
   },
   "westpennyroyalnews.com": {
     "category": "fake",
@@ -35240,7 +35274,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 77437
+    "tranco_rank": 77306
   },
   "whatdoesitmean.com": {
     "category": "conspiracy",
@@ -35252,7 +35286,7 @@
     "score_cat": 0.1,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 264315
+    "tranco_rank": 263473
   },
   "whatreallyhappened.com": {
     "category": "fake",
@@ -35267,7 +35301,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.2,
     "sources": 2,
-    "tranco_rank": 60330
+    "tranco_rank": 59595
   },
   "whatstheharm.net": {
     "category": "mixed",
@@ -35326,19 +35360,19 @@
     "score_cat": 0.1,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 160899
+    "tranco_rank": 160291
   },
   "whydontyoutrythis.com": {
     "category": "fake",
-    "credibility_score": 0.049,
-    "domain_age_years": 13.7,
+    "credibility_score": 0.05,
+    "domain_age_years": 13.8,
     "domain_registered": "2013-02-08T20:58:27Z",
     "factcheck_claims": 0,
     "iffy_bias": "CP",
     "iffy_factual": "L",
     "iffy_score": 0.1,
     "iffy_wiki_fake": true,
-    "score_age": 0.68,
+    "score_age": 0.69,
     "score_cat": 0.0,
     "score_iffy": 0.1,
     "sources": 2
@@ -35384,7 +35418,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.05,
     "sources": 1,
-    "tranco_rank": 536741
+    "tranco_rank": 535244
   },
   "wikileaks.org": {
     "category": "unreliable",
@@ -35393,9 +35427,9 @@
     "domain_registered": "2006-10-04T05:54:19.057Z",
     "score_age": 1.0,
     "score_cat": 0.2,
-    "score_tranco": 0.33,
+    "score_tranco": 0.32,
     "sources": 1,
-    "tranco_rank": 11051
+    "tranco_rank": 11251
   },
   "wikispooks.com": {
     "category": "conspiracy",
@@ -35411,7 +35445,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.17,
     "sources": 2,
-    "tranco_rank": 96952
+    "tranco_rank": 97492
   },
   "willcountygazette.com": {
     "category": "fake",
@@ -35528,7 +35562,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.0,
     "sources": 1,
-    "tranco_rank": 979159
+    "tranco_rank": 983581
   },
   "wiregrasstimes.com": {
     "category": "fake",
@@ -35607,7 +35641,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.12,
     "sources": 1,
-    "tranco_rank": 200389
+    "tranco_rank": 198507
   },
   "witscience.org": {
     "category": "satire",
@@ -35633,7 +35667,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.28,
     "sources": 2,
-    "tranco_rank": 20277
+    "tranco_rank": 20177
   },
   "wndnewscenter.org": {
     "category": "unreliable",
@@ -35658,7 +35692,7 @@
     "score_cat": 0.2,
     "score_tranco": 0.19,
     "sources": 1,
-    "tranco_rank": 68279
+    "tranco_rank": 68311
   },
   "womenarehuman.com": {
     "category": "mixed",
@@ -35724,7 +35758,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.06,
     "sources": 1,
-    "tranco_rank": 422211
+    "tranco_rank": 419518
   },
   "worlddoctorsalliance.com": {
     "category": "fake",
@@ -35767,7 +35801,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 139324
+    "tranco_rank": 139492
   },
   "worldnewsdailyreport.com": {
     "category": "satire",
@@ -35779,7 +35813,7 @@
     "score_cat": 0.3,
     "score_tranco": 0.1,
     "sources": 1,
-    "tranco_rank": 245326
+    "tranco_rank": 244831
   },
   "worldnewsera.com": {
     "category": "mixed",
@@ -35795,7 +35829,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 601448
+    "tranco_rank": 604271
   },
   "worldnewspolitics.com": {
     "category": "unreliable",
@@ -35825,7 +35859,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 150049
+    "tranco_rank": 150153
   },
   "worldpoliticsnow.com": {
     "category": "fake",
@@ -35880,7 +35914,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.26,
     "sources": 1,
-    "tranco_rank": 29322
+    "tranco_rank": 29250
   },
   "worldstoriestoday.com": {
     "category": "fake",
@@ -35916,7 +35950,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.15,
     "sources": 1,
-    "tranco_rank": 118664
+    "tranco_rank": 118297
   },
   "worldtruth.tv": {
     "category": "fake",
@@ -35933,7 +35967,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.05,
     "sources": 2,
-    "tranco_rank": 530595
+    "tranco_rank": 528492
   },
   "worldviewweekend.com": {
     "category": "fake",
@@ -35948,7 +35982,7 @@
     "score_iffy": 0.0,
     "score_tranco": 0.04,
     "sources": 1,
-    "tranco_rank": 612723
+    "tranco_rank": 607232
   },
   "worldwidehealthy.com": {
     "category": "unreliable",
@@ -36018,7 +36052,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.11,
     "sources": 2,
-    "tranco_rank": 211142
+    "tranco_rank": 221923
   },
   "xinhuanet.com": {
     "category": "mixed",
@@ -36033,7 +36067,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.45,
     "sources": 1,
-    "tranco_rank": 2018
+    "tranco_rank": 2022
   },
   "yadkinvalleynews.com": {
     "category": "fake",
@@ -36089,7 +36123,7 @@
     "score_cat": 0.5,
     "score_tranco": 0.14,
     "sources": 1,
-    "tranco_rank": 151214
+    "tranco_rank": 150712
   },
   "yellowhammertimes.com": {
     "category": "fake",
@@ -36151,7 +36185,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.37,
     "sources": 1,
-    "tranco_rank": 6216
+    "tranco_rank": 6199
   },
   "youngcons.com": {
     "category": "unreliable",
@@ -36208,7 +36242,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.13,
     "sources": 1,
-    "tranco_rank": 168745
+    "tranco_rank": 167493
   },
   "yournewswire.com": {
     "category": "fake",
@@ -36227,7 +36261,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.12,
     "sources": 2,
-    "tranco_rank": 190388
+    "tranco_rank": 188635
   },
   "yourtango.com": {
     "category": "mixed",
@@ -36242,7 +36276,7 @@
     "score_iffy": 0.2,
     "score_tranco": 0.31,
     "sources": 1,
-    "tranco_rank": 13018
+    "tranco_rank": 13016
   },
   "yubasuttertimes.com": {
     "category": "fake",
@@ -36330,7 +36364,7 @@
     "score_iffy": 0.1,
     "score_tranco": 0.35,
     "sources": 2,
-    "tranco_rank": 8249
+    "tranco_rank": 8264
   },
   "zootfeed.com": {
     "category": "conspiracy",

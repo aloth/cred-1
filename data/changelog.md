@@ -1,5 +1,10 @@
 # CRED-1 Changelog
 
+## 2026-11-10
+- **Total domains:** 2672
+- **Ages as of:** 2026-11-10
+- **Score updates:** 2 domains rescored by more than 0.01; 18 changed at all
+
 ## 2026-11-09
 - **Total domains:** 2672
 - **Ages as of:** 2026-11-09
