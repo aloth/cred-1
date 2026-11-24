@@ -39,6 +39,56 @@ body{font-family:'Inter',system-ui,sans-serif;color:var(--text);overflow-x:hidde
 .stat .num{font-size:1.8rem;font-weight:800;color:#28a745}
 .stat .label{font-size:0.8rem;color:rgba(255,255,255,0.5);margin-top:4px;text-transform:uppercase;letter-spacing:0.05em}
 
+/* Domain Lookup */
+.lookup{padding:72px 24px;background:var(--surface);border-bottom:1px solid var(--border)}
+.lookup-inner{max-width:760px;margin:0 auto}
+.lookup h2{text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:10px}
+.lookup .subtitle{text-align:center;color:var(--muted);margin-bottom:28px;max-width:560px;margin-left:auto;margin-right:auto;line-height:1.55}
+.lookup-form{display:flex;gap:10px;max-width:640px;margin:0 auto}
+.lookup-input{flex:1;min-width:0;padding:14px 16px;border:2px solid var(--border);border-radius:10px;font-size:1rem;font-family:'JetBrains Mono',monospace;color:var(--text);background:var(--bg);transition:border-color 0.15s,background 0.15s}
+.lookup-input:focus{outline:none;border-color:var(--green);background:#fff}
+.lookup-btn{padding:14px 22px;border:0;border-radius:10px;background:var(--green);color:#fff;font-size:0.95rem;font-weight:700;cursor:pointer;white-space:nowrap;transition:background 0.15s,transform 0.15s}
+.lookup-btn:hover{background:#22863a;transform:translateY(-1px)}
+.lookup-samples{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin:14px auto 0;max-width:640px;font-size:0.82rem;color:var(--muted)}
+.sample-chip{border:1px solid var(--border);background:var(--light);color:var(--text);border-radius:999px;padding:4px 11px;font-family:'JetBrains Mono',monospace;font-size:0.78rem;cursor:pointer;transition:border-color 0.15s,background 0.15s}
+.sample-chip:hover{border-color:var(--green);background:#edfbf0}
+.lookup-result{margin:24px auto 0;max-width:640px;display:none}
+.lookup-result.visible{display:block}
+.result-card{border:1px solid var(--border);border-radius:14px;padding:22px 24px;background:var(--bg)}
+.result-card.found-low{border-color:#f0b4b9;background:#fff8f8}
+.result-card.found-mid{border-color:#f5d5a7;background:#fffbf5}
+.result-card.found-high{border-color:#b7e4c7;background:#f4fbf6}
+.result-card.not-listed{border-color:#d1d5db;background:var(--light)}
+.result-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.result-domain{font-family:'JetBrains Mono',monospace;font-size:1.15rem;font-weight:700;word-break:break-all;color:var(--text)}
+.result-parent{font-size:0.8rem;color:var(--muted);margin-top:2px}
+.cat-pill{display:inline-flex;align-items:center;padding:4px 11px;border-radius:999px;font-size:0.76rem;font-weight:700;text-transform:uppercase;letter-spacing:0.04em}
+.cat-fake,.cat-conspiracy,.cat-unreliable,.cat-rumor{background:#fde8ea;color:#b91c1c}
+.cat-mixed,.cat-satire{background:#fef3c7;color:#92400e}
+.cat-reliable{background:#dcfce7;color:#166534}
+.cat-unknown{background:#e5e7eb;color:#374151}
+.score-row{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.score-val{font-size:2rem;font-weight:800;font-variant-numeric:tabular-nums;line-height:1}
+.score-bar-wrap{flex:1}
+.score-bar-track{height:10px;border-radius:999px;background:#e5e7eb;overflow:hidden}
+.score-bar-fill{height:100%;border-radius:999px;transition:width 0.25s ease}
+.score-scale{display:flex;justify-content:space-between;font-size:0.72rem;color:var(--muted);margin-top:4px}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-top:12px}
+.meta-cell{background:#fff;border:1px solid var(--border);border-radius:8px;padding:10px 12px}
+.meta-label{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.04em;color:var(--muted);margin-bottom:3px}
+.meta-value{font-family:'JetBrains Mono',monospace;font-size:0.88rem;font-weight:600;color:var(--text)}
+.result-note{margin-top:14px;font-size:0.86rem;line-height:1.55;color:var(--muted)}
+.result-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px solid var(--border)}
+.action-btn{border:1px solid var(--border);background:#fff;color:var(--text);border-radius:7px;padding:6px 12px;font-size:0.8rem;font-weight:600;cursor:pointer;text-decoration:none;transition:border-color 0.15s}
+.action-btn:hover{border-color:var(--green)}
+.lookup-privacy{text-align:center;font-size:0.78rem;color:var(--muted);margin-top:14px}
+.lookup-app-note{max-width:640px;margin:16px auto 0;padding:12px 16px;border-radius:10px;border:1px solid var(--border);background:var(--light);font-size:0.84rem;line-height:1.5;color:var(--muted);text-align:center}
+.lookup-app-note a{color:var(--blue);font-weight:600;text-decoration:none}
+.lookup-app-note a:hover{text-decoration:underline}
+.usedby-meta{margin-top:6px;font-size:0.82rem;color:var(--muted)}
+.usedby-meta a{color:var(--blue);text-decoration:none;font-weight:600}
+.usedby-meta a:hover{text-decoration:underline}
+
 /* Quick start */
 .quickstart{padding:80px 24px;background:var(--bg)}
 .quickstart h2{text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;margin-bottom:12px}
@@ -106,6 +156,9 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
   .stats-bar{gap:24px}
   .code-content{font-size:11px;padding:14px}
   .schema-grid{grid-template-columns:repeat(2,1fr)}
+  .lookup-form{flex-direction:column}
+  .lookup-btn{width:100%}
+  .result-card{padding:18px 16px}
 }
 </style>
 <link rel="canonical" href="https://aloth.github.io/cred-1/">
@@ -141,7 +194,10 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
   <h1>CRED-1: <span class="num">2,600+</span> domains scored for credibility</h1>
   <p>An open, reproducible domain credibility dataset for automated pre-bunking of online misinformation. Multi-signal scoring, CC BY 4.0 licensed.</p>
   <div class="hero-cta">
-    <a href="https://doi.org/10.5281/zenodo.18769459" class="btn btn-green">
+    <a href="#lookup" class="btn btn-green">
+      🔎 Check a Domain
+    </a>
+    <a href="https://doi.org/10.5281/zenodo.18769459" class="btn btn-white">
       📦 Download Dataset
     </a>
     <a href="https://doi.org/10.2139/ssrn.6448466" class="btn btn-white">
@@ -160,6 +216,34 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none}
   <div class="stat"><div class="num">2</div><div class="label">Open Sources</div></div>
   <div class="stat"><div class="num">CC BY 4.0</div><div class="label">License</div></div>
 </div>
+
+<section class="lookup" id="lookup" aria-labelledby="lookup-heading">
+  <div class="lookup-inner">
+    <h2 id="lookup-heading">Domain Credibility Lookup</h2>
+    <p class="subtitle">Check any domain or URL against the CRED-1 dataset (2,600+ domains). Everything runs locally in your browser.</p>
+    <form class="lookup-form" id="lookup-form" autocomplete="off">
+      <input
+        type="text"
+        id="lookup-input"
+        class="lookup-input"
+        placeholder="Enter a domain or URL, e.g. infowars.com"
+        aria-label="Domain or URL to check"
+        spellcheck="false"
+      >
+      <button type="submit" class="lookup-btn">Check</button>
+    </form>
+    <div class="lookup-samples" aria-label="Example domains">
+      <span>Try:</span>
+      <button type="button" class="sample-chip" data-domain="infowars.com">infowars.com</button>
+      <button type="button" class="sample-chip" data-domain="breitbart.com">breitbart.com</button>
+      <button type="button" class="sample-chip" data-domain="theonion.com">theonion.com</button>
+      <button type="button" class="sample-chip" data-domain="reuters.com">reuters.com</button>
+    </div>
+    <div id="lookup-result" class="lookup-result" aria-live="polite"></div>
+    <p class="lookup-privacy">100% client-side lookup against <code>cred1_compact.json</code> (168 KB). No queried domains leave your device.</p>
+    <p class="lookup-app-note">Want automatic on-device CRED-1 warnings while browsing? <a href="https://aloth.github.io/trackless-links/">Trackless Links</a> for iPhone, iPad &amp; Mac (featured in <a href="https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131">Mac &amp; i 4/2026</a>) bundles this dataset locally in Safari.</p>
+  </div>
+</section>
 
 <section class="quickstart">
   <h2>Get started in 3 lines</h2>
@@ -287,10 +371,13 @@ npx @aloth/cred1 check infowars.com<br>
   <h2>🛡️ Used in production</h2>
   <p>CRED-1 is not only an archive. It runs on-device in shipping software and in ongoing research.</p>
   <div class="usedby-grid">
-    <a href="https://aloth.github.io/trackless-links/" class="usedby-card">
-      <span class="usedby-title">🔗 Trackless Links</span>
-      <span class="usedby-desc">Safari extension for iPhone, iPad &amp; Mac. Looks up every URL against the bundled CRED-1 dataset locally, with no server calls. Its CRED-1-powered warnings were examined by Mac &amp; i 4/2026 (heise).</span>
-    </a>
+    <div class="usedby-card">
+      <a href="https://aloth.github.io/trackless-links/" style="text-decoration:none;color:inherit">
+        <span class="usedby-title">🔗 Trackless Links</span>
+      </a>
+      <span class="usedby-desc">Safari extension for iPhone, iPad &amp; Mac. Looks up every URL against the bundled CRED-1 dataset locally, with no server calls.</span>
+      <span class="usedby-meta"><a href="https://aloth.github.io/trackless-links/">App landing page →</a> · Featured in <a href="https://www.heise.de/select/mac-and-i/2026/4/2609012234834091131">Mac &amp; i 4/2026 (heise)</a></span>
+    </div>
     <a href="https://github.com/aloth/RogueGPT" class="usedby-card">
       <span class="usedby-title">🧪 RogueGPT</span>
       <span class="usedby-desc">Research harness that uses CRED-1 to identify low-credibility source domains for controlled fake-news stimulus generation.</span>
@@ -337,6 +424,197 @@ npx @aloth/cred1 check infowars.com<br>
 <footer>
   <p>Made by <a href="https://alexloth.com">Alexander Loth</a>, Martin Kappes & Marc-Oliver Pahl · <a href="https://alexloth.com/cred-1-open-domain-credibility-dataset-preprint/">Blog Post</a></p>
 </footer>
+
+<script>
+(() => {
+  const CATEGORY_META = {
+    f: { key: "fake", label: "Fake", desc: "Sources that fabricate information, publish deceptive content, or impersonate news outlets." },
+    c: { key: "conspiracy", label: "Conspiracy", desc: "Sources that consistently promote conspiracy theories not supported by evidence." },
+    u: { key: "unreliable", label: "Unreliable", desc: "Sources that regularly fail basic standards of factual accuracy, including clickbait or junk science." },
+    r: { key: "rumor", label: "Rumor", desc: "Sources focused on unverified rumors or claims lacking corroboration." },
+    s: { key: "satire", label: "Satire", desc: "Sources that use humor, irony, or exaggeration. Not malicious, but content is not factual." },
+    m: { key: "mixed", label: "Mixed", desc: "Sources with a mixed track record combining factual reporting with biased or misleading content." },
+    reliable: { key: "reliable", label: "Reliable", desc: "Generally considered reliable in upstream sources (CRED-1 contains very few reliable entries by design)." }
+  };
+
+  let datasetPromise = null;
+  function loadDataset() {
+    if (!datasetPromise) {
+      datasetPromise = fetch("./data/cred1_compact.json").then((res) => {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      });
+    }
+    return datasetPromise;
+  }
+
+  function extractHost(raw) {
+    const trimmed = String(raw || "").trim();
+    if (!trimmed) return "";
+    let candidate = trimmed;
+    if (!/^[a-z][a-z0-9+.-]*:\/\//i.test(candidate)) {
+      candidate = "https://" + candidate;
+    }
+    try {
+      const u = new URL(candidate);
+      return u.hostname.toLowerCase().replace(/^www\./, "").replace(/\.$/, "");
+    } catch {
+      return trimmed.toLowerCase().replace(/^https?:\/\//, "").split(/[/?#]/)[0].replace(/^www\./, "").replace(/\.$/, "");
+    }
+  }
+
+  function lookupInDataset(data, host) {
+    if (!host || !host.includes(".")) return { valid: false };
+    if (Object.prototype.hasOwnProperty.call(data, host)) {
+      return { valid: true, found: true, matchedDomain: host, entry: data[host] };
+    }
+    const parts = host.split(".");
+    for (let i = 1; i < parts.length - 1; i++) {
+      const parent = parts.slice(i).join(".");
+      if (Object.prototype.hasOwnProperty.call(data, parent)) {
+        return { valid: true, found: true, matchedDomain: parent, queriedHost: host, entry: data[parent] };
+      }
+    }
+    return { valid: true, found: false, matchedDomain: host };
+  }
+
+  function esc(str) {
+    return String(str).replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+  }
+
+  function scoreColor(score) {
+    if (score < 0.25) return "#d73a49";
+    if (score < 0.5) return "#e36209";
+    return "#28a745";
+  }
+
+  function formatAge(isoDate) {
+    if (!isoDate) return "Unknown";
+    const ts = Date.parse(isoDate + "T00:00:00Z");
+    if (!Number.isFinite(ts)) return isoDate;
+    const years = (Date.now() - ts) / (365.25 * 86400000);
+    return isoDate + " (" + Math.max(0, years).toFixed(1) + " yrs)";
+  }
+
+  const form = document.getElementById("lookup-form");
+  const input = document.getElementById("lookup-input");
+  const resultEl = document.getElementById("lookup-result");
+
+  function updateUrlParam(domain) {
+    try {
+      const url = new URL(window.location.href);
+      if (domain) url.searchParams.set("domain", domain);
+      else url.searchParams.delete("domain");
+      window.history.replaceState({}, "", url.toString());
+    } catch {}
+  }
+
+  function renderFound(res) {
+    const e = res.entry;
+    const cat = CATEGORY_META[e.c] || { key: "unknown", label: String(e.c || "Unknown"), desc: "" };
+    const score = Number(e.s);
+    const pct = Math.max(2, Math.min(100, Math.round(score * 100)));
+    const toneClass = score < 0.25 ? "found-low" : score < 0.5 ? "found-mid" : "found-high";
+    const color = scoreColor(score);
+    const parentNote = res.queriedHost && res.queriedHost !== res.matchedDomain
+      ? `<div class="result-parent">Matched parent domain for ${esc(res.queriedHost)}</div>`
+      : "";
+    const rankStr = e.r ? "#" + Number(e.r).toLocaleString("en-US") : "Not in Top 1M";
+    const summaryText = `CRED-1 lookup for ${res.matchedDomain}: score ${score.toFixed(3)}/1.000, category=${cat.key}, sources=${e.n}${e.r ? ", tranco_rank=" + e.r : ""}${e.d ? ", registered=" + e.d : ""} (https://aloth.github.io/cred-1/?domain=${encodeURIComponent(res.matchedDomain)})`;
+
+    resultEl.innerHTML = `
+      <div class="result-card ${toneClass}">
+        <div class="result-head">
+          <div>
+            <div class="result-domain">${esc(res.matchedDomain)}</div>
+            ${parentNote}
+          </div>
+          <span class="cat-pill cat-${cat.key}">${esc(cat.label)}</span>
+        </div>
+        <div class="score-row">
+          <div class="score-val" style="color:${color}">${score.toFixed(3)}</div>
+          <div class="score-bar-wrap">
+            <div class="score-bar-track"><div class="score-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+            <div class="score-scale"><span>0.000 (lowest credibility)</span><span>1.000 (highest)</span></div>
+          </div>
+        </div>
+        <div class="meta-grid">
+          <div class="meta-cell"><div class="meta-label">Corroborating Lists</div><div class="meta-value">${esc(e.n)} / 2</div></div>
+          <div class="meta-cell"><div class="meta-label">Tranco Rank</div><div class="meta-value">${esc(rankStr)}</div></div>
+          <div class="meta-cell"><div class="meta-label">Registered (RDAP)</div><div class="meta-value">${esc(formatAge(e.d))}</div></div>
+        </div>
+        <p class="result-note"><strong>${esc(cat.label)}:</strong> ${esc(cat.desc)} Scores are aggregated heuristics from open lists and technical signals, not a definitive verdict on individual articles.</p>
+        <div class="result-actions">
+          <button type="button" class="action-btn" id="copy-summary-btn">Copy summary</button>
+          <button type="button" class="action-btn" id="copy-link-btn">Copy permalink</button>
+        </div>
+      </div>`;
+    resultEl.classList.add("visible");
+
+    document.getElementById("copy-summary-btn")?.addEventListener("click", (ev) => {
+      navigator.clipboard?.writeText(summaryText);
+      ev.currentTarget.textContent = "Copied summary";
+    });
+    document.getElementById("copy-link-btn")?.addEventListener("click", (ev) => {
+      navigator.clipboard?.writeText(window.location.href);
+      ev.currentTarget.textContent = "Copied link";
+    });
+  }
+
+  function renderNotListed(host, total) {
+    resultEl.innerHTML = `
+      <div class="result-card not-listed">
+        <div class="result-head">
+          <div class="result-domain">${esc(host)}</div>
+          <span class="cat-pill cat-unknown">Not listed</span>
+        </div>
+        <p class="result-note"><strong>Absence is not an endorsement of reliability.</strong> This domain does not appear in CRED-1 (${total.toLocaleString("en-US")} domains). Because the upstream sources focus primarily on English-language low-credibility domains, unlisted domains should be treated as neutral or unknown rather than verified reliable.</p>
+      </div>`;
+    resultEl.classList.add("visible");
+  }
+
+  function renderMessage(msg) {
+    resultEl.innerHTML = `<div class="result-card not-listed"><p class="result-note" style="margin-top:0">${esc(msg)}</p></div>`;
+    resultEl.classList.add("visible");
+  }
+
+  async function runLookup(raw, syncUrl = true) {
+    const host = extractHost(raw);
+    if (!host || !host.includes(".")) {
+      renderMessage("Please enter a valid domain name or URL (for example, infowars.com or https://example.org/article).");
+      return;
+    }
+    try {
+      const data = await loadDataset();
+      const res = lookupInDataset(data, host);
+      if (syncUrl) updateUrlParam(host);
+      if (res.found) renderFound(res);
+      else renderNotListed(host, Object.keys(data).length);
+    } catch (err) {
+      renderMessage("Could not load CRED-1 dataset (" + (err && err.message ? err.message : "unknown error") + ").");
+    }
+  }
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    runLookup(input.value, true);
+  });
+
+  for (const chip of document.querySelectorAll(".sample-chip")) {
+    chip.addEventListener("click", () => {
+      const dom = chip.getAttribute("data-domain") || "";
+      input.value = dom;
+      runLookup(dom, true);
+    });
+  }
+
+  const initialDomain = new URLSearchParams(window.location.search).get("domain");
+  if (initialDomain) {
+    input.value = initialDomain;
+    runLookup(initialDomain, false);
+  }
+})();
+</script>
 
 </body>
 </html>
